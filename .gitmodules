@@ -1,3 +1,21 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = ssh://git@github.com/ohmyzsh/ohmyzsh.git
+[submodule ".vim/plugged/lightline.vim"]
+	path = .vim/plugged/lightline.vim
+	url = ssh://git@github.com/itchyny/lightline.vim.git
+[submodule ".vim/plugged/molokai"]
+	path = .vim/plugged/molokai
+	url = ssh://git@github.com/tomasr/molokai.git
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = ssh://git@github.com/scrooloose/nerdtree.git
+[submodule ".vim/plugged/quicktex"]
+	path = .vim/plugged/quicktex
+	url = ssh://git@github.com/brennier/quicktex.git
+[submodule ".vim/plugged/syntastic"]
+	path = .vim/plugged/syntastic
+	url = ssh://git@github.com/scrooloose/syntastic.git
+[submodule ".vim/plugged/vim-fugitive"]
+	path = .vim/plugged/vim-fugitive
+	url = ssh://git@github.com/tpope/vim-fugitive.git
