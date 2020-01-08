@@ -1,0 +1,8 @@
+[2019-09-23 11:26:47.543] [warn] Failed to set Protocol Handler on Linux: Error: Command failed: xdg-settings set default-url-scheme-handler x-github-classroom classroom-assistant.desktop
+xdg-mime: application argument missing
+Try 'xdg-mime --help' for more information.
+
+[2019-09-23 11:27:39.654] [warn] Failed to set Protocol Handler on Linux: Error: Command failed: xdg-settings set default-url-scheme-handler x-github-classroom classroom-assistant.desktop
+
+[2019-09-30 10:31:12.895] [warn] Failed to set Protocol Handler on Linux: Error: Command failed: xdg-settings set default-url-scheme-handler x-github-classroom classroom-assistant.desktop
+

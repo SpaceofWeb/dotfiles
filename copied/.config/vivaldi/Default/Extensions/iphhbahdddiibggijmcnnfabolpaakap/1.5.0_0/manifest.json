@@ -1,0 +1,45 @@
+{
+   "background": {
+      "scripts": [ "static/decoder.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/128.png",
+      "default_title": "__MSG_titleDefault__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "content/content.css" ],
+      "js": [ "content/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "/content/stat.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "css/audioPopup.css" ],
+      "exclude_matches": [ "*://vk.com/*" ],
+      "js": [ "/audioPopup/audioPopup.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' ; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnKYEu68VaBo8uYGWtCRS1OkjknT5p77STHe1ut/8KmWZxH3DLtN617LeAQwdurL4vWtXwYidwj94MRzkDpLPDo/jkFosMxSobyWs0qjTD7WIM2Td+pL5qNZisJTl0FXLguM+UNGje61xAgeTZHCMliBz41nRbmN6X8wEFR6/eEAuxhBZd8i1y9pfDbk8tPWTWdkc0zLAnhI8xUTlH1GdkQfXRY/ZMNbNoBU9113FbryvgwMggHqDgB21LsDhGnWyjVpmdkeTLnGKy48OUnY0NRXxL6mk/2U3oFTgEz0xf2NqzLHFgK0E4jsAvSMtIeAQAMXcPopl8N5EPvADfUq9GQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "optional_permissions": [ "downloads" ],
+   "options_page": "options/options.html",
+   "permissions": [ "alarms", "downloads", "http://vk.com/*", "https://vk.com/*", "*://vkmusic.xyz/*", "*://*/*", "storage", "activeTab", "webRequest", "webRequestBlocking", "tabs", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.0",
+   "web_accessible_resources": [ "*" ]
+}

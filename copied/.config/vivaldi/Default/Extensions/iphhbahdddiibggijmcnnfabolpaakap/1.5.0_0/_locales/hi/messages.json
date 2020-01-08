@@ -1,0 +1,23 @@
+{
+   "extDescription": {
+      "message": "किसी भी ऑडियो को सहेजना बस आसान हो गया! Vk से और अपने पसंदीदा ऑडियो संसाधनों के साथ तेज़ डाउनलोड संगीत।"
+   },
+   "extName": {
+      "message": "Music Saver - संगीत डाउनलोड"
+   },
+   "extShortName": {
+      "message": "Music Saver"
+   },
+   "lang": {
+      "message": "hi"
+   },
+   "optionsBitrate": {
+      "message": "Show bitrate"
+   },
+   "showOptions": {
+      "message": "Settings"
+   },
+   "titleDefault": {
+      "message": "VK Saver"
+   }
+}

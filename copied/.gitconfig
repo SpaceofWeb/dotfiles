@@ -1,0 +1,5 @@
+[user]
+	email = webproxa@gmail.com
+	name = Space
+[url "git@github.com:"]
+	insteadOf = https://github.com/

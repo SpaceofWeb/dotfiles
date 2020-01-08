@@ -1,0 +1,49 @@
+2019/12/12-09:37:42.905 5316 Reusing MANIFEST /home/space/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/12/12-09:37:42.905 5316 Recovering log #10
+2019/12/12-09:37:43.008 5316 Reusing old log /home/space/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000010.log 
+2019/12/12-09:37:58.027 5317 Current memtable full; waiting...
+2019/12/12-09:37:58.027 5733 Level-0 table #14: started
+2019/12/12-09:37:58.072 5733 Level-0 table #14: 68019 bytes OK
+2019/12/12-09:37:58.116 5733 Delete type=0 #10
+2019/12/12-09:37:58.117 5733 Level-0 table #16: started
+2019/12/12-09:37:58.117 5733 Level-0 table #16: 0 bytes OK
+2019/12/12-09:37:58.162 5733 Delete type=0 #13
+2019/12/12-09:37:58.162 5733 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\x05' @ 1476 : 1
+2019/12/12-09:37:58.162 5733 Compacting 1@0 + 1@1 files
+2019/12/12-09:37:58.206 5733 Generated table #17@0: 769 keys, 49220 bytes
+2019/12/12-09:37:58.206 5733 Compacted 1@0 + 1@1 files => 49220 bytes
+2019/12/12-09:37:58.251 5733 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/12-09:37:58.251 5733 Delete type=2 #14
+2019/12/12-09:37:58.251 5733 Delete type=2 #9
+2019/12/12-09:37:58.251 5733 Manual compaction at level-0 from '\x00\x05\x00\x00\x05' @ 1476 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/12/12-11:22:38.626 5733 Level-0 table #19: started
+2019/12/12-11:22:38.733 5733 Level-0 table #19: 1542563 bytes OK
+2019/12/12-11:22:38.778 5733 Delete type=0 #15
+2019/12/12-11:23:31.071 5733 Compacting 1@0 + 1@1 files
+2019/12/12-11:23:31.163 5733 Generated table #20@0: 1236 keys, 1573853 bytes
+2019/12/12-11:23:31.163 5733 Compacted 1@0 + 1@1 files => 1573853 bytes
+2019/12/12-11:23:31.208 5733 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/12-11:23:31.208 5733 Delete type=2 #19
+2019/12/12-11:23:31.208 5733 Delete type=2 #17
+2019/12/12-11:29:40.712 5733 Level-0 table #22: started
+2019/12/12-11:29:40.887 5733 Level-0 table #22: 1459100 bytes OK
+2019/12/12-11:29:40.940 5733 Delete type=0 #18
+2019/12/12-11:29:47.974 5733 Compacting 1@0 + 1@1 files
+2019/12/12-11:29:48.115 5733 Generated table #23@0: 1297 keys, 2306544 bytes
+2019/12/12-11:29:48.204 5733 Generated table #24@0: 24 keys, 726074 bytes
+2019/12/12-11:29:48.204 5733 Compacted 1@0 + 1@1 files => 3032618 bytes
+2019/12/12-11:29:48.252 5733 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/12/12-11:29:48.252 5733 Delete type=2 #20
+2019/12/12-11:29:48.253 5733 Delete type=2 #22
+2019/12/12-13:11:49.093 5733 Level-0 table #26: started
+2019/12/12-13:11:49.261 5733 Level-0 table #26: 1494492 bytes OK
+2019/12/12-13:11:49.306 5733 Delete type=0 #21
+2019/12/12-13:11:49.698 5733 Compacting 1@0 + 2@1 files
+2019/12/12-13:11:49.830 5733 Generated table #27@0: 1581 keys, 2368212 bytes
+2019/12/12-13:11:49.964 5733 Generated table #28@0: 6 keys, 2154378 bytes
+2019/12/12-13:11:49.997 5733 Generated table #29@0: 26 keys, 1181 bytes
+2019/12/12-13:11:49.997 5733 Compacted 1@0 + 2@1 files => 4523771 bytes
+2019/12/12-13:11:50.042 5733 compacted to: files[ 0 3 1 0 0 0 0 ]
+2019/12/12-13:11:50.042 5733 Delete type=2 #24
+2019/12/12-13:11:50.043 5733 Delete type=2 #23
+2019/12/12-13:11:50.044 5733 Delete type=2 #26

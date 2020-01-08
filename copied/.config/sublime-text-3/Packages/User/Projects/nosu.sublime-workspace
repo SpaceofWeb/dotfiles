@@ -1,0 +1,1086 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aC",
+				"aCx"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"w",
+				"innerWidth"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"Xy",
+				"XY"
+			],
+			[
+				"pro",
+				"projection"
+			],
+			[
+				"stroke",
+				"strokeWeight"
+			],
+			[
+				"my",
+				"matrixY"
+			],
+			[
+				"str",
+				"strokeWeight"
+			],
+			[
+				"if",
+				"if?\t$… = ( … ) ? … : …"
+			],
+			[
+				"gene",
+				"generate"
+			],
+			[
+				"ca",
+				"carousel"
+			],
+			[
+				"me",
+				"method\tblade-method"
+			],
+			[
+				"R",
+				"Reflect:has\tES6 Reflect Has"
+			],
+			[
+				"pla",
+				"playerName"
+			],
+			[
+				"sp",
+				"sprites"
+			],
+			[
+				"img",
+				"imgsLoaded"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"af",
+				"addFruit"
+			],
+			[
+				"bgco",
+				"background-color\tproperty"
+			],
+			[
+				"co",
+				"continue"
+			],
+			[
+				"bl",
+				"blobs"
+			],
+			[
+				"mouse",
+				"mouseX"
+			],
+			[
+				"pos",
+				"points"
+			],
+			[
+				"b",
+				"bio"
+			],
+			[
+				"blob",
+				"blob"
+			],
+			[
+				"blo",
+				"blob"
+			],
+			[
+				"e",
+				"enemyes"
+			],
+			[
+				"poin",
+				"pointInPoly"
+			],
+			[
+				"po",
+				"point"
+			],
+			[
+				"re",
+				"resolution"
+			],
+			[
+				"getconten",
+				"file_get_contents"
+			],
+			[
+				"m",
+				"map1"
+			],
+			[
+				"ma",
+				"map1"
+			],
+			[
+				"fo",
+				"for\tfor (…) {…}"
+			],
+			[
+				"ra",
+				"random"
+			],
+			[
+				"gen",
+				"gender"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"key",
+				"keyCode"
+			],
+			[
+				"ran",
+				"randFloat"
+			],
+			[
+				"rand",
+				"randInt"
+			],
+			[
+				"d",
+				"de\tdebugger"
+			],
+			[
+				"imaw",
+				"imagewidth"
+			],
+			[
+				"ex",
+				"export:variable\tES6 Module Export Variable"
+			],
+			[
+				"roo",
+				"room"
+			],
+			[
+				"room",
+				"room"
+			],
+			[
+				"ro",
+				"roomId"
+			],
+			[
+				"lea",
+				"leaveRooms"
+			],
+			[
+				"joi",
+				"joinRoom"
+			],
+			[
+				"cre",
+				"createRoom"
+			],
+			[
+				"join",
+				"join"
+			],
+			[
+				"cl",
+				"cl\tconsole.log"
+			],
+			[
+				"clie",
+				"client_id"
+			],
+			[
+				"cli",
+				"client_id"
+			],
+			[
+				"So",
+				"SOCKETS"
+			],
+			[
+				"get",
+				"getNode"
+			],
+			[
+				"fill",
+				"fillRect"
+			],
+			[
+				"inner",
+				"innerWidth"
+			],
+			[
+				"on",
+				"onKeydown"
+			],
+			[
+				"fra",
+				"frame"
+			],
+			[
+				"spr",
+				"sprite"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"spri",
+				"sprite"
+			],
+			[
+				"image",
+				"imagewidth"
+			],
+			[
+				"ima",
+				"imageWidth"
+			],
+			[
+				"dra",
+				"drawTiles"
+			],
+			[
+				"fu",
+				"fullyLoaded"
+			],
+			[
+				"lT",
+				"lTileX"
+			],
+			[
+				"tils",
+				"tileSets"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"frame",
+				"frames"
+			],
+			[
+				"tile",
+				"tileset"
+			],
+			[
+				"lo",
+				"loaded"
+			],
+			[
+				"loa",
+				"loadSprite"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"ti",
+				"times"
+			],
+			[
+				"llp",
+				"lessonlenghtP"
+			],
+			[
+				"ne",
+				"nextX"
+			],
+			[
+				"i",
+				"if\tif"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"mk",
+				"mktime"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"conne",
+				"connection_errno"
+			],
+			[
+				"set",
+				"setMag"
+			],
+			[
+				"se",
+				"setMag"
+			],
+			[
+				"ct",
+				"ctx"
+			],
+			[
+				"G",
+				"Game"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"E",
+				"Email"
+			],
+			[
+				"api",
+				"ApiResp"
+			],
+			[
+				"st",
+				"st\tStruct"
+			],
+			[
+				"P",
+				"Projects"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"t",
+				"type\tType"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"bloc",
+				"blockNumber"
+			],
+			[
+				"block",
+				"blockNumber"
+			],
+			[
+				"row",
+				"rowCount"
+			],
+			[
+				"coin",
+				"coinmarketcap_id"
+			],
+			[
+				"amq",
+				"amqp"
+			],
+			[
+				"tr",
+				"throw"
+			],
+			[
+				"cons",
+				"consume"
+			],
+			[
+				"par",
+				"parse"
+			],
+			[
+				"tie",
+				"timestamp"
+			],
+			[
+				"s",
+				"slug"
+			],
+			[
+				"getH",
+				"getHistoryCourses"
+			],
+			[
+				"price",
+				"price_btc"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"pg",
+				"pgUrl"
+			],
+			[
+				"com",
+				"commander"
+			],
+			[
+				"star",
+				"startLive"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"log",
+				"logArray"
+			],
+			[
+				"pr",
+				"pr\tprototype"
+			],
+			[
+				"trp",
+				"trpl"
+			],
+			[
+				"am",
+				"amqp"
+			],
+			[
+				"let",
+				"let\tES6 Let"
+			],
+			[
+				"png",
+				"tiles.v1.png\tw:512 h:512"
+			],
+			[
+				"tiles",
+				"tilesets"
+			],
+			[
+				"wo",
+				"worldX"
+			],
+			[
+				"Ma",
+				"Math"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"tileCo",
+				"tileCountX"
+			],
+			[
+				"tileS",
+				"tileSizeX"
+			],
+			[
+				"tilc",
+				"tilesetsLoadCount"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"totab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git",
+				"Git: Show Tags"
+			],
+			[
+				"low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"newpro",
+				"Project Manager: Add New Project"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"del",
+				"ANF: Delete Current File"
+			],
+			[
+				"kist",
+				"BracketHighlighter: Select Tag Name (closing and opening)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"sephp",
+				"Set Syntax: PHP"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"decf",
+				"ANF: Delete Current File"
+			],
+			[
+				"dele",
+				"ANF: Delete File"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"m",
+				"File: Move"
+			],
+			[
+				"de",
+				"ANF: Delete Current File"
+			],
+			[
+				"delit",
+				"ANF: Delete File"
+			],
+			[
+				"sehtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set sy htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"d",
+				"ANF: Delete Current File"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: prototype"
+			],
+			[
+				"s",
+				"Set Syntax: SQL"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 641.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/nosu",
+		"/home/space/dev/nosu/practice",
+		"/home/space/dev/nosu/practice/operations",
+		"/home/space/dev/nosu/practice/operations/p1"
+	],
+	"file_history":
+	[
+		"/home/space/dev/nosu/practice/operations/p1/n8.js",
+		"/home/space/dev/nosu/practice/operations/p1/n10.js",
+		"/home/space/dev/nosu/practice/operations/p1/n9.js",
+		"/home/space/dev/nosu/practice/operations/p1/n7.js",
+		"/home/space/dev/nosu/practice/operations/p1/n6.js",
+		"/home/space/dev/nosu/practice/operations/p1/n5.js",
+		"/home/space/dev/nosu/practice/operations/p1/n4.js",
+		"/home/space/dev/nosu/practice/operations/p1/n3.js",
+		"/home/space/dev/nosu/practice/operations/p1/n2.js",
+		"/home/space/dev/nosu/practice/operations/p1/n1.js",
+		"/home/space/dev/nosu/practice/operations/p1/(n1.js,n2.js)",
+		"/home/space/dev/nosu/practice/operations/p1/{n1.js,n2.js}",
+		"/home/space/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/space/dev/nosu/practice/operations/n1.js",
+		"/home/space/dev/nosu/practice/n6.js",
+		"/home/space/dev/nosu/practice/n5.js",
+		"/home/space/dev/nosu/practice/n4.js",
+		"/home/space/dev/nosu/practice/n3.js",
+		"/home/space/dev/nosu/practice/n2.js",
+		"/home/space/dev/nosu/practice/n1.js",
+		"/home/space/dev/js/github-classroom/js-canvas-basics-SpaceofWeb/n1/index.html",
+		"/home/space/dev/js/games/tank/modules/map/mapCell.js",
+		"/home/space/dev/js/games/tank/modules/map/border.js",
+		"/home/space/dev/js/games/tank/modules/vector.js",
+		"/home/space/dev/js/games/tank/modules/constants.js",
+		"/home/space/dev/js/games/tank/modules/bodies/body.js",
+		"/home/space/dev/js/lessons-pcs16/js/main.js",
+		"/home/space/dev/js/lessons-pcs16/js/i.html",
+		"/home/space/dev/js/lessons-pcs16/index.html",
+		"/home/space/.config/sublime-text-3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/space/dev/js/experiments/cubeProjection/index.html",
+		"/home/space/dev/js/experiments/index.html",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/space/dev/js/games/tankTrouble/public/js/tank.js",
+		"/home/space/dev/js/games/tankTrouble/public/js/cell.js",
+		"/home/space/dev/js/games/tankTrouble/public/js/sketch.js",
+		"/home/space/dev/js/games/tankTrouble/public/js/ball.js",
+		"/home/space/dev/js/games/tankTrouble/server.js",
+		"/home/space/dev/js/games/tankTrouble/public/js/p5.js",
+		"/home/space/dev/js/games/tankTrouble/public/index.html",
+		"/home/space/dev/js/games/tankTrouble/public/img/s",
+		"/home/space/dev/js/games/tankTrouble/js/sketch.js",
+		"/home/space/dev/js/games/tankTrouble/js/cell.js",
+		"/home/space/dev/js/games/tankTrouble/js/ball.js",
+		"/home/space/dev/js/games/tankTrouble/index.html",
+		"/home/space/dev/js/games/tankTrouble/js/p5.collide2d.min.js",
+		"/home/space/dev/js/games/tankTrouble/js/border.js",
+		"/home/space/dev/js/games/tankTrouble/js/sketch.old.js",
+		"/home/space/dev/sites/localhost/index.php",
+		"/home/space/.cache/.fr-plyGH1/p5.min.js",
+		"/home/space/Documents/PCS-15 projects",
+		"/media/space/C2E2C9EDE2C9E62F/games/factorio/mods/mod-settings.json",
+		"/home/space/dev/sites/vke/resources/views/admin/layouts/app.blade.php",
+		"/home/space/dev/sites/vke/resources/views/newsModal.blade.php",
+		"/home/space/dev/sites/vke/resources/views/layout.blade.php",
+		"/home/space/dev/sites/vke/public/css/styles.css",
+		"/home/space/dev/sites/vke/public/css/admin-panel.css",
+		"/home/space/dev/sites/vke/public/css/vke.css",
+		"/home/space/dev/sites/vke/resources/views/news.blade.php",
+		"/home/space/dev/sites/vke/resources/views/admin/news/edit.blade.php",
+		"/home/space/dev/sites/vke/.editorconfig",
+		"/home/space/dev/sites/vke/resources/views/admin/layouts/alert.blade.php",
+		"/home/space/dev/sites/vke/resources/views/admin/news/index.blade.php",
+		"/home/space/dev/sites/vke/resources/views/admin/news/create.blade.php",
+		"/home/space/dev/sites/vke/.gitignore",
+		"/home/space/dev/sites/vce/admin/styles/css/style.css",
+		"/home/space/dev/sites/vke/resources/views/admin/home.blade.php",
+		"/home/space/dev/sites/vke/app/Http/Controllers/ImageController.php",
+		"/home/space/dev/sites/vke/routes/web.php",
+		"/home/space/dev/sites/vke/app/Http/Controllers/NewsController.php",
+		"/home/space/dev/js/lessons/9.knight/js/app.js",
+		"/home/space/dev/js/lessons/9.knight/js/swords.js",
+		"/home/space/dev/js/lessons/9.knight/js/node.js",
+		"/home/space/dev/js/lessons/sprites/index.html",
+		"/home/space/dev/js/lessons/9.knight/index.html",
+		"/home/space/dev/js/lessons/9.knight/css/base.css",
+		"/home/space/dev/js/lessons/9.knight/js/atlas.js",
+		"/home/space/Downloads/Module 2/media/layout/index.html",
+		"/home/space/Downloads/Module 2/media/layout/assets/css/base.css",
+		"/home/space/Downloads/Module 2/media/php/register.php",
+		"/home/space/Downloads/Module 2/media/php/ranking.sql",
+		"/home/space/dev/js/lessons/8.fruits/index.html",
+		"/home/space/dev/js/lessons/8.fruits/app.js",
+		"/home/space/dev/js/lessons/8.fruits/styles.css",
+		"/home/space/dev/js/lessons/7.biotix/swarm.js",
+		"/home/space/dev/js/lessons/7.biotix/blob.js",
+		"/home/space/dev/js/lessons/7.biotix/sketch.js",
+		"/home/space/Downloads/Rammstein - Discography lossless/Albums/1997 - Sehnsucht (Australian tour edition)/CD 1/Rammstein - Sehnsucht.cue",
+		"/home/space/dev/js/lessons/7.biotix/sketch.old.js",
+		"/home/space/dev/js/lessons/7.biotix/index.html",
+		"/home/space/dev/js/lessons/7.biotix/blob.old.js",
+		"/home/space/dev/js/lessons/7.trees/sketch.js",
+		"/home/space/dev/js/lessons/7.trees/index.html",
+		"/home/space/dev/js/lessons/6.xonix/index.html",
+		"/home/space/.cache/.fr-DmMK3V/09 Xonix/main.cpp",
+		"/home/space/.cache/.fr-p7RxD7/09 Xonix/main.cpp",
+		"/home/space/dev/js/lessons/5.tetris tanks/bullet.js",
+		"/home/space/dev/js/lessons/5.tetris tanks/tank.js",
+		"/home/space/dev/js/lessons/5.tetris tanks/sketch.js",
+		"/home/space/dev/js/lessons/3.game of life/sketch.js",
+		"/home/space/dev/js/lessons/5",
+		"/home/space/dev/js/lessons/imageLoading/index.html",
+		"/home/space/dev/js/lessons/imageLoading/n2.html",
+		"/home/space/dev/js/lessons/n2.html",
+		"/home/space/dev/js/tanks/index.html",
+		"/home/space/dev/sites/vke/resources/views/layouts/footer.blade.php",
+		"/home/space/dev/sites/vke/resources/views/layouts/header.blade.php",
+		"/home/space/dev/sites/vke/public/js/bootstrap.min.js",
+		"/home/space/dev/sites/vke/public/js/jquery.min.js",
+		"/home/space/dev/sites/vke/public/css/font-awesome.min.css",
+		"/home/space/dev/sites/vke/public/css/main.css",
+		"/home/space/dev/sites/vke/public/css/bootstrap.min.css",
+		"/home/space/dev/sites/vke/database/migrations/2018_09_23_121102_create_news_table.php",
+		"/home/space/dev/sites/vke/database/migrations/2018_09_23_130513_create_news_table.php",
+		"/home/space/dev/sites/vke/.env",
+		"/home/space/dev/js/lessons/TODO",
+		"/home/space/dev/js/bombers/libs/atlas.json",
+		"/home/space/dev/js/bombers/libs/m1.json",
+		"/home/space/dev/js/bombers/client/access/js/map.js",
+		"/home/space/dev/js/bombers/client/access/js/tilemap.js",
+		"/home/space/dev/js/lessons/4.pong/sketch.js",
+		"/home/space/dev/js/lessons/4.pong/platform.js",
+		"/home/space/dev/js/lessons/4.pong/ball.js",
+		"/home/space/dev/js/lessons/4.pong/index.html",
+		"/home/space/dev/js/lessons/3.game of life/readme.md",
+		"/home/space/dev/js/lessons/3.game of life/index.html",
+		"/home/space/dev/js/lessons/1.agar/index.html"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 178.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			"n2",
+			"n1",
+			"n2",
+			"n1",
+			"d",
+			"b",
+			"n1",
+			"*",
+			"Int"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "nosu.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ve",
+				"modules/vector.js"
+			],
+			[
+				"clie/s",
+				"client/js/sketch.js"
+			],
+			[
+				"ind",
+				"cubeProjection/index.html"
+			],
+			[
+				"in",
+				"cubeProjection/index.html"
+			],
+			[
+				"ta",
+				"public/js/tank.js"
+			],
+			[
+				"i",
+				"index.html"
+			],
+			[
+				"ol",
+				"js/sketch.old.js"
+			],
+			[
+				"newC",
+				"app/Http/Controllers/NewsController.php"
+			],
+			[
+				"c",
+				"styles.css"
+			],
+			[
+				"s",
+				"sketch.js"
+			],
+			[
+				"n",
+				"n2.html"
+			],
+			[
+				"pl",
+				"4.pong/platform.js"
+			],
+			[
+				"inde",
+				"3.game of life/index.html"
+			],
+			[
+				"project",
+				"node_modules/scratch-gui/src/lib/project-loader-hoc.jsx"
+			],
+			[
+				"get",
+				"engine/ajax/get.php"
+			],
+			[
+				"228",
+				"engine/compare/logs/2018628.log"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"se",
+				"engine/pages/search.php"
+			],
+			[
+				"d",
+				"db.php"
+			],
+			[
+				"log",
+				"templates/login.html"
+			],
+			[
+				"getShe",
+				"engine/ajax/getShedule.php"
+			],
+			[
+				"for_st",
+				"engine/pages/for_student.php"
+			],
+			[
+				"to",
+				"TODO"
+			],
+			[
+				"change",
+				"admin/change.php"
+			],
+			[
+				"admin",
+				"admin/index.php"
+			],
+			[
+				"t",
+				"TODO"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/sublime/localhost.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

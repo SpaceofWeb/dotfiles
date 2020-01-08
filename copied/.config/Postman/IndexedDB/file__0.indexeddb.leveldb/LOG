@@ -1,0 +1,39 @@
+2019/12/16-10:32:58.037 17696 Reusing MANIFEST /home/space/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/12/16-10:32:58.037 17696 Recovering log #25
+2019/12/16-10:32:58.123 17696 Reusing old log /home/space/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000025.log 
+2019/12/16-10:33:21.220 17693 Current memtable full; waiting...
+2019/12/16-10:33:21.220 17934 Level-0 table #32: started
+2019/12/16-10:33:21.264 17934 Level-0 table #32: 39019 bytes OK
+2019/12/16-10:33:21.309 17934 Delete type=0 #25
+2019/12/16-10:33:21.309 17934 Level-0 table #34: started
+2019/12/16-10:33:21.309 17934 Level-0 table #34: 0 bytes OK
+2019/12/16-10:33:21.354 17934 Delete type=0 #31
+2019/12/16-10:33:21.354 17934 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 3148 : 1
+2019/12/16-10:33:21.354 17934 Compacting 1@0 + 3@1 files
+2019/12/16-10:33:21.421 17934 Generated table #35@0: 1547 keys, 132720 bytes
+2019/12/16-10:33:21.421 17934 Compacted 1@0 + 3@1 files => 132720 bytes
+2019/12/16-10:33:21.465 17934 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/16-10:33:21.465 17934 Delete type=2 #28
+2019/12/16-10:33:21.466 17934 Delete type=2 #27
+2019/12/16-10:33:21.466 17934 Delete type=2 #29
+2019/12/16-10:33:21.466 17934 Delete type=2 #32
+2019/12/16-10:33:21.466 17934 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 3148 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2019/12/16-11:07:42.795 17934 Level-0 table #37: started
+2019/12/16-11:07:42.898 17934 Level-0 table #37: 1491144 bytes OK
+2019/12/16-11:07:42.943 17934 Delete type=0 #33
+2019/12/16-11:08:56.894 17934 Compacting 1@0 + 1@1 files
+2019/12/16-11:08:56.997 17934 Generated table #38@0: 1808 keys, 1609060 bytes
+2019/12/16-11:08:56.997 17934 Compacted 1@0 + 1@1 files => 1609060 bytes
+2019/12/16-11:08:57.042 17934 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/16-11:08:57.042 17934 Delete type=2 #37
+2019/12/16-11:08:57.042 17934 Delete type=2 #35
+2019/12/16-12:13:23.606 17934 Level-0 table #40: started
+2019/12/16-12:13:23.711 17934 Level-0 table #40: 1512441 bytes OK
+2019/12/16-12:13:23.756 17934 Delete type=0 #36
+2019/12/16-12:16:06.149 17934 Compacting 1@0 + 1@1 files
+2019/12/16-12:16:06.367 17934 Generated table #41@0: 1999 keys, 2389642 bytes
+2019/12/16-12:16:06.498 17934 Generated table #42@0: 24 keys, 722735 bytes
+2019/12/16-12:16:06.498 17934 Compacted 1@0 + 1@1 files => 3112377 bytes
+2019/12/16-12:16:06.543 17934 compacted to: files[ 0 2 1 0 0 0 0 ]
+2019/12/16-12:16:06.543 17934 Delete type=2 #38
+2019/12/16-12:16:06.543 17934 Delete type=2 #40

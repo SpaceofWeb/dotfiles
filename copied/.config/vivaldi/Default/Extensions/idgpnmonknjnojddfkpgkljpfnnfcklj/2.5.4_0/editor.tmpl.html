@@ -1,0 +1,28 @@
+<md-dialog flex="70">
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2>{{ title }}</h2>
+    </div>
+  </md-toolbar>
+  <md-dialog-content class="md-padding">
+    <label class="md-subhead">{{ nameLabel }}</label>
+    <md-input-container flex class="large-textarea">
+      <textarea ng-model="content.name"></textarea>
+    </md-input-container>
+    <label class="md-subhead">{{ valueLabel }}</label>
+    <md-input-container flex class="large-textarea">
+      <textarea ng-model="content.value"></textarea>
+    </md-input-container>
+    <div ng-if="showComment">
+      <label class="md-subhead">Comment</label>
+      <md-input-container flex class="large-textarea">
+        <textarea ng-model="content.comment"></textarea>
+      </md-input-container>
+    </div>
+  </md-dialog-content>
+  <div class="md-actions" layout="row">
+    <md-button ng-click="closeDialog()" class="md-primary">
+      Done
+    </md-button>
+  </div>
+</md-dialog>

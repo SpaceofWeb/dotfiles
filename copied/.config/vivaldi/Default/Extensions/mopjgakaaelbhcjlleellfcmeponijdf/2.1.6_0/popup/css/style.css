@@ -1,0 +1,397 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #A2A2A2;
+  background: #FBFBF99E;
+  margin: 0 !important;
+  width: 380px;
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  color: #3D3D3D;
+  text-decoration: underline;
+}
+
+#loader {
+  align-items: center;
+  animation: gradientPulse 30s ease infinite;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-size: 400% 400%;
+  bottom: 0;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 1s ease-in-out;
+  z-index: 1;
+}
+
+header {
+  align-items: flex-start;
+  animation: gradientPulse 30s ease infinite;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-size: 400% 400%;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  transition: all 1s ease-in-out;
+}
+
+header.unauthorized {
+  align-items: center;
+  padding: 24px;
+}
+
+header.unauthorized #title {
+  font-size: 28px;
+}
+
+#title {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#config {
+  margin-top: 24px;
+}
+
+#config:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#config:focus {
+  outline: none;
+}
+
+
+#container {
+  border-bottom: 1px solid #EEE;
+  padding: 24px 24px 0 24px;
+  position: relative;
+}
+
+#main_info {
+  border-bottom: 1px solid #eee;
+}
+
+#main_info > div {
+  display: flex;
+  align-items: center;
+}
+
+button {
+  background: #1AADA1;
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+
+#photo {
+  background-size: cover;
+  border-radius: 10px;
+  height: 64px;
+  margin-right: 20px;
+  width: 64px;
+}
+
+#fullNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+#fullName {
+  color: #3D3D3D;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#username {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+#reset {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 4px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+#tracks_header {
+  align-items: center;
+  color: #3D3D3D;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+#clear_downloads {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#tracks_empty {
+  display: flex;
+  margin-top: 8px;
+  height: 192px;
+  align-items: center;
+  justify-content: center;
+}
+
+#tracks_list {
+  height: 192px;
+  overflow-y: scroll;
+}
+
+#counts {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+#counts > div {
+  text-align: center;
+}
+
+#tracks_container {
+  margin: 16px 0;
+  width: 100%;
+}
+
+.track {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.track .title {
+  color: #3d3d3d;
+  font-weight: bold;
+  width: 274px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#counts .count {
+  color: #3D3D3D;
+  font-size: 30px;
+}
+
+#count .count_description {
+  margin-top: 4px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.success {
+  color: #42962C;
+}
+
+.error {
+  color: #AD262D;
+}
+
+footer {
+  background: #3d3d3d;
+  padding: 16px 12px;
+}
+
+#socials {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#socials img {
+  height: 16px;
+  width: 16px;
+}
+
+#socials a {
+  color: #eee;
+}
+
+#status {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  right: 24px;
+  position: absolute;
+  top: 15px;
+  font-weight: 700;
+}
+
+#status__circle {
+  border-radius: 50%;
+  height: 8px;
+  margin-left: 6px;
+  width: 8px;
+}
+
+#status.online #status__circle {
+  background-color: #46FF5F;
+}
+
+#status.offline #status__circle {
+  background-color: #FF2F40;
+}
+
+@-webkit-keyframes gradientPulse {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+}
+
+@-moz-keyframes gradientPulse {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+}
+
+@keyframes gradientPulse {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+}
+
+@-webkit-keyframes line-scale-party {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes line-scale-party {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  50% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5); }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+.line-scale-party > div:nth-child(1) {
+  -webkit-animation-delay: 0.48s;
+  animation-delay: 0.48s;
+  -webkit-animation-duration: 0.54s;
+  animation-duration: 0.54s; }
+
+.line-scale-party > div:nth-child(2) {
+  -webkit-animation-delay: -0.15s;
+  animation-delay: -0.15s;
+  -webkit-animation-duration: 1.15s;
+  animation-duration: 1.15s; }
+
+.line-scale-party > div:nth-child(3) {
+  -webkit-animation-delay: 0.04s;
+  animation-delay: 0.04s;
+  -webkit-animation-duration: 0.77s;
+  animation-duration: 0.77s; }
+
+.line-scale-party > div:nth-child(4) {
+  -webkit-animation-delay: -0.12s;
+  animation-delay: -0.12s;
+  -webkit-animation-duration: 0.61s;
+  animation-duration: 0.61s; }
+
+.line-scale-party > div {
+  background-color: #fff;
+  width: 4px;
+  height: 35px;
+  border-radius: 2px;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  display: inline-block;
+  -webkit-animation-name: line-scale-party;
+  animation-name: line-scale-party;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+#pin_container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+#pin_container h2 {
+  color: #fff;
+}
+
+#pin_title {
+  color: #fff;
+  font-size: 14px;
+}
+
+#pin {
+  border: 1px solid #eee;
+  margin-top: 12px;
+  outline: none;
+  font-size: 16px;
+  padding: 6px 8px;
+  width: 86px;
+}
+
+#save_pin {
+  margin-top: 12px;
+}

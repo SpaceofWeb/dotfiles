@@ -1,0 +1,70 @@
+{
+   "app": {
+      "icon_color": "#849890",
+      "launch": {
+         "web_url": "https://postwoman.io/"
+      },
+      "linked_icons": [ {
+         "size": 32,
+         "url": "https://postwoman.io/_nuxt/icons/icon_64.9359c9.png"
+      }, {
+         "size": 48,
+         "url": "https://postwoman.io/_nuxt/icons/icon_64.9359c9.png"
+      }, {
+         "size": 64,
+         "url": "https://postwoman.io/_nuxt/icons/icon_64.9359c9.png"
+      }, {
+         "size": 96,
+         "url": "https://postwoman.io/_nuxt/icons/icon_120.9359c9.png"
+      }, {
+         "size": 120,
+         "url": "https://postwoman.io/_nuxt/icons/icon_120.9359c9.png"
+      }, {
+         "size": 128,
+         "url": "https://postwoman.io/_nuxt/icons/icon_144.9359c9.png"
+      }, {
+         "size": 144,
+         "url": "https://postwoman.io/_nuxt/icons/icon_144.9359c9.png"
+      }, {
+         "size": 152,
+         "url": "https://postwoman.io/_nuxt/icons/icon_152.9359c9.png"
+      }, {
+         "size": 192,
+         "url": "https://postwoman.io/_nuxt/icons/icon_192.9359c9.png"
+      }, {
+         "size": 256,
+         "url": "https://postwoman.io/_nuxt/icons/icon_384.9359c9.png"
+      }, {
+         "size": 384,
+         "url": "https://postwoman.io/_nuxt/icons/icon_384.9359c9.png"
+      }, {
+         "size": 512,
+         "url": "https://postwoman.io/_nuxt/icons/icon_512.9359c9.png"
+      } ],
+      "theme_color": "rgba(37,38,40,1)"
+   },
+   "description": "",
+   "icons": {
+      "120": "icons/120.png",
+      "128": "icons/128.png",
+      "144": "icons/144.png",
+      "152": "icons/152.png",
+      "192": "icons/192.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "384": "icons/384.png",
+      "48": "icons/48.png",
+      "512": "icons/512.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "MiLa5PNGwJ7xeZ7zWdDQXO0Eaz0rGlLMJA2p4XLAe4c=",
+   "name": "Postwoman",
+   "url_handlers": {
+      "scope": {
+         "matches": [ "https://postwoman.io/*" ],
+         "title": "Postwoman"
+      }
+   },
+   "version": "2019.12.9.63630"
+}

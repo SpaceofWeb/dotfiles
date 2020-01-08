@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+for (let ${1:a} of ${2:arr}) {
+	${3:}
+}
+]]></content>
+	<tabTrigger>fof</tabTrigger>
+	<scope>source.js</scope>
+	<description>for of</description>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

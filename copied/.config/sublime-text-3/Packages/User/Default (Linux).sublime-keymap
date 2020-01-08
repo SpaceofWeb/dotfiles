@@ -1,0 +1,29 @@
+[
+	{ "keys": ["ctrl+shift+w"], "command": "close_workspace" },
+	{ "keys": ["ctrl+o"], "command": "toggle_side_bar" },
+	{
+		"keys": ["ctrl+alt+o"],
+		"command": "project_manager",
+		"args": { "action": "new" }
+	},
+	{ "keys": ["super+alt+n"], "command": "advanced_new_file_new" },
+	{ "keys": ["ctrl+up"], "command": "scroll_lines", "args": { "amount": 4.0 } },
+	{
+		"keys": ["ctrl+down"],
+		"command": "scroll_lines",
+		"args": { "amount": -4 }
+	},
+	{ "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+	{
+		"keys": ["alt+shift+up"],
+		"command": "select_lines",
+		"args": { "forward": false }
+	},
+	{
+		"keys": ["alt+shift+down"],
+		"command": "select_lines",
+		"args": { "forward": true }
+	},
+	{ "keys": ["ctrl+\\"], "command": "js_prettier" }
+]

@@ -1,0 +1,18 @@
+2019/12/26-09:16:52.411 7ce Reusing MANIFEST /home/space/.config/vivaldi/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2019/12/26-09:16:52.567 7ce Recovering log #2343
+2019/12/26-09:16:54.809 7ce Reusing old log /home/space/.config/vivaldi/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/002343.log 
+2019/12/26-09:17:52.284 84c Level-0 table #2347: started
+2019/12/26-09:17:52.448 84c Level-0 table #2347: 2171275 bytes OK
+2019/12/26-09:17:52.489 84c Delete type=0 #2343
+2019/12/26-09:17:53.691 84c Level-0 table #2349: started
+2019/12/26-09:17:53.847 84c Level-0 table #2349: 2170478 bytes OK
+2019/12/26-09:17:53.886 84c Delete type=0 #2346
+2019/12/26-09:17:53.887 84c Compacting 4@0 + 1@1 files
+2019/12/26-09:17:54.036 84c Generated table #2350@0: 10 keys, 1085806 bytes
+2019/12/26-09:17:54.037 84c Compacted 4@0 + 1@1 files => 1085806 bytes
+2019/12/26-09:17:54.074 84c compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/26-09:17:54.074 84c Delete type=2 #2344
+2019/12/26-09:17:54.074 84c Delete type=2 #2340
+2019/12/26-09:17:54.074 84c Delete type=2 #2347
+2019/12/26-09:17:54.074 84c Delete type=2 #2342
+2019/12/26-09:17:54.074 84c Delete type=2 #2349

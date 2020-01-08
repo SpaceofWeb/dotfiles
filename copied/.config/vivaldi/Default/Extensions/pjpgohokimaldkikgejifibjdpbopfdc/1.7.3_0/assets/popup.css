@@ -1,0 +1,35 @@
+body {
+  width: 599px;
+  height: 599px;
+  margin: 0;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer-right {
+  text-align: right; 
+  margin-left: auto;
+  /*background-color: yellow;*/
+}
+
+#user-usage {
+  width: 380px;
+  font-size: 11px;
+  color: #666666;
+  font-weight: 700;
+  margin-top: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#user-usage .user-usage-stat {
+  padding-right: 1em;
+}
+
+#user-usage-accepts, #user-usage-ignores, #user-usage-since {
+  font-weight: 400;
+}

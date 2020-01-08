@@ -1,0 +1,23 @@
+{
+   "extDescription": {
+      "message": "Das Speichern von Audios ist jetzt ganz einfach! Schnelles Herunterladen von Musik von Vk und anderen Audioquellen."
+   },
+   "extName": {
+      "message": "Music Saver"
+   },
+   "extShortName": {
+      "message": "Music Saver"
+   },
+   "lang": {
+      "message": "de"
+   },
+   "optionsBitrate": {
+      "message": "Show bitrate"
+   },
+   "showOptions": {
+      "message": "Settings"
+   },
+   "titleDefault": {
+      "message": "Music Saver"
+   }
+}
