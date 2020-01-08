@@ -1,0 +1,5 @@
+[user]
+	name = Space
+	email = webproxa@gmail.com
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
