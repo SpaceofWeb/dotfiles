@@ -11,7 +11,7 @@ export ZSH=$HOME/.oh-my-zsh
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -106,7 +106,7 @@ setopt +o nomatch
 
 export PATH=$HOME/Programs/bin:$PATH
 
-alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias l='exa --group-directories-first -F'
 alias la='exa --group-directories-first -aF'
@@ -116,6 +116,6 @@ alias ls='exa --group-directories-first --color=auto'
 
 alias c='bat --tabs 2 --style full'
 alias ca='bat --tabs 2 --style full --show-all'
-alias cp='bat --tabs 2 --style plain'
+alias cl='bat --tabs 2 --style plain'
 
 

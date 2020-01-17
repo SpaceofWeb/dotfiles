@@ -1,0 +1,47 @@
+{
+   "-ms-preload": {
+      "backgroundScript": "backgroundScriptsAPIBridge.js",
+      "contentScript": "contentScriptsAPIBridge.js"
+   },
+   "author": "sapling.ai",
+   "background": {
+      "persistent": true,
+      "scripts": [ "generated/jquery-3.2.1.min.js", "generated/background-bundle.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "40": "assets/sapling-40x40.png"
+      },
+      "default_popup": "generated/popup.html",
+      "default_title": "Sapling"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "addon@sapling.ai",
+         "strict_min_version": "42.0"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "assets/sapling.css", "generated/icomoon.css" ],
+      "js": [ "generated/jquery-3.2.1.min.js", "generated/rangyinputs-jquery.js", "generated/main-bundle.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://*/*", "http://*/*", "file:///*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://use.fontawesome.com https://widget.intercom.io https://js.intercomcdn.com 'unsafe-eval'; object-src 'self'",
+   "description": "Improve your writing with a grammar checker and stylistic suggestions.",
+   "icons": {
+      "128": "assets/sapling-128x128.png",
+      "176": "assets/sapling-176x176.png",
+      "32": "assets/sapling-32x32.png",
+      "48": "assets/sapling-48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiHHGJttdWMOSjbsUCMQMAI4E3ixg9bIz1gi/039lh9BWmsVqNCRk18vB6PM+WGKc9AvTh4dKhaljNmRgayXW5kWHfmqUJPAV7uLDphM9maajadGA7njHC2xow0RNVMQrZwGIW/a2IVpCPt7s0pyK4rstaqUsldgOnsPUElDUjhZrgIJgJulCPRR6zK0zs92x2uYCdwaCo+JwH+nLm+7ziReI3Xt7eHb2wqPuG2PDZTixn67g+KiSReFNNm14Ua5KLw1RA6r5huaqyCDrNDZpAMAU2A+l1XUqUPjcdSUCtbIZl3AiEtD2lWHCnU2y2FeF6hVOgwI7NjrqkC7zjyGX/wIDAQAB",
+   "manifest_version": 2,
+   "name": "Sapling Grammar Checker and Writing Assistant",
+   "permissions": [ "alarms", "identity", "identity.email", "storage", "activeTab", "tabs", "\u003Call_urls>", "notifications", "clipboardWrite", "clipboardRead", "webNavigation" ],
+   "short_name": "Sapling",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.7.4",
+   "web_accessible_resources": [ "assets/icomoon-fonts/*" ]
+}

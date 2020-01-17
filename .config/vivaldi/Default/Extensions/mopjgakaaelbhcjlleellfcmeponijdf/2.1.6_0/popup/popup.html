@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+  <title>VKMT настройки расширения</title>
+</head>
+
+<body>
+<div id="loader">
+  <div class="line-scale-party"><div></div><div></div><div></div><div></div></div>
+</div>
+<header>
+  <div id="title">VK Music to Telegram</div>
+  <button id="config" class="unauthorized_only">Настройка через виджет</button>
+  <div id="pin_container" class="unauthorized_only">
+    <h2>Ручная настройка</h2>
+    <div id="pin_title">Введите PIN, который отправил вам <a href="https://t.me/vkmt_bot">@vkmt_bot</a> в Телеграм:</div>
+    <input type="text" id="pin" />
+    <button id="save_pin">Сохранить</button>
+  </div>
+  <div id="status">
+    <div id="status__text"></div>
+    <div id="status__circle"></div>
+  </div>
+</header>
+<section id="container" class="authorized_only">
+  <div id="main_info">
+    <div>
+      <div id="photo"
+           class="authorized_only"
+           style="background-image: url('https://i0.wp.com/www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png?fit=256%2C256&quality=100&ssl=1');"></div>
+      <div>
+        <div id="fullNameContainer" class="authorized_only">
+          <div id="fullName"></div>
+          <a id="reset" class="authorized_only">(выйти)</a>
+        </div>
+        <div id="username" class="authorized_only"></div>
+      </div>
+    </div>
+    <div id="counts">
+      <div>
+        <div id="tracks_sent" class="count">0</div>
+        <div class="count_description">отправлено</div>
+      </div>
+      <div>
+        <div id="followers_count" class="count">0</div>
+        <div class="count_description">подписчиков</div>
+      </div>
+      <div>
+        <div id="following_count" class="count">0</div>
+        <div class="count_description">подписок</div>
+      </div>
+    </div>
+  </div>
+  <div id="tracks_container" class="authorized_only">
+    <div id="tracks_header">
+      <div>Отправлено:</div>
+      <div id="clear_downloads">Очистить</div>
+    </div>
+    <div id="tracks">
+      <div id="tracks_empty" class="hidden">Пока пусто</div>
+      <div id="tracks_list"></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div id="socials">
+    <a target="_blank" href="https://vkmt-server.now.sh">website</a>
+    <a target="_blank" href="https://www.patreon.com/tsellobenok">поддержать автора</a>
+    <a target="_blank" href="https://instagram.com/tsellobenok"><img src="../assets/img/instagram.svg" /></a>
+    <a target="_blank" href="https://github.com/tsellobenok"><img src="../assets/img/github.svg" /></a>
+    <a target="_blank" href="https://t.me/td_projects"><img src="../assets/img/telegram.svg" /></a>
+  </div>
+</footer>
+<script src="js/popup.js"></script>
+</body>
+</html>

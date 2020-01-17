@@ -1,0 +1,23 @@
+{
+   "extDescription": {
+      "message": "¡Guardar audios ahora es más fácil! Descarga música rápida de Vk y con otros recursos de audio favoritos."
+   },
+   "extName": {
+      "message": "Music Saver"
+   },
+   "extShortName": {
+      "message": "Music Saver"
+   },
+   "lang": {
+      "message": "es"
+   },
+   "optionsBitrate": {
+      "message": "Show bitrate"
+   },
+   "showOptions": {
+      "message": "Settings"
+   },
+   "titleDefault": {
+      "message": "VK Saver"
+   }
+}

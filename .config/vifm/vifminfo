@@ -1,0 +1,87 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/space/
+	..
+1578780785
+'b
+	/home/space/bin/
+	..
+1578780785
+'h
+	/home/space/
+	..
+1578780785
+'z
+	/home/space/.config/vifm
+	..
+1578780785
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/space
+	Documents
+2
+d/home/space/Documents
+	..
+0
+d/home/space
+	Documents
+2
+d/home/space/Documents
+	..
+0
+d/home/space
+	Downloads
+3
+d/home/space/Downloads
+	..
+0
+d/home/space
+	Pictures
+5
+d
+
+# Right window history (oldest to newest):
+D/home/space
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:a
+:h
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

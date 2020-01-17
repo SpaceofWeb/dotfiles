@@ -1,0 +1,39 @@
+2020/01/16-14:17:15.065 67b Reusing MANIFEST /home/space/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/01/16-14:17:15.067 67b Recovering log #100
+2020/01/16-14:17:15.069 67b Reusing old log /home/space/.config/vivaldi/Default/Sync Data/LevelDB/000100.log 
+2020/01/17-14:44:15.591 81c Level-0 table #105: started
+2020/01/17-14:44:15.605 81c Level-0 table #105: 319921 bytes OK
+2020/01/17-14:44:15.607 81c Delete type=0 #100
+2020/01/17-14:45:07.895 81c Level-0 table #107: started
+2020/01/17-14:45:07.901 81c Level-0 table #107: 536631 bytes OK
+2020/01/17-14:45:07.903 81c Delete type=0 #104
+2020/01/17-14:58:14.451 81c Level-0 table #109: started
+2020/01/17-14:58:14.455 81c Level-0 table #109: 458662 bytes OK
+2020/01/17-14:58:14.457 81c Delete type=0 #106
+2020/01/17-15:02:28.322 81c Level-0 table #111: started
+2020/01/17-15:02:28.329 81c Level-0 table #111: 468661 bytes OK
+2020/01/17-15:02:28.331 81c Delete type=0 #108
+2020/01/17-15:02:28.331 81c Compacting 4@0 + 1@1 files
+2020/01/17-15:02:28.338 81c Generated table #112@0: 836 keys, 238386 bytes
+2020/01/17-15:02:28.338 81c Compacted 4@0 + 1@1 files => 238386 bytes
+2020/01/17-15:02:28.340 81c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/17-15:02:28.340 81c Delete type=2 #105
+2020/01/17-15:02:28.340 81c Delete type=2 #107
+2020/01/17-15:02:28.340 81c Delete type=2 #102
+2020/01/17-15:02:28.340 81c Delete type=2 #109
+2020/01/17-15:02:28.340 81c Delete type=2 #111
+2020/01/17-15:21:24.801 81c Level-0 table #114: started
+2020/01/17-15:21:24.806 81c Level-0 table #114: 443608 bytes OK
+2020/01/17-15:21:24.809 81c Delete type=0 #110
+2020/01/17-16:04:49.173 81c Compacting 1@0 + 1@1 files
+2020/01/17-16:04:49.178 81c Generated table #115@0: 852 keys, 239280 bytes
+2020/01/17-16:04:49.178 81c Compacted 1@0 + 1@1 files => 239280 bytes
+2020/01/17-16:04:49.179 81c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/17-16:04:49.180 81c Delete type=2 #112
+2020/01/17-16:04:49.180 81c Delete type=2 #114
+2020/01/17-16:17:28.124 81c Level-0 table #117: started
+2020/01/17-16:17:28.130 81c Level-0 table #117: 372835 bytes OK
+2020/01/17-16:17:28.132 81c Delete type=0 #113
+2020/01/17-16:31:54.650 81c Level-0 table #119: started
+2020/01/17-16:31:54.656 81c Level-0 table #119: 490901 bytes OK
+2020/01/17-16:31:54.658 81c Delete type=0 #116

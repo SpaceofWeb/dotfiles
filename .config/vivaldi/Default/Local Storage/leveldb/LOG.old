@@ -1,0 +1,9 @@
+2020/01/15-23:10:39.608 852 Reusing MANIFEST /home/space/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
+2020/01/15-23:10:39.608 852 Recovering log #27
+2020/01/15-23:10:39.609 852 Reusing old log /home/space/.config/vivaldi/Default/Local Storage/leveldb/000027.log 
+2020/01/15-23:25:44.248 aad Level-0 table #31: started
+2020/01/15-23:25:44.264 aad Level-0 table #31: 346907 bytes OK
+2020/01/15-23:25:44.265 aad Delete type=0 #27
+2020/01/15-23:25:45.875 aad Level-0 table #33: started
+2020/01/15-23:25:45.882 aad Level-0 table #33: 344042 bytes OK
+2020/01/15-23:25:45.884 aad Delete type=0 #30

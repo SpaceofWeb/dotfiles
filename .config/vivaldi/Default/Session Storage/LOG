@@ -1,0 +1,63 @@
+2020/01/16-14:17:15.359 6a4 Reusing MANIFEST /home/space/.config/vivaldi/Default/Session Storage/MANIFEST-000001
+2020/01/16-14:17:15.359 6a4 Recovering log #52
+2020/01/16-14:17:15.360 6a4 Reusing old log /home/space/.config/vivaldi/Default/Session Storage/000052.log 
+2020/01/17-14:54:01.762 122c Level-0 table #56: started
+2020/01/17-14:54:01.765 122c Level-0 table #56: 19997 bytes OK
+2020/01/17-14:54:01.767 122c Delete type=0 #52
+2020/01/17-14:54:01.767 122c Compacting 4@0 + 1@1 files
+2020/01/17-14:54:01.777 122c Generated table #57@0: 1527 keys, 35999 bytes
+2020/01/17-14:54:01.777 122c Compacted 4@0 + 1@1 files => 35999 bytes
+2020/01/17-14:54:01.778 122c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/17-14:54:01.779 122c Delete type=2 #53
+2020/01/17-14:54:01.779 122c Delete type=2 #56
+2020/01/17-14:54:01.779 122c Delete type=2 #51
+2020/01/17-14:54:01.779 122c Delete type=2 #48
+2020/01/17-14:54:01.779 122c Delete type=2 #46
+2020/01/17-15:00:40.051 122c Level-0 table #59: started
+2020/01/17-15:00:40.054 122c Level-0 table #59: 20044 bytes OK
+2020/01/17-15:00:40.056 122c Delete type=0 #55
+2020/01/17-15:02:29.184 122c Level-0 table #61: started
+2020/01/17-15:02:29.187 122c Level-0 table #61: 31309 bytes OK
+2020/01/17-15:02:29.189 122c Delete type=0 #58
+2020/01/17-15:07:09.225 122c Level-0 table #63: started
+2020/01/17-15:07:09.228 122c Level-0 table #63: 25277 bytes OK
+2020/01/17-15:07:09.230 122c Delete type=0 #60
+2020/01/17-15:14:09.282 122c Level-0 table #65: started
+2020/01/17-15:14:09.284 122c Level-0 table #65: 16500 bytes OK
+2020/01/17-15:14:09.285 122c Delete type=0 #62
+2020/01/17-15:14:09.285 122c Compacting 4@0 + 1@1 files
+2020/01/17-15:14:09.292 122c Generated table #66@0: 1687 keys, 126851 bytes
+2020/01/17-15:14:09.292 122c Compacted 4@0 + 1@1 files => 126851 bytes
+2020/01/17-15:14:09.293 122c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/17-15:14:09.293 122c Delete type=2 #59
+2020/01/17-15:14:09.293 122c Delete type=2 #65
+2020/01/17-15:14:09.293 122c Delete type=2 #57
+2020/01/17-15:14:09.293 122c Delete type=2 #63
+2020/01/17-15:14:09.293 122c Delete type=2 #61
+2020/01/17-15:21:46.259 122c Level-0 table #68: started
+2020/01/17-15:21:46.262 122c Level-0 table #68: 16109 bytes OK
+2020/01/17-15:21:46.263 122c Delete type=0 #64
+2020/01/17-15:42:30.919 122c Level-0 table #70: started
+2020/01/17-15:42:30.922 122c Level-0 table #70: 15622 bytes OK
+2020/01/17-15:42:30.924 122c Delete type=0 #67
+2020/01/17-16:10:33.975 122c Level-0 table #72: started
+2020/01/17-16:10:33.978 122c Level-0 table #72: 36005 bytes OK
+2020/01/17-16:10:33.980 122c Delete type=0 #69
+2020/01/17-16:17:12.876 122c Level-0 table #74: started
+2020/01/17-16:17:12.878 122c Level-0 table #74: 15205 bytes OK
+2020/01/17-16:17:12.879 122c Delete type=0 #71
+2020/01/17-16:17:12.879 122c Compacting 4@0 + 1@1 files
+2020/01/17-16:17:12.890 122c Generated table #75@0: 1858 keys, 204021 bytes
+2020/01/17-16:17:12.890 122c Compacted 4@0 + 1@1 files => 204021 bytes
+2020/01/17-16:17:12.891 122c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/17-16:17:12.892 122c Delete type=2 #70
+2020/01/17-16:17:12.892 122c Delete type=2 #68
+2020/01/17-16:17:12.892 122c Delete type=2 #72
+2020/01/17-16:17:12.892 122c Delete type=2 #74
+2020/01/17-16:17:12.892 122c Delete type=2 #66
+2020/01/17-16:18:52.550 122c Level-0 table #77: started
+2020/01/17-16:18:52.553 122c Level-0 table #77: 21191 bytes OK
+2020/01/17-16:18:52.554 122c Delete type=0 #73
+2020/01/17-16:24:22.985 122c Level-0 table #79: started
+2020/01/17-16:24:22.987 122c Level-0 table #79: 20040 bytes OK
+2020/01/17-16:24:22.989 122c Delete type=0 #76

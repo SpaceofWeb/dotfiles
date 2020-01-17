@@ -1,0 +1,47 @@
+{
+  "extDescription": {
+    "message": "Сохранять аудиозаписи стало просто! Быстрая загрузка музыки с Vk и также со многих других аудио ресурсов."
+  },
+  "extName": {
+    "message": "VK Music Saver"
+  },
+  "extShortName": {
+    "message": "Music Saver"
+  },
+  "lang": {
+    "message": "ru"
+  },
+  "optionsBitrate": {
+    "message": "Показывать битрейт сразу"
+  },
+  "showOptions": {
+    "message": "Настройки"
+  },
+  "titleDefault": {
+    "message": "VK Saver"
+  },
+  "titleShowBitrate": {
+    "message": "Не показывать битрейт и размер"
+  },
+  "titleHideBitrate": {
+    "message": "Показывать битрейт и размер при наведении на аудио"
+  },
+  "titleSaveFolderDesc": {
+    "message": "Все пути к папкам являются относительными папками для скачивания. Оставьте поле пустым, если вы не хотите, чтобы файлы загружались в подпапки"
+  },
+  "titleSaveFolder": {
+    "message": "Папка для загрузки музыки"
+  },
+  "textSave": {
+    "message": "Сохранить"
+  },
+  "textClose": {
+    "message": "Закрыть"
+  },
+  "textNotAvailableTitle": {
+    "message": "Аудиозапись недоступна"
+  },
+  "textNotAvailableContent": {
+    "message": "Так решил музыкант или его представитель."
+  }
+}

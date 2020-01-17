@@ -1,0 +1,1131 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"E",
+				"Email"
+			],
+			[
+				"api",
+				"ApiResp"
+			],
+			[
+				"st",
+				"st\tStruct"
+			],
+			[
+				"pro",
+				"project"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"P",
+				"Projects"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"t",
+				"type\tType"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"bloc",
+				"blockNumber"
+			],
+			[
+				"block",
+				"blockNumber"
+			],
+			[
+				"row",
+				"rowCount"
+			],
+			[
+				"coin",
+				"coinmarketcap_id"
+			],
+			[
+				"amq",
+				"amqp"
+			],
+			[
+				"tr",
+				"throw"
+			],
+			[
+				"cons",
+				"consume"
+			],
+			[
+				"par",
+				"parse"
+			],
+			[
+				"tie",
+				"timestamp"
+			],
+			[
+				"s",
+				"slug"
+			],
+			[
+				"getH",
+				"getHistoryCourses"
+			],
+			[
+				"price",
+				"price_btc"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"pg",
+				"pgUrl"
+			],
+			[
+				"com",
+				"commander"
+			],
+			[
+				"star",
+				"startLive"
+			],
+			[
+				"get",
+				"getCourses"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"log",
+				"logArray"
+			],
+			[
+				"pr",
+				"pr\tprototype"
+			],
+			[
+				"trp",
+				"trpl"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"am",
+				"amqp"
+			],
+			[
+				"let",
+				"let\tES6 Let"
+			],
+			[
+				"png",
+				"tiles.v1.png\tw:512 h:512"
+			],
+			[
+				"tiles",
+				"tilesets"
+			],
+			[
+				"wo",
+				"worldX"
+			],
+			[
+				"Ma",
+				"Math"
+			],
+			[
+				"con",
+				"continue"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"tileCo",
+				"tileCountX"
+			],
+			[
+				"tileS",
+				"tileSizeX"
+			],
+			[
+				"tile",
+				"tileSets"
+			],
+			[
+				"image",
+				"imageHeight"
+			],
+			[
+				"tilc",
+				"tilesetsLoadCount"
+			],
+			[
+				"sp",
+				"sprites"
+			],
+			[
+				"spt",
+				"spriteInstance"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"спис",
+				"списков"
+			],
+			[
+				"студ",
+				"студента"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"li",
+				"list"
+			],
+			[
+				"se",
+				"serialize"
+			],
+			[
+				"in",
+				"inst"
+			],
+			[
+				"w",
+				"where"
+			],
+			[
+				"diplo",
+				"diplomas"
+			],
+			[
+				"table",
+				"tableGroups"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"d",
+				"d1_id"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"next",
+				"next_result"
+			],
+			[
+				"a",
+				"a2"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"cu",
+				"currentTarget"
+			],
+			[
+				"page",
+				"pageInfo"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"is_i",
+				"is_int"
+			],
+			[
+				"isin",
+				"is_int"
+			],
+			[
+				"bpd",
+				"buildProcData"
+			],
+			[
+				"forda",
+				"formData"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"reale",
+				"cubrid_real_escape_string"
+			],
+			[
+				"es",
+				"escapeVar"
+			],
+			[
+				"f",
+				"fun\tfunction …"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"ge",
+				"getNode"
+			],
+			[
+				"stu",
+				"student2"
+			],
+			[
+				"tS2",
+				"tS2h"
+			],
+			[
+				"tS",
+				"tS1h"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/main.go",
+			"settings":
+			{
+				"buffer_size": 4357,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 115,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: prototype"
+			],
+			[
+				"s",
+				"Set Syntax: SQL"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 641.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop"
+	],
+	"file_history":
+	[
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/login.html",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/assets/css/main.css",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/header.html",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/footer.html",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/main.go",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/index.html",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/projects.html",
+		"/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/layout.html",
+		"/home/space/dev/go/src/learn-desktop/templates/footer.html",
+		"/home/space/dev/go/src/learn-desktop/templates/header.html",
+		"/home/space/dev/go/src/learn-desktop/templates/index.html",
+		"/home/space/dev/go/src/learn-desktop/main.go",
+		"/home/space/dev/js/block-loader/logs/2018-6-14.log",
+		"/home/space/dev/js/block-loader/lib/amqp.js",
+		"/home/space/dev/sites/vce/getSchedule.php",
+		"/home/space/dev/sites/vce/engine/ajax/getShedule.php",
+		"/home/space/dev/js/courses-loader/node_modules/pg/lib/connection.js",
+		"/home/space/dev/js/courses-loader/node_modules/pg/lib/native/index.js",
+		"/home/space/dev/js/courses-loader/node_modules/pg/lib/native/query.js",
+		"/home/space/dev/js/courses-loader/node_modules/pg/lib/client.js",
+		"/home/space/dev/js/courses-loader/lib/amqp.js",
+		"/home/space/dev/js/courses-loader/node_modules/amqplib/lib/callback_model.js",
+		"/home/space/dev/js/courses-loader/node_modules/amqplib/lib/channel.js",
+		"/home/space/dev/js/courses-loader/node_modules/amqplib/callback_api.js",
+		"/home/space/dev/js/courses-loader/node_modules/amqplib/lib/channel_model.js",
+		"/home/space/dev/js/courses-loader/node_modules/amqplib/lib/api_args.js",
+		"/home/space/dev/rates_20180530_174226.sql",
+		"/home/space/dev/sites/vce/.htaccess",
+		"/home/space/dev/sites/vce/admin/static/header.php",
+		"/home/space/dev/sites/vce/admin/static/head.php",
+		"/home/space/dev/sites/vce/admin/styles/css/style.css",
+		"/home/space/dev/sites/vce/admin/docs.php",
+		"/home/space/dev/sites/vce/admin/docs_dir.php",
+		"/home/space/dev/sites/vce/admin/docs_subdir.php",
+		"/home/space/dev/sites/vce/admin/enrollee.php",
+		"/home/space/dev/sites/vce/index.php",
+		"/home/space/dev/sites/vce/admin/change.php",
+		"/home/space/dev/sites/vce/admin/auth.php",
+		"/home/space/dev/js/block-loader/node_modules/amqplib/lib/callback_model.js",
+		"/home/space/dev/js/block-loader/node_modules/amqplib/lib/channel_model.js",
+		"/home/space/dev/sites/vce/engine/data/config.php",
+		"/home/space/dev/sites/vce/config.example.php",
+		"/home/space/dev/sites/vce/.gitignore",
+		"/home/space/.config/sublime-text-3/Packages/User/PackageSync.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/PackageSync/PackageSync.sublime-settings",
+		"/home/space/Downloads/cgminer-4.10.0-x86_64-built/example.conf",
+		"/home/space/Downloads/cgminer-4.10.0-x86_64-built/API-README",
+		"/home/space/dev/js/work/miner-watcher/package.json",
+		"/home/space/dev/js/work/miner-watcher/TODO",
+		"/home/space/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/space/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/space/Downloads/cgminer-4.10.0-x86_64-built/miner.php",
+		"/home/space/dev/js/bombers/client/access/js/v1.js",
+		"/home/space/dev/js/bombers/server.js",
+		"/home/space/dev/js/bombers/client/access/lib/phaser.js",
+		"/home/space/dev/js/bombers/client/access/index.html",
+		"/usr/share/doc/quake2/README.Debian",
+		"/home/space/dev/js/bombers/package.json",
+		"/home/space/dev/js/bombers/client/access/js/map.class.js",
+		"/home/space/dev/js/bombers/client/access/js/classes/tileMap.js",
+		"/home/space/Downloads/phaser.js",
+		"/home/space/dev/js/bombers/client/access/js/game.class.js",
+		"/home/space/dev/js/bombers/client/access/js/v1.json",
+		"/home/space/dev/js/bombers/client/access/js/tiles.json",
+		"/home/space/dev/js/bombers/client/access/js/test.json",
+		"/home/space/dev/sites/ap/engine/ajax/update.php",
+		"/home/space/dev/sites/ap/engine/ajax/add.php",
+		"/home/space/dev/sites/ap/engine/ajax/setter.php",
+		"/home/space/dev/sites/ap/add.php",
+		"/home/space/dev/sites/ap/change.php",
+		"/home/space/dev/js/maps/test.json",
+		"/home/space/dev/sites/ap/engine/ajax/get.php",
+		"/home/space/dev/sites/ap/access/styles/js/app.js",
+		"/home/space/dev/js/maps/1.json",
+		"/media/space/FLASH/Programs/Text Editors/license.txt",
+		"/home/space/dev/sites/ap/index.php",
+		"/home/space/dev/sites/ap2/change.php",
+		"/home/space/dev/sites/ap/engine/classes/mysqliDB.php",
+		"/home/space/dev/sites/ap/engine/classes/db.php",
+		"/home/space/dev/sites/ap/engine/ajax/getter.php",
+		"/home/space/dev/sites/ap/engine/ajax/updater.php",
+		"/home/space/dev/sites/localhost/fc/access/js/game.class.js",
+		"/home/space/dev/sites/localhost/fc/index.php",
+		"/home/space/dev/sites/ap/TODO",
+		"/home/space/dev/sites/ap/test.php",
+		"/home/space/dev/sites/ap/view.php",
+		"/home/space/dev/sites/ap2/engine/ajax/searchMain.php",
+		"/home/space/dev/sites/ap/engine/compare/compare.js",
+		"/home/space/dev/sites/ap/.gitignore",
+		"/home/space/dev/sites/ap/engine/compare/logs/2018419.log",
+		"/home/space/dev/sites/ap2/TODO",
+		"/home/space/dev/sites/ap/engine/classes/docx2text.php",
+		"/home/space/dev/sites/ap/engine/ajax/test.php",
+		"/home/space/dev/sites/ap/node_modules/string-similarity/compare-strings.js",
+		"/home/space/dev/sites/ap/access/static/footer.php",
+		"/home/space/dev/sites/ap/engine/inc/db.php",
+		"/home/space/dev/sites/ap/engine/inc/conf.php",
+		"/home/space/dev/sites/ap/access/static/head.php",
+		"/home/space/dev/sites/ap/engine/inc/docx2text.php",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/space/.cache/.fr-IQYsu6/Package Control.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Projects/ap.sublime-project",
+		"/home/space/dev/sites/ap/engine/ajax/searchMain.php",
+		"/home/space/dev/sites/ap/engine/ajax/addDiplomas.php",
+		"/home/space/dev/sites/ap/engine/data/functions.php",
+		"/home/space/dev/js/fruits/index.html",
+		"/home/space/dev/js/fruits/js/game.js"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"loginHandler",
+			"login",
+			"placeholder",
+			"=\"",
+			"id",
+			"Value.",
+			"Value",
+			"&",
+			"user",
+			"bird",
+			"string(",
+			"r.",
+			"r",
+			"    ",
+			"   ",
+			"  ",
+			"    ",
+			"   ",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"3001"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Go/Go.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/space/dev/go/src/github.com/SpaceofWeb/learn-desktop/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										19,
+										20
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "learn-desktop.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"log",
+				"templates/login.html"
+			],
+			[
+				"getShe",
+				"engine/ajax/getShedule.php"
+			],
+			[
+				"for_st",
+				"engine/pages/for_student.php"
+			],
+			[
+				"to",
+				"TODO"
+			],
+			[
+				"change",
+				"admin/change.php"
+			],
+			[
+				"admin",
+				"admin/index.php"
+			],
+			[
+				"t",
+				"TODO"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/sublime/localhost.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

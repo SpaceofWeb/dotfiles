@@ -1,0 +1,9 @@
+2020/01/15-23:10:39.154 7be Reusing MANIFEST /home/space/.config/vivaldi/Default/Session Storage/MANIFEST-000001
+2020/01/15-23:10:39.154 7be Recovering log #47
+2020/01/15-23:10:39.155 7be Reusing old log /home/space/.config/vivaldi/Default/Session Storage/000047.log 
+2020/01/15-23:13:54.493 aad Level-0 table #51: started
+2020/01/15-23:13:54.496 aad Level-0 table #51: 20329 bytes OK
+2020/01/15-23:13:54.503 aad Delete type=0 #47
+2020/01/15-23:23:22.280 aad Level-0 table #53: started
+2020/01/15-23:23:22.283 aad Level-0 table #53: 16110 bytes OK
+2020/01/15-23:23:22.285 aad Delete type=0 #50

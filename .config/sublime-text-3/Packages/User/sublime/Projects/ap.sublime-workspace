@@ -1,0 +1,635 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getla",
+				"getLastErrno"
+			],
+			[
+				"getLa",
+				"getLastErrno"
+			],
+			[
+				"mk",
+				"mkdir"
+			],
+			[
+				"exist",
+				"file_exists"
+			],
+			[
+				"пои",
+				"Поиск"
+			],
+			[
+				"Вы",
+				"Выборка"
+			],
+			[
+				"para",
+				"paramsCount"
+			],
+			[
+				"pa",
+				"paramsCount"
+			],
+			[
+				"rows",
+				"rowsCount"
+			],
+			[
+				"co",
+				"count"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"спис",
+				"списков"
+			],
+			[
+				"студ",
+				"студента"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"li",
+				"list"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"get",
+				"getDiplomas"
+			],
+			[
+				"in",
+				"inst"
+			],
+			[
+				"w",
+				"where"
+			],
+			[
+				"diplo",
+				"diplomas"
+			],
+			[
+				"row",
+				"rowsCount"
+			],
+			[
+				"table",
+				"tableGroups"
+			],
+			[
+				"gett",
+				"gettype"
+			],
+			[
+				"d",
+				"d1_id"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"next",
+				"next_result"
+			],
+			[
+				"a",
+				"a2"
+			],
+			[
+				"fe",
+				"fetch_assoc"
+			],
+			[
+				"cu",
+				"currentTarget"
+			],
+			[
+				"page",
+				"pageInfo"
+			],
+			[
+				"i",
+				"id\tAttr"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"is_i",
+				"is_int"
+			],
+			[
+				"isin",
+				"is_int"
+			],
+			[
+				"bpd",
+				"buildProcData"
+			],
+			[
+				"forda",
+				"formData"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"ord",
+				"order"
+			],
+			[
+				"th",
+				"this"
+			],
+			[
+				"reale",
+				"cubrid_real_escape_string"
+			],
+			[
+				"es",
+				"escapeVar"
+			],
+			[
+				"f",
+				"fun\tfunction …"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"ge",
+				"getNode"
+			],
+			[
+				"st",
+				"styles"
+			],
+			[
+				"stu",
+				"student2"
+			],
+			[
+				"tS2",
+				"tS2h"
+			],
+			[
+				"tS",
+				"tS1h"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "dele",
+		"selected_items":
+		[
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"license",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"Snippet: ",
+				"Snippet: prototype"
+			],
+			[
+				"s",
+				"Set Syntax: SQL"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 641.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/sites/ap",
+		"/home/space/dev/sites/ap/access",
+		"/home/space/dev/sites/ap/access/styles",
+		"/home/space/dev/sites/ap/access/styles/js",
+		"/home/space/dev/sites/ap/engine",
+		"/home/space/dev/sites/ap/engine/ajax",
+		"/home/space/dev/sites/ap/engine/classes",
+		"/home/space/dev/sites/ap/engine/compare",
+		"/home/space/dev/sites/ap/uploads",
+		"/home/space/dev/sites/ap/uploads/diplomas"
+	],
+	"file_history":
+	[
+		"/home/space/dev/sites/ap/engine/ajax/update.php",
+		"/home/space/dev/sites/ap/change.php",
+		"/home/space/dev/sites/ap/TODO",
+		"/home/space/dev/sites/ap/access/static/head.php",
+		"/home/space/dev/sites/ap/access/static/header.php",
+		"/home/space/dev/sites/ap/.gitignore",
+		"/home/space/dev/sites/ap/engine/ajax/dump.php",
+		"/home/space/dev/sites/ap/engine/compare/compare.js",
+		"/home/space/dev/sites/ap/engine/ajax/add.php",
+		"/home/space/dev/sites/ap/engine/ajax/get.php",
+		"/home/space/dev/sites/ap/engine/inc/conf.php",
+		"/home/space/dev/sites/ap/add.php",
+		"/home/space/dev/sites/ap/engine/compare/logs/2018430.log",
+		"/home/space/.cache/.fr-TOQATZ/mysql_backup_2018-04-30.sql",
+		"/home/space/.cache/.fr-IcWrP2/mysql_backup_2018-04-30.sql",
+		"/home/space/dev/sites/ap/dumps/mysql_backup_2018-04-30.sql",
+		"/home/space/dev/sites/ap/dumps/mysql_backup_2018-04-30",
+		"/home/space/dev/sites/ap/index.php",
+		"/home/space/dev/sites/ap/engine/classes/db.php",
+		"/home/space/dev/sites/ap/engine/classes/mysqliDB.php",
+		"/home/space/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/space/dev/sites/ap/engine/ajax/setter.php",
+		"/home/space/dev/js/maps/test.json",
+		"/home/space/dev/sites/ap/access/styles/js/app.js",
+		"/home/space/dev/js/bombers/client/access/js/test.json",
+		"/home/space/dev/js/maps/1.json",
+		"/media/space/FLASH/Programs/Text Editors/license.txt",
+		"/home/space/dev/sites/ap2/change.php",
+		"/home/space/dev/sites/ap/engine/ajax/getter.php",
+		"/home/space/dev/sites/ap/engine/ajax/updater.php",
+		"/home/space/dev/sites/localhost/fc/access/js/game.class.js",
+		"/home/space/dev/sites/localhost/fc/index.php",
+		"/home/space/dev/sites/ap/test.php",
+		"/home/space/dev/sites/ap/view.php",
+		"/home/space/dev/sites/ap2/engine/ajax/searchMain.php",
+		"/home/space/dev/sites/ap/engine/compare/logs/2018419.log",
+		"/home/space/dev/sites/ap2/TODO",
+		"/home/space/dev/sites/ap/engine/classes/docx2text.php",
+		"/home/space/dev/sites/ap/engine/ajax/test.php",
+		"/home/space/dev/sites/ap/node_modules/string-similarity/compare-strings.js",
+		"/home/space/dev/sites/ap/access/static/footer.php",
+		"/home/space/dev/sites/ap/engine/inc/db.php",
+		"/home/space/dev/sites/ap/engine/inc/docx2text.php",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/space/.cache/.fr-IQYsu6/Package Control.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Projects/ap.sublime-project",
+		"/home/space/dev/sites/ap/engine/ajax/searchMain.php",
+		"/home/space/dev/sites/ap/engine/ajax/addDiplomas.php",
+		"/home/space/dev/sites/ap/engine/data/functions.php",
+		"/home/space/dev/js/fruits/index.html",
+		"/home/space/dev/js/fruits/js/game.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^  ",
+			"new",
+			"ap_",
+			"'ap_'",
+			"$cfg['dbprefix']",
+			"$c",
+			"success",
+			"addDate",
+			"{$id}",
+			"console",
+			"var",
+			"qParams",
+			"','r','",
+			"',s2,'",
+			"',s1,'",
+			"||",
+			"res = $db->withTotalCount()->rawQuery($q,",
+			"1",
+			"($",
+			"&&",
+			"  ",
+			"by",
+			"raw",
+			"migration",
+			"'",
+			"ap_",
+			"type",
+			"S.",
+			"s",
+			"S",
+			"Success added",
+			"placeholder=\"Search\"",
+			"Search",
+			"студенты",
+			"группы",
+			"reset",
+			"migration",
+			"_POST['migration']",
+			"var",
+			"search[$i]",
+			"getGroups",
+			"search[$i]",
+			"order",
+			"search",
+			"groups",
+			"dSearch",
+			"['",
+			"data",
+			"block",
+			"dModalForm",
+			"sModalForm",
+			"gModalForm",
+			"dSearch",
+			"search",
+			"submit",
+			"order",
+			"cols",
+			"formSearch",
+			"gSearch",
+			"tableDiplomas",
+			"groups",
+			"Groups",
+			"groups",
+			"Groups",
+			"groups",
+			"search",
+			"app",
+			"getJQNode",
+			"studentsPag",
+			"getJQNode",
+			"First",
+			"var ",
+			"['",
+			"students",
+			"groups",
+			"groupsPag",
+			"order",
+			"'",
+			"cols",
+			"type",
+			"text",
+			"Students",
+			"tableGroups",
+			"FML",
+			"\td",
+			"rows",
+			"HTML",
+			"var ",
+			"S2",
+			"S.middleName",
+			"data",
+			"First",
+			"Count')",
+			"Count'",
+			"['res']",
+			"..",
+			"formData",
+			"0",
+			"db",
+			"order",
+			"submit",
+			"liFirst",
+			"tableDiplomas",
+			"var",
+			"0 >",
+			"h",
+			"console.",
+			"mysql",
+			"S.",
+			"s",
+			"S",
+			"err",
+			"error",
+			"order",
+			"student_id",
+			"vals",
+			"event",
+			"var ",
+			"formAddStudent",
+			"formAddGroup",
+			"required",
+			"d",
+			"studentSelect",
+			"var",
+			"Var",
+			"var",
+			"engine",
+			"migration"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ap.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/sublime/localhost.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
