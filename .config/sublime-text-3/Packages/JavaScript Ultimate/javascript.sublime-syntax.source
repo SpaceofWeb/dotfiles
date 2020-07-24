@@ -1,0 +1,678 @@
+%YAML 1.2
+---
+name: #####{include} name#####
+file_extensions: [js, htc]
+first_line_match: '{{shebang}}'
+scope: #####{include} scope#####
+
+variables:
+  # Low-level character categories
+  unicode_other_id_start: '\x{2118}\x{212E}\x{309B}\x{309C}'
+  unicode_other_id_continue: '\x{1369}\x{00B7}\x{0387}\x{19DA}'
+  unicode_id_start: '\p{L}\p{Nl}{{unicode_other_id_start}}'
+  unicode_id_continue: '{{unicode_id_start}}\p{Mn}\p{Mc}\p{Nd}\p{Pc}{{unicode_other_id_continue}}'
+  ident_start: '{{unicode_id_start}}_$\\'
+  ident_part: '{{unicode_id_continue}}\x{200C}\x{200D}_$\\'
+  space_chars: '\x{0020}\x{0009}\x{000B}\x{000C}\x{00A0}\x{FEFF}\p{Zs}'
+  line_terminator_chars: '\x{000a}\x{000d}\x{2028}\x{2029}'
+
+  # Low-level JavaScript categories
+  keyword: '(?:break|case|catch|class|const|continue|debugger|default|delete|do|else|export|extends|finally|for|function|if|import|in|instanceof|new|return|super|switch|this|throw|try|typeof|var|void|while|with|yield|let|of|static|await)'
+  future_reserved_word: '(?:enum|implements|interface|package|private|protected|public)'
+  hex_escape_sequence: '(?:x\h{2})'
+  unicode_escape_sequence: '(?:u\h{4}|u\{\h++\})'
+  common_regexp_escape_sequences: '(?:{{hex_escape_sequence}}|{{unicode_escape_sequence}}|c[a-zA-Z]|0(?![0-9])|[1-9][0-9]*+)'
+  common_regexp_operators: '(?:\^|\$|\\|\.|\*|\+|\?|\(|\)|\[|\]|\{|\}|\||\/)'
+
+  # Articulatory JavaScript categories
+  space: '[{{space_chars}}]'
+  line_terminator: '(?:\x{000d}\x{000a}|[{{line_terminator_chars}}])'
+  non_token: '[{{space_chars}}{{line_terminator_chars}}]++'
+  some_space: '{{space}}++'
+  to_token: '{{space}}*+' # skip to next token on the same line
+  token: '[^{{space_chars}}{{line_terminator_chars}}]'
+  b_before: '(?<![{{ident_part}}])' # word-break before
+  b_after: '(?![{{ident_part}}])' # word-break after
+  otherwise: '(?=[\s\S])'
+
+  # High-level JavaScript categories
+  statement_terminator: '(?:;|{{line_terminator}})'
+  ident: '(?:{{b_before}}[{{ident_start}}][{{ident_part}}]*+{{b_after}})'
+  reserved_word: '(?:{{b_before}}(?:{{keyword}}|{{future_reserved_word}}|null|true|false){{b_after}})'
+  statement_keyword: '(?:{{b_before}}(?:import|export|var|let|const|if|with|while|do|for|switch|try|catch|finally|break|continue|case|return|throw|debugger){{b_after}})'
+  statement_keyword_all: '(?:{{statement_keyword}}|{{b_before}}(?:function|class|async|true|false|null|undefined|Infinity|NaN|this|arguments|super|new|yield|typeof|void|delete|await){{b_after}})'
+  shebang: '^#!/usr/bin/env node(?:{{space}}[^{{line_terminator_chars}}]*+)?+(?:{{line_terminator}}|$)'
+  arrow_function_with_parenthesis: '(?:{{b_before}}(async){{to_token}})?+\((?={{to_token}}(?:(?:{{ident}}(?={{to_token}}[,)=])|\{|\[|\.\.\.)[^)]*+)?+\){{to_token}}=>)'
+  arrow_function_with_reserved_word: '(?:{{b_before}}(async){{some_space}})?+({{reserved_word}})(?={{to_token}}=>)'
+  arrow_function_with_ident: '(?:{{b_before}}(async){{some_space}})?+({{ident}})(?={{to_token}}=>)'
+  assignment_for_function: '(?={{to_token}}={{to_token}}(?:(?:async{{some_space}})?+function\*?+{{to_token}}\(|{{arrow_function_with_parenthesis}}|{{arrow_function_with_reserved_word}}|{{arrow_function_with_ident}}))'
+  property_assignment_for_function: '(?={{to_token}}:{{to_token}}(?:(?:async{{some_space}})?+function\*?+{{to_token}}\(|{{arrow_function_with_parenthesis}}|{{arrow_function_with_reserved_word}}|{{arrow_function_with_ident}}))'
+
+contexts:
+  prototype:
+    - match: '(//)[^{{line_terminator_chars}}]*+'
+      scope: comment.line.double-slash.js
+      captures:
+        1: punctuation.definition.comment.js
+    - match: '/\*\*(?!/)'
+      scope: punctuation.definition.comment.js
+      push:
+        - meta_scope: comment.block.documentation.js
+        - match: '\*/'
+          scope: punctuation.definition.comment.js
+          pop: true
+        - match: '^{{to_token}}\*{{to_token}}(@{{token}}++)'
+          captures:
+            1: keyword.other.documentation.custom.js
+    - match: '/\*'
+      scope: punctuation.definition.comment.js
+      push:
+        - meta_scope: comment.block.js
+        - match: '\*/'
+          scope: punctuation.definition.comment.js
+          pop: true
+    #####{include} library_comments#####
+
+  main:
+    - match: '{{shebang}}'
+      scope: comment.line.shebang.js
+    - match: '{{otherwise}}'
+      push:
+      - match: '{{non_token}}'
+      - match: '{{otherwise}}'
+        push: statement_top_level
+
+
+
+
+
+
+
+
+
+
+  expression_until_parenthesis: {mixin: expression, exitMatch: '\)'}
+  expression_until_square_bracket: {mixin: expression, exitMatch: '\]'}
+  expression_until_colon: {mixin: expression, exitMatch: ':'}
+  expression_until_curly_bracket_ahead_or_colon: {mixin: expression, exitMatch: ':|(?=\})'}
+  expression_until_end_of_template_interpolation: {mixin: expression, exitMatch: '\}', exitExtra: 'scope: string.quoted.template.js variable.language.js'}
+  expression_until_comma_or_curly_bracket: {mixin: expression, exitMatch: '[,}]'}
+  expression_until_comma_or_square_bracket_ahead: {mixin: expression, exitMatch: '(?=[,\]])'}
+  expression_until_parenthesis_ahead_or_comma: {mixin: expression, exitMatch: '(?=\))|,'}
+  expression_until_parameter_binding_list: {mixin: expression, exitMatch: '(?=\))', overrideSecondary: {match: '(?=,)', pop: true}}
+  expression_until_parenthesis_ahead_no_comma: {mixin: expression, exitMatch: '(?=\))', overrideSecondary: {match: ',', scope: invalid.illegal.js}}
+  expression_until_parenthesis_with_spread_anywhere: {mixin: expression, exitMatch: '\)', beforeAnything: [{match: '{{non_token}}'}, {match: '\.\.\.', scope: keyword.operator.js, push: expression_until_parenthesis_ahead_or_comma}], overrideSecondary: {match: ',', set: expression_until_parenthesis_with_spread_anywhere}}
+  expression_until_square_bracket_with_spread_or_comma_anywhere: {mixin: expression, exitMatch: '\]', beforeAnything: [{match: '{{non_token}}'}, {match: ',++'}, {match: '\.\.\.', scope: keyword.operator.js, push: expression_until_comma_or_square_bracket_ahead}], overridePrimary: [{match: '(?=,)', pop: true}], overrideSecondary: [{match: '(?=,)', set: expression_until_square_bracket_with_spread_or_comma_anywhere}]}
+  expression_until_square_bracket_ahead_no_comma: {mixin: expression, exitMatch: '(?=\])', overrideSecondary: {match: ',', scope: invalid.illegal.js}}
+  expression_until_curly_bracket_ahead_no_comma: {mixin: expression, exitMatch: '(?=\})', overrideSecondary: {match: ',', scope: invalid.illegal.js}}
+  expression_until_for_statement_third_section: {mixin: expression, exitMatch: ';|(?=\))'}
+  expression_until_for_binding: {mixin: expression, exitMatch: '(?=[,;)])', override: {match: '{{b_before}}(?:of|in){{b_after}}', scope: invalid.illegal.js}}
+  _for_statement_first_expression: {mixin: expression, exitMatch: '(?=[;)]|{{b_before}}(?:of|in){{b_after}})'}
+
+
+
+
+
+
+
+
+
+
+  destructuring_spread_for_parameter_binding_list: {mixin: destructuring_spread, exitMatch: '(?=\))', initializer: expression_until_parenthesis_ahead_no_comma, identExtra: 'scope: variable.language.js', destructuring: destructuring_for_parameter}
+
+  parameter_binding_until_parenthesis: {mixin: parameter_binding, exitMatch: '\)', identExtra: 'scope: variable.language.js', destructuring: destructuring_for_parameter}
+  parameter_binding_until_parenthesis_with_initializer: {mixin: parameter_binding, exitMatch: '\)', overrideAfter: {match: '=', scope: keyword.operator.js, push: expression_until_parenthesis_ahead_no_comma}, identExtra: 'scope: variable.language.js', destructuring: destructuring_for_parameter}
+  parameter_binding_list: {mixin: parameter_binding, exitMatch: '\)', overrideAfter: [{match: ',', set: parameter_binding_list}, {match: '=', scope: keyword.operator.js, push: expression_until_parameter_binding_list}], overrideBefore: {include: destructuring_spread_for_parameter_binding_list}, identExtra: 'scope: variable.language.js', destructuring: destructuring_for_parameter}
+  variable_binding_for_for_statement: {mixin: parameter_binding, exitMatch: '(?=[,;)]|{{b_before}}(?:of|in){{b_after}})', overrideAfter: {match: '(?==)', scope: keyword.operator.js, pop: true}, overrideIdent: {match: '{{ident}}{{assignment_for_function}}', scope: entity.name.function.js, pop: true}, destructuring: destructuring_for_variable}
+  variable_binding: {mixin: parameter_binding, exitMatch: '[^\s\S]', catchAfter: {match: '{{otherwise}}', pop: true}, overrideIdent: {match: '{{ident}}{{assignment_for_function}}', scope: entity.name.function.js, pop: true}, destructuring: destructuring_for_variable}
+
+  property_name_for_method: {mixin: property_name, identScope: 'entity.name.function.js'}
+  property_name_requires_parenthesis_for_method: {mixin: property_name, identTail: '\(', identScope: 'entity.name.function.js'}
+  property_name_requires_colon: {mixin: property_name, identTail: ':', identScope: 'entity.name.property.js'}
+
+  method_definition_in_class:
+    mixin: method_definition
+    exitMatch: '[;}]'
+    overrideNonRecurring:
+      - match: '{{b_before}}static{{b_after}}'
+        scope: storage.modifier.js
+        set:
+          - match: '{{non_token}}'
+          - include: _parts__method_definition_in_class
+    overrideAfter:
+      - match: '{{ident}}'
+        scope: entity.name.function.js
+        pop: true
+    exit:
+      - match: '(?<=\})'
+        pop: true
+      - match: '(?<=;)'
+        set: method_definition_in_class
+    altExit:
+      - match: '{{otherwise}}'
+        set: _main__method_definition_in_class
+
+  method_definition_in_object_literal:
+    mixin: method_definition
+    exitMatch: '[,}]'
+    overrideBefore:
+      - match: ','
+        scope: invalid.illegal.js
+      - match: '\.\.\.'
+        scope: keyword.operator.js
+        set: expression_until_comma_or_curly_bracket
+      - match: '{{ident}}{{property_assignment_for_function}}'
+        scope: entity.name.function.js
+        pop: true
+      - match: '{{ident}}(?={{to_token}}:)' # this doesn't extend through new lines
+        scope: entity.name.property.js
+        pop: true
+    overrideAfter:
+      - match: '{{reserved_word}}'
+        scope: invalid.illegal.js
+        set: need_comma_or_closing_curly_bracket
+      - match: '{{ident}}'
+        # scope: entity.name.property.js # optional
+        set: need_comma_or_closing_curly_bracket
+    exit:
+      - match: '(?<=\})'
+        pop: true
+      - match: '(?<=,)'
+        set: method_definition_in_object_literal
+      - match: '{{non_token}}'
+      - match: '\}'
+        scope: invalid.illegal.js
+        pop: true
+      - match: ','
+        scope: invalid.illegal.js
+        set: method_definition_in_object_literal
+      - match: '{{to_token}}:' # this doesn't extend through new lines
+        push: expression_until_comma_or_curly_bracket
+
+
+
+
+
+
+
+
+
+
+  otherwise_invalid: [{match: '{{token}}', scope: invalid.illegal.js}]
+
+  need_closing_parenthesis: [{match: '\)', pop: true}, {include: otherwise_invalid}]
+  need_comma_or_closing_curly_bracket: [{match: '[,}]', pop: true}, {include: otherwise_invalid}]
+  need_opening_parenthesis_ahead_or_comma_or_closing_curly_bracket: [{match: '[,}]|(?=\()', pop: true}, {include: otherwise_invalid}]
+
+
+
+
+
+
+
+
+
+
+  statement_in_block: {mixin: statement, statementExit: ';|(?=\})', self: 'statement_in_block', possibleExit: {match: '(?=\})', pop: true}}
+  statement_top_level: {mixin: statement, statementExit: ';', self: 'statement', override: [{include: import_statement}, {include: export_statement}]}
+  statement: {mixin: statement, statementExit: ';', self: 'statement'}
+
+  block_statement:
+    - match: '\{'
+      set:
+        - match: '{{non_token}}'
+        - match: '\}'
+          pop: true
+        - match: '{{otherwise}}'
+          push: statement_in_block
+
+  _switch_statement_block:
+    - match: '{{non_token}}'
+    - match: '\}'
+      pop: true
+    - match: '{{b_before}}case{{b_after}}'
+      scope: keyword.control.js
+      push:
+        - match: '{{non_token}}'
+        - match: '(?=\})'
+          pop: true
+        - match: ':'
+          scope: invalid.illegal.js
+          pop: true
+        - match: '{{otherwise}}'
+          set: expression_until_curly_bracket_ahead_or_colon
+    - match: '{{b_before}}default{{b_after}}'
+      scope: keyword.control.js
+      push:
+        - match: ':|(?=\})'
+          pop: true
+        - include: otherwise_invalid
+    - match: '{{otherwise}}'
+      push: statement_in_block
+
+  _class_block:
+    - include: method_definition_in_class
+
+
+
+
+
+
+
+
+
+
+  parenthesized_expression:
+    - match: '\('
+      set: expression_until_parenthesis
+
+  string_literal:
+    - match: '('')(use strict)('')|(")(use strict)(")'
+      scope: string.quoted.js
+      captures:
+        1: punctuation.definition.string.begin.js
+        2: comment.directive.js
+        3: punctuation.definition.string.end.js
+        4: punctuation.definition.string.begin.js
+        5: comment.directive.js
+        6: punctuation.definition.string.end.js
+      pop: true
+    - match: ''''
+      scope: punctuation.definition.string.begin.js
+      set: _string_literal_contents
+      with_prototype:
+        - match: '"'
+    - match: '"'
+      scope: punctuation.definition.string.begin.js
+      set: _string_literal_contents
+      with_prototype:
+        - match: ''''
+
+  _string_literal_contents:
+    - meta_include_prototype: false
+    - meta_scope: string.quoted.js
+    - include: _string_escape_sequences
+    - match: '{{line_terminator}}'
+      set:
+        - meta_include_prototype: false
+        - meta_scope: string.quoted.js
+        - include: _string_escape_sequences
+        - match: '[''"]'
+          scope: punctuation.definition.string.end.js invalid.illegal.js
+          pop: true
+    - match: '[''"]'
+      scope: punctuation.definition.string.end.js
+      pop: true
+
+  _string_escape_sequences:
+    - match: '(\\){{line_terminator}}'
+      scope: constant.character.escape.js
+      captures:
+        1: linecontinuation.js
+    - match: '\\(?:0(?![0-9])|[bfnrtv''"\\]|{{hex_escape_sequence}}|{{unicode_escape_sequence}})'
+      scope: constant.character.escape.js
+    - match: '\\(?:0[0-9]++|[1-9][0-9]*+)?+'
+      scope: invalid.illegal.js
+
+  template_literal:
+    - match: '`'
+      scope: punctuation.definition.string.begin.js
+      set: _template_literal_contents
+
+  _template_literal_contents:
+    - meta_include_prototype: false
+    - meta_scope: string.quoted.template.js
+    - match: '\\[$`]'
+      scope: constant.character.escape.js
+    - include: _string_escape_sequences
+    - match: '\$\{'
+      scope: variable.language.js
+      set: [_template_literal_contents_continue, expression_until_end_of_template_interpolation]
+    - match: '`'
+      scope: punctuation.definition.string.end.js
+      pop: true
+
+  _template_literal_contents_continue:
+    - match: '{{otherwise}}'
+      set: _template_literal_contents
+
+  regular_expression_literal:
+    - match: '/'
+      scope: string.regexp.js punctuation.definition.string.begin.js
+      set: _regular_expression_literal_contents
+
+  _regular_expression_literal_contents:
+    - meta_include_prototype: false
+    - meta_content_scope: string.regexp.js
+    - match: '\\(?:[dDsSwWfnrtvbB]|{{common_regexp_escape_sequences}})'
+      scope: constant.character.escape.js regexp-operator.js
+    - match: '\\{{common_regexp_operators}}'
+      scope: constant.character.escape.js
+    - match: '\^|\$|\||\?|\*|\+|\.|\{[0-9]++(?:,[0-9]*+)?+\}|\((?:\?\!|\?=|\?:)?+|\)'
+      scope: regexp-operator.js
+    - match: '\\(?:0[0-9]++)?+'
+      scope: invalid.illegal.js
+    - match: '(\[\^?+)-?+'
+      scope: string.regexp.characterclass.js
+      captures:
+        1: punctuation.definition.string.begin.js
+      set: _regular_expression_literal_class
+    - match: '{{line_terminator}}'
+      scope: invalid.illegal.js
+      pop: true
+    - match: '/(?:([gimuys]*?(?''option''[gimuys])[gimuys]*?\k''option'')|[gimuys]*)([{{ident_part}}]*+)'
+      scope: string.regexp.js punctuation.definition.string.end.js
+      captures:
+        1: invalid.illegal.js
+        3: invalid.illegal.js
+      pop: true
+
+  _regular_expression_literal_class:
+    - meta_include_prototype: false
+    - meta_content_scope: string.regexp.js string.regexp.characterclass.js
+    - match: '\\(?:[dDsSwWfnrtvb]|{{common_regexp_escape_sequences}})'
+      scope: constant.character.escape.js regexp-operator.js
+    - match: '\\(?:-|{{common_regexp_operators}})'
+      scope: constant.character.escape.js
+    - match: '\\(?:0[0-9]++|B|c[0-9_])?+' # "\c[0-9_]" actually does work in the tested implementations, but it's not in the spec
+      scope: invalid.illegal.js
+    - match: '(?={{line_terminator}})'
+      pop: true
+    - match: '-?+(\])'
+      captures:
+        1: punctuation.definition.string.end.js
+      set: _regular_expression_literal_contents
+    - match: '-'
+      scope: regexp-operator.js
+
+  numeric_literal:
+    - match: '{{b_before}}0([xXbBoO]n?+){{b_after}}'
+      scope: constant.numeric.js
+      captures:
+        1: invalid.illegal.js
+      pop: true
+    - match: '{{b_before}}0[xX]\h++n?+{{b_after}}'
+      scope: constant.numeric.hexadecimal.js
+      pop: true
+    - match: '{{b_before}}0[bB][01]++n?+{{b_after}}'
+      scope: constant.numeric.binary.js
+      pop: true
+    - match: '{{b_before}}0[oO][0-7]++n?+{{b_after}}'
+      scope: constant.numeric.octal.js
+      pop: true
+    - match: '{{b_before}}(?:(?:0|[1-9][0-9]*+)n|(?:(?:0|[1-9][0-9]*+)(?:\.[0-9]*+)?+|\.[0-9]++)(?:[eE][+-]?+[0-9]++)?+){{b_after}}'
+      scope: constant.numeric.decimal.js
+      pop: true
+
+  language_constant:
+    - match: '{{b_before}}(?:true|false|null|undefined|Infinity|NaN){{b_after}}'
+      scope: constant.language.js
+      pop: true
+
+  language_variable:
+    - match: '{{b_before}}(?:this|arguments|super){{b_after}}'
+      scope: variable.language.js
+      pop: true
+
+  reserved_word_reference:
+    - match: '{{reserved_word}}'
+      scope: invalid.illegal.js
+      pop: true
+
+  identifier_reference:
+    mixin: known_idents
+    exitType: 'set'
+    exitValue: '_optional_postfix_operator'
+    overrideWithAssignment:
+      - match: '{{ident}}{{assignment_for_function}}'
+        scope: entity.name.function.js
+        pop: true
+
+  identifier_reference_simple:
+    mixin: known_idents
+    exitType: 'pop'
+    exitValue: 'true'
+
+  _optional_postfix_operator:
+    - match: '{{to_token}}(--|\+\+)'
+      captures: {1: keyword.operator.js}
+      pop: true
+    - match: '{{otherwise}}'
+      pop: true
+
+  array_literal:
+    - match: '\['
+      set: expression_until_square_bracket_with_spread_or_comma_anywhere
+
+  object_literal:
+    - match: '\{'
+      set: method_definition_in_object_literal
+
+
+
+
+
+
+
+
+
+
+  _arrow_operator:
+    - match: '=>'
+      scope: keyword.operator.js
+      pop: true
+
+
+
+
+
+
+
+
+
+
+  object_destructuring_for_parameter:
+    mixin: object_destructuring
+    identExtra: 'scope: variable.language.js'
+    destructuring: destructuring_for_parameter
+
+  object_destructuring_for_variable:
+    mixin: object_destructuring
+    destructuring: destructuring_for_variable
+
+  array_destructuring_for_parameter:
+    mixin: array_destructuring
+    identExtra: 'scope: variable.language.js'
+    destructuring: destructuring_for_parameter
+
+  array_destructuring_for_variable:
+    mixin: array_destructuring
+    destructuring: destructuring_for_variable
+
+  destructuring_for_parameter:
+    - include: object_destructuring_for_parameter
+    - include: array_destructuring_for_parameter
+
+  destructuring_for_variable:
+    - include: object_destructuring_for_variable
+    - include: array_destructuring_for_variable
+
+
+
+
+
+
+
+
+
+
+  import_statement:
+    - match: '{{b_before}}import{{b_after}}'
+      scope: storage.type.js
+      set: _import_statement_core
+
+  _import_statement_core:
+    mixin: want_token
+    match: '(?=[''''"])'
+    goto: '_import_location'
+    exitMatch: ';'
+    overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}[^,;f{{line_terminator_chars}}])', pop: true}
+    override:
+      - match: '{{reserved_word}}'
+        scope: invalid.illegal.js
+        set: _import_statement_optional_addition
+      - match: '{{ident}}'
+        # scope: variable.language.js # optional
+        set: _import_statement_optional_addition
+      - include: _import_all_named
+      - include: _import_named_block
+
+  _import_statement_optional_addition:
+    mixin: want_token
+    match: ','
+    goto: '_import_statement_addition'
+    exitMatch: ';'
+    override:
+      - match: '{{b_before}}(?=(?:from|fro|fr|f){{b_after}})'
+        set: _import_from
+
+  _import_statement_addition:
+    mixin: want_token
+    match: '(?=\*)'
+    goto: '_import_all_named'
+    exitMatch: ';'
+    override: {include: _import_named_block}
+
+  _import_all_named:
+    - match: '\*'
+      scope: keyword.operator.js
+      set: _import_all_named_as
+
+  _import_all_named_as:
+    mixin: want_token
+    match: '{{b_before}}as{{b_after}}'
+    matchExtra: 'scope: keyword.operator.js'
+    goto: '_import_all_named_as_ident'
+    exitMatch: ';'
+
+  _import_all_named_as_ident:
+    mixin: want_token
+    match: '{{ident}}'
+    # matchExtra: 'scope: variable.language.js' # optional
+    goto: '_import_from'
+    exitMatch: ';'
+    overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}[^;f{{line_terminator_chars}}])', pop: true}
+    override:
+      - match: '{{reserved_word}}'
+        scope: invalid.illegal.js
+        set: _import_from
+
+  _import_named_block:
+    - match: '\{'
+      # scope: storage.modifier.js # optional
+      set: _import_named_item
+
+  _import_named_item:
+    - match: '\}'
+      # scope: storage.modifier.js # optional
+      set: _import_from
+    - match: '({{ident}}){{to_token}}(as){{b_after}}' # this doesn't extend through new lines
+      captures: {1: entity.name.property.js, 2: keyword.operator.js}
+      set:
+        - match: '\}'
+          # scope: storage.modifier.js # optional
+          set: _import_from
+        - match: ','
+          scope: invalid.illegal.js
+          set: _import_named_item
+        - match: '{{reserved_word}}'
+          scope: invalid.illegal.js
+          set: _import_named_continue
+        - match: '{{ident}}'
+          # scope: variable.language.js # optional
+          set: _import_named_continue
+        - include: otherwise_invalid
+    - match: '{{reserved_word}}'
+      scope: invalid.illegal.js
+      set: _import_named_continue
+    - match: '{{ident}}'
+      # scope: variable.language.js # optional
+      set: _import_named_continue
+    - include: otherwise_invalid
+
+  _import_named_continue:
+    - match: ','
+      set: _import_named_item
+    - match: '\}'
+      # scope: storage.modifier.js # optional
+      set: _import_from
+    - include: otherwise_invalid
+
+  _import_from:
+    mixin: want_token
+    match: '{{b_before}}from{{b_after}}'
+    matchExtra: 'scope: keyword.operator.js'
+    goto: '_import_location'
+    exitMatch: ';'
+    override: {match: '{{b_before}}(?:fro|fr|f){{to_token}}{{b_after}}'}
+
+  _import_location:
+    mixin: want_token
+    match: '(?=[''''"])'
+    goto: '[_end_of_statement__statement, string_literal]'
+    exitMatch: ';'
+
+  export_statement:
+    - match: '{{b_before}}export{{b_after}}'
+      scope: storage.modifier.js
+      set: _export_statement_core
+
+  _export_statement_core:
+    mixin: want_token
+    match: '\{'
+    goto: '[_end_of_statement__statement, _export_clause]'
+    exitMatch: ';'
+    override:
+      - match: '{{b_before}}(?=(?:var|let|const){{b_after}})'
+        set: _variable_statement__statement
+      - match: '{{b_before}}(?=class{{b_after}})'
+        set: _class_declaration__statement
+      - match: '{{b_before}}(?=(?:async{{some_space}})?+function{{b_after}})'
+        set: _function_declaration__statement
+      - match: '{{b_before}}default{{b_after}}'
+        scope: storage.modifier.js
+        set: _expression_until_end_of_statement__statement
+      - match: '{{b_before}}(?:defaul|defau|defa|def|de|d|cons|con|co|clas|cla|cl|c|functio|functi|funct|func|fun|fu|f|va|v|le|l){{to_token}}{{b_after}}'
+
+  _export_clause:
+    - match: '\}'
+      pop: true
+    - match: '({{reserved_word}}){{to_token}}(as){{b_after}}' # this doesn't extend through new lines
+      captures: {1: invalid.illegal.js, 2: keyword.operator.js}
+      set: _export_clause_as
+    - match: '{{ident}}{{to_token}}(as){{b_after}}' # this doesn't extend through new lines
+      captures: {1: keyword.operator.js}
+      set: _export_clause_as
+    - match: '{{reserved_word}}'
+      scope: invalid.illegal.js
+      set: _export_clause_continue
+    - match: '{{ident}}'
+      scope: entity.name.property.js
+      set: _export_clause_continue
+    - include: otherwise_invalid
+
+  _export_clause_as:
+    - match: '\}'
+      pop: true
+    - match: '{{ident}}'
+      scope: entity.name.property.js
+      set: _export_clause_continue
+    - include: otherwise_invalid
+
+  _export_clause_continue:
+    - match: ','
+      set: _export_clause
+    - match: '\}'
+      pop: true
+    - include: otherwise_invalid
+

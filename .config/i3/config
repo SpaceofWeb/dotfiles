@@ -66,9 +66,11 @@ bindsym $mod+space			focus mode_toggle
 bindsym $mod+Return			exec kitty
 
 #bindsym $mod+Escape			workspace prev
-bindsym $mod+Shift+q		exec --no-startup-id i3-msg exit
+bindsym $mod+Shift+Escape		exec --no-startup-id i3-msg exit
 
-bindsym $mod+Escape		exec --no-startup-id $HOME/.scripts/i3lock.sh
+#bindsym $mod+Escape		exec --no-startup-id $HOME/.scripts/i3lock.sh
+bindsym $mod+Escape		    exec --no-startup-id $HOME/.scripts/suspend.sh
+#bindsym $mod+Escape		    exec --no-startup-id sudo pm-suspend
 
 # #---Letter Key Bindings---# #
 bindsym $mod+q			kill
@@ -81,10 +83,12 @@ bindsym $mod+e			layout tabbed
 
 #bindsym $mod+u			exec --no-startup-id ddspawn tmuxdd
 
-bindsym $mod+Shift+y		exec --no-startup-id i3resize left
-bindsym $mod+Shift+u		exec --no-startup-id i3resize down
-bindsym $mod+Shift+i		exec --no-startup-id i3resize up
-bindsym $mod+Shift+o		exec --no-startup-id i3resize right
+bindsym $mod+Shift+y		exec --no-startup-id $HOME/.scripts/i3resize.sh left
+bindsym $mod+Shift+u		exec --no-startup-id $HOME/.scripts/i3resize.sh down
+bindsym $mod+Shift+i		exec --no-startup-id $HOME/.scripts/i3resize.sh up
+bindsym $mod+Shift+o		exec --no-startup-id $HOME/.scripts/i3resize.sh right
+
+bindsym $mod+p     		exec --no-startup-id $HOME/.scripts/screens.sh
 
 bindsym $mod+o			sticky toggle
 
@@ -115,11 +119,12 @@ bindsym $mod+Ctrl+k		move up 30
 bindsym $mod+Ctrl+l		move right 30
 
 bindsym $mod+z			exec vivaldi
-bindsym $mod+shift+z		exec firefox
+bindsym $mod+shift+z	exec firefox
 
 bindsym $mod+x			exec subl
 
 bindsym $mod+c			exec --no-startup-id kitty vifm ~/
+bindsym $mod+Shift+c	exec --no-startup-id spotify
 #bindsym $mod+c			exec --no-startup-id cabl
 
 #bindsym $mod+v			exec --no-startup-id $term -e $EDITOR -c "VimwikiIndex"
@@ -180,6 +185,7 @@ assign [window_role="browser"] $ws1
 assign [class="Sublime_text"] $ws2
 #assign [class="kitty"] $ws3
 assign [class="vlc"] $ws10
+assign [class="Spotify"] $ws10
 
 for_window [window_role="GtkFileChooserDialog"] resize set 800 600
 for_window [window_role="GtkFileChooserDialog"] move position center
@@ -212,9 +218,9 @@ bindsym $mod+Ctrl+Right		move workspace to output right
 #############################################
 
 # Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
 
 # Sreen brightness controls
 #bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 10 # increase screen brightness
@@ -230,20 +236,23 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Screen Shots
-bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/ScreenShots/'
+bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/screenshots/'
 bindsym Control+Print exec gnome-screenshot -i
 
 
 #############################################
 
-#exec --no-startup-id xinput set-prop $(xinput list --id-only 'Synaptics s3203_ver5') 'Synaptics Two-Finger Scrolling' 1 1
-exec --no-startup-id xinput set-prop $(xinput list --id-only 'Synaptics s3203_ver5') 'libinput Tapping Enabled' 1
+exec --no-startup-id xinput set-prop $(xinput list --id-only 'Synaptics s3203_ver5') 'Synaptics Two-Finger Scrolling' 1 1
+exec --no-startup-id xinput set-prop $(xinput list --id-only 'Synaptics s3203_ver5') 'Synaptics Scrolling Distance' -46 -46
+#exec --no-startup-id xinput set-prop $(xinput list --id-only 'Synaptics s3203_ver5') 'libinput Tapping Enabled' 1
 
-exec --no-startup-id compton -b --opacity-rule "80:class_g = 'kitty'"
+#exec --no-startup-id compton -b --opacity-rule "80:class_g = 'kitty'"
 
+exec --no-startup-id "setxkbmap -model pc105 -layout us,ru -option grp:alt_space_toggle"
 exec --no-startup-id nm-applet
 exec --no-startup-id numlockx on
-
+exec --no-startup-id redshift -t 5500K:3500K
+exec --no-startup-id sh ~/.fehbg
 
 
 

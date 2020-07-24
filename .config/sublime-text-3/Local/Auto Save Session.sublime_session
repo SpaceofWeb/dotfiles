@@ -1,0 +1,2352 @@
+{
+	"folder_history":
+	[
+		"/home/space/dev/work/admin-ui",
+		"/home/space/dev/work/faem-food",
+		"/home/space/dev/work/test",
+		"/home/space/dev/js/vue-lessons",
+		"/home/space/dev/js/diplomas/elite d",
+		"/home/space/dev/sites/r",
+		"/home/space/dev/js/diplomas/stas/diploma_merge",
+		"/home/space/dev/js/diplomas/stas/diploma",
+		"/home/space/dev/js/diplomas/stas/diploma_old",
+		"/home/space/Downloads/phaser3-tutorial-src",
+		"/home/space/dev/js/diplomas/rusik/contra",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/test",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/p5.tiledmap",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client",
+		"/home/space/dev/js/diplomas/stas/p5",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript",
+		"/home/space/dev/js/games/example/Chapter 3",
+		"/home/space/dev/js/games/example/ch4",
+		"/home/space/dev/js/games/example/B04669_CH1_Code",
+		"/home/space/dev/js/games/monopoly",
+		"/home/space/dev/js/games/bombers",
+		"/home/space/dev/js/diplomas/stas/Interactive-site",
+		"/home/space/dev/sites/mbt",
+		"/home/space/dev/js/pcs1-17",
+		"/home/space/dev/js/experiments",
+		"/home/space/dev/js/games/neonBlast",
+		"/home/space/dev/js/pcs2-17",
+		"/home/space/dev/js/cashminer",
+		"/home/space/Downloads"
+	],
+	"last_version": 3211,
+	"last_window_id": 85,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1019.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"va",
+						"variant"
+					],
+					[
+						"cate",
+						"category"
+					],
+					[
+						"max",
+						"max-height\tproperty"
+					],
+					[
+						"qu",
+						"QuickMessages"
+					],
+					[
+						"fun",
+						"fun\tFunction"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"cur",
+						"curr"
+					],
+					[
+						"curre",
+						"currentIsland"
+					],
+					[
+						"sho",
+						"showIsland"
+					],
+					[
+						"pos",
+						"position"
+					],
+					[
+						"des",
+						"desert.png\tw:1024 h:512"
+					],
+					[
+						"spc",
+						"sortPlayersCount"
+					],
+					[
+						"for",
+						"for\tfor (…) {…}"
+					],
+					[
+						"fu",
+						"fun\tFunction"
+					],
+					[
+						"re",
+						"re\trequire"
+					],
+					[
+						"fo",
+						"font-family\tproperty"
+					],
+					[
+						"renderS",
+						"_renderStartTime"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"a",
+						"Arithmetic"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"vue",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"vu",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"seth",
+						"Set Syntax: HTML"
+					],
+					[
+						"setv",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"move",
+						"File: Move"
+					],
+					[
+						"snippetmd",
+						"Snippet: Markdown Header 1"
+					],
+					[
+						"ht",
+						"Set Syntax: HTML"
+					],
+					[
+						"jsu",
+						"Set Syntax: JavaScript Ultimate"
+					],
+					[
+						"htm",
+						"Set Syntax: HTML"
+					],
+					[
+						"ren",
+						"ANF: Rename File"
+					],
+					[
+						"browser",
+						"File: Open In Browser - Production Server"
+					],
+					[
+						"brow",
+						"File: Open In Browser - Production Server"
+					],
+					[
+						"line",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"l",
+						"File: Locate"
+					],
+					[
+						"fuep",
+						"Snippet: function as a property of an object"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"conso",
+						"Console Wrap: Remove logs"
+					],
+					[
+						"mustache",
+						"Snippet: Mustache Loop"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"mus",
+						"Set Syntax: HTML with mustaches"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"console",
+						"Console Wrap: Create logs"
+					],
+					[
+						"codetime",
+						"Code Time Dashboard"
+					],
+					[
+						"doc",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"repa",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"docbl",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"do",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"param",
+						"Snippet: createPattern(img,repeat)"
+					],
+					[
+						"i",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"enab",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"LiveReload: Enable/disable plugins",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"copy",
+						"File: Copy Name"
+					],
+					[
+						"path",
+						"File: Copy Path"
+					],
+					[
+						"rena",
+						"Rename File"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 440.0,
+				"history":
+				[
+					"sublime.log_input(True)",
+					"sublime.log_commands(True)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/space/dev/work/faem-food/pages/index.vue",
+				"/home/space/dev/work/faem-food/layouts/def.vue",
+				"/home/space/dev/work/faem-food/layouts/default.vue",
+				"/home/space/dev/work/faem-food/nuxt.config.js",
+				"/home/space/Documents/mac.txt",
+				"/media/space/3098-10EC/.File_SafeBox/_本目录下文件非常重要,请勿删除",
+				"/home/space/dev/work/faem-food/.nuxt/router.js",
+				"/home/space/dev/work/faem-food/.nuxt/index.js",
+				"/home/space/dev/work/faem-food/pages/store/_uuid/index.vue",
+				"/home/space/dev/work/faem-food/config/index.js",
+				"/home/space/dev/work/faem-food/store/shared.js",
+				"/home/space/dev/work/faem-food/config/dev.env.js",
+				"/home/space/dev/work/faem-food/config/prod.env.js",
+				"/home/space/dev/work/faem-food/store/index.js",
+				"/home/space/dev/work/faem-food/store/stores.js",
+				"/home/space/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+				"/home/space/dev/work/faem-food/TODO",
+				"/home/space/dev/work/faem-food/plugins/stickySidebar.js",
+				"/home/space/dev/work/faem-food/plugins/stickySidebar.client.js",
+				"/home/space/dev/work/faem-food/stickySidebar",
+				"/home/space/dev/work/faem-food/plugins/sticky-sidebar.js",
+				"/home/space/dev/work/faem-food/plugins/sicky-sidebar.js",
+				"/home/space/dev/work/faem-food/plugins/sticky-sidebar.client.js",
+				"/home/space/dev/work/faem-food/package.json",
+				"/home/space/dev/work/faem-food/pages/store/index.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/QuickMessages.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/NewQuickMessage.vue",
+				"/home/space/dev/work/admin-ui/src/store/quickMessages.js",
+				"/home/space/dev/work/admin-ui/src/components/orders/NewOrder.vue",
+				"/home/space/dev/work/admin-ui/src/store/clients.js",
+				"/home/space/dev/work/admin-ui/src/store/promotions.js",
+				"/home/space/dev/work/admin-ui/src/store/orders.js",
+				"/home/space/dev/work/admin-ui/src/store/driversNews.js",
+				"/home/space/dev/work/admin-ui/src/components/driversnews/DriversNews.vue",
+				"/home/space/dev/work/admin-ui/src/components/driversnews/DriversNewsItem.vue",
+				"/home/space/dev/work/admin-ui/NewQuickMessage.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/NewQuickMassage.vue",
+				"/home/space/dev/work/admin-ui/src/App.vue",
+				"/home/space/dev/work/admin-ui/src/store/index.js",
+				"/home/space/dev/work/admin-ui/src/router/index.js",
+				"/home/space/dev/work/admin-ui/src/main.js",
+				"/home/space/dev/work/admin-ui/src/components/mailing/Mailing.vue",
+				"/home/space/dev/js/vue-lessons/6/index.js",
+				"/home/space/dev/js/vue-lessons/6/index.html",
+				"/home/space/dev/js/vue-lessons/5/index.html",
+				"/home/space/dev/js/vue-lessons/5/index.js",
+				"/home/space/dev/js/vue-lessons/4/index.html",
+				"/home/space/dev/js/vue-lessons/4/index.js",
+				"/home/space/dev/js/vue-lessons/3/index.html",
+				"/home/space/dev/js/vue-lessons/3/index.js",
+				"/home/space/dev/js/vue-lessons/1/index.html",
+				"/home/space/dev/js/vue-lessons/2/index.html",
+				"/home/space/dev/js/vue-lessons/2/index.js",
+				"/home/space/dev/js/vue-lessons/1/index.js",
+				"/home/space/Downloads/E.1750_fruit-loops_2019-06-20.zip",
+				"/home/space/dev/js/diplomas/elite d/index.html",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/character.json",
+				"/home/space/dev/js/diplomas/stas/diploma/webpack.config.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/i.css",
+				"/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+				"/home/space/dev/js/diplomas/stas/diploma/package.json",
+				"/home/space/dev/js/diplomas/stas/diploma/README.md",
+				"/home/space/dev/js/diplomas/rusik/tileset.png",
+				"/home/space/dev/js/diplomas/rusik/contra/assets/tilemap.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map1.json",
+				"/home/space/dev/js/diplomas/rusik/tileset.json",
+				"/home/space/dev/js/diplomas/rusik/contra/assets/coin.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/snow/snow.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/sand/sand.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/map.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/snow/snow.json",
+				"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/sand.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/desert.json",
+				"/home/space/dev/js/diplomas/stas/diploma/sms.html",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters_old.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/InputManager.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/Input.js",
+				"/home/space/dev/js/diplomas/stas/diploma/i.html",
+				"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client/data/img/sprite/bad-guys.json",
+				"/home/space/dev/js/diplomas/stas/diploma/islands.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/grassIsland.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/lib/pixijs-tool.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/expl.json",
+				"/home/space/dev/js/diplomas/stas/Interactive-site/Json/assets_characters.json",
+				"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+				"/home/space/.local/share/Trash/files/i.html",
+				"/home/space/dev/js/diplomas/stas/diploma/dist",
+				"/home/space/Music/untitled",
+				"/tmp/.fr-FcJ6j1/README.txt",
+				"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+				"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+				"/home/space/dev/js/games/monopoly/modules/room.js",
+				"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+				"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+				"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+				"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+				"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+				"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+				"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+				"/home/space/Downloads/iframe.html",
+				"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+				"/home/space/Downloads/message.txt",
+				"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+				"/home/space/Downloads/message.html",
+				"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+				"/home/space/dev/js/games/monopoly/package.json",
+				"/home/space/dev/js/games/monopoly/modules/player.js",
+				"/home/space/dev/js/games/monopoly/client/index.html",
+				"/home/space/dev/js/games/monopoly/.gitignore",
+				"/home/space/dev/js/games/monopoly/client/js/game.js",
+				"/home/space/dev/js/games/monopoly/client/js/main.js",
+				"/home/space/dev/js/games/monopoly/index.html",
+				"/home/space/dev/js/games/monopoly/main.js",
+				"/home/space/dev/js/games/monopoly/example.html",
+				"/home/space/dev/js/games/monopoly/style.css",
+				"/home/space/.software/CodeTime.txt",
+				"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+				"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+				"/home/space/dev/js/games/neonBlast/index.html",
+				"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"no-ssr",
+					"console",
+					"cart",
+					"state.",
+					"addToCart",
+					"add2Cart",
+					"this",
+					"product.",
+					"product",
+					"default",
+					"\nmacbook pro",
+					"@",
+					"\">",
+					"nuxt",
+					"config/",
+					"config",
+					"\"",
+					"toppingsUuids",
+					"state.",
+					"owners",
+					",\n\n  owners: (state) => {\n    if (state.owners) {\n      return state.owners\n    }\n  }",
+					"products",
+					",",
+					",\t",
+					"\\\\",
+					"formLabelAlign",
+					"idx",
+					"this.dialogData",
+					"scrollTo",
+					"variant",
+					"Variant",
+					"variant",
+					"Variant",
+					"variant",
+					",",
+					"v.",
+					"variant",
+					"a.",
+					"dialogData",
+					"toppings",
+					"\" @",
+					"\">",
+					"fullP",
+					"name",
+					"p.category",
+					"groupped",
+					"store",
+					".get",
+					"}\n\n",
+					"\n.",
+					"\n",
+					",",
+					":"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\t"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 51.0
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 144.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.YAMLMacros":
+			{
+				"height": 144.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						".vue",
+						"src/components/mailing/Mailing.vue"
+					],
+					[
+						"w",
+						"webpack.config.js"
+					],
+					[
+						"in",
+						"client/index.html"
+					],
+					[
+						"i",
+						"client/index.html"
+					],
+					[
+						"",
+						"index.html"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 241.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1880.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"va",
+						"variant"
+					],
+					[
+						"cate",
+						"category"
+					],
+					[
+						"max",
+						"max-height\tproperty"
+					],
+					[
+						"qu",
+						"QuickMessages"
+					],
+					[
+						"fun",
+						"fun\tFunction"
+					],
+					[
+						"le",
+						"length"
+					],
+					[
+						"cur",
+						"curr"
+					],
+					[
+						"curre",
+						"currentIsland"
+					],
+					[
+						"sho",
+						"showIsland"
+					],
+					[
+						"pos",
+						"position"
+					],
+					[
+						"des",
+						"desert.png\tw:1024 h:512"
+					],
+					[
+						"spc",
+						"sortPlayersCount"
+					],
+					[
+						"for",
+						"for\tfor (…) {…}"
+					],
+					[
+						"fu",
+						"fun\tFunction"
+					],
+					[
+						"re",
+						"re\trequire"
+					],
+					[
+						"fo",
+						"font-family\tproperty"
+					],
+					[
+						"renderS",
+						"_renderStartTime"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/space/dev/work/faem-food/pages/store/_uuid/index.vue",
+					"settings":
+					{
+						"buffer_size": 16031,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/space/dev/work/faem-food/store/order.js",
+					"settings":
+					{
+						"buffer_size": 2251,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/space/dev/work/faem-food/nuxt.config.js",
+					"settings":
+					{
+						"buffer_size": 2075,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/space/dev/work/faem-food/store/stores.js",
+					"settings":
+					{
+						"buffer_size": 1651,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/space/dev/work/faem-food/store/shared.js",
+					"settings":
+					{
+						"buffer_size": 584,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "\n{\n  \"client\": {\n    \"uuid\": null,\n    \"main_phone\": \"+79997776655\"\n  },\n  \"increased_fare\": 0,\n  \"without_delivery\": false,\n  \"comment\": \"\",\n  \"products_input\": [\n    {\n      \"uuid\": \"2ae747cb-e8b7-40e7-89d0-d0ccff706fbf\",\n      \"variant_uuid\": null,\n      \"toppings_uuid\": [\n        \"bd0ff44a-fe53-4321-b059-ce7243ab63f8\"\n      ],\n      \"number\": 1\n    },\n    {\n      \"uuid\": \"2ae747cb-e8b7-40e7-89d0-d0ccff706fbf\",\n      \"variant_uuid\": null,\n      \"toppings_uuid\": [\n        \"ccf3d665-fb75-44ce-9f76-7a3099259dfe\",\n        \"bd0ff44a-fe53-4321-b059-ce7243ab63f8\"\n      ],\n      \"number\": 1\n    },\n    {\n      \"uuid\": \"26968abd-11c3-4e79-b82e-605213f4f632\",\n      \"variant_uuid\": \"d1067fd3-0906-4129-abe1-330a14e6b379\",\n      \"toppings_uuid\": [],\n      \"number\": 1\n    }\n  ],\n  \"routes\": [\n    {\n      \"uuid\": \"7a62e79c-2485-42e4-a494-aee78b97c74f\",\n      \"point_type\": \"public_place\",\n      \"unrestricted_value\": \"Хиба, Владикавказская 35\",\n      \"value\": \"Хиба\",\n      \"country\": \"\",\n      \"region\": \"\",\n      \"region_type\": \"\",\n      \"type\": \"Общественное место\",\n      \"city\": \"Владикавказ\",\n      \"category\": \"Рестораны\",\n      \"city_type\": \"\",\n      \"street\": \"Владикавказская\",\n      \"street_type\": \"\",\n      \"street_with_type\": \"\",\n      \"house\": \"35\",\n      \"front_door\": 0,\n      \"comment\": \"\",\n      \"out_of_town\": false,\n      \"house_type\": \"\",\n      \"accuracy_level\": 0,\n      \"radius\": 10000,\n      \"lat\": 43.0479,\n      \"lon\": 44.6322\n    },\n    {\n      \"uuid\": \"bc713e9d-58c9-4f21-a1c1-ad9669e1e67e\",\n      \"point_type\": \"address\",\n      \"unrestricted_value\": \"Хаджи Мамсурова 42\",\n      \"value\": \"Хаджи Мамсурова 42\",\n      \"country\": \"\",\n      \"region\": \"\",\n      \"region_type\": \"\",\n      \"type\": \"\",\n      \"city\": \"Владикавказ\",\n      \"city_type\": \"\",\n      \"street\": \"Хаджи Мамсурова\",\n      \"street_type\": \"\",\n      \"street_with_type\": \"\",\n      \"house\": \"42\",\n      \"front_door\": 0,\n      \"comment\": \"\",\n      \"out_of_town\": false,\n      \"house_type\": \"\",\n      \"accuracy_level\": 0,\n      \"radius\": 10000,\n      \"lat\": 43.0363,\n      \"lon\": 44.6552\n    }\n  ],\n  \"service_uuid\": \"6b73e9e3-927b-453c-81c4-dfae818291f4\"\n}\n\n\nmessage: \"Internal Server Error\"\n\ncode: 400\nmessage: \"Error creating [Order]. (CreateOrder|144) -> (Create|279)getting user by uuid -> pg: no rows in result set\"",
+					"settings":
+					{
+						"buffer_size": 2306,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "{\n  \"services\": [\n  \t// {\n   //    \"availability_for_driver\": false,\n   //    \"level\": 400,\n   //    \"uuid\": \"44db4a2b-c33b-4323-9ee7-7b4864179192\",\n   //    \"name\": \"Комфорт\",\n   //    \"price_coefficient\": 1.5,\n   //    \"freight\": false,\n   //    \"comment\": \"для тех кто привык к комфорту\",\n   //    \"image\": \"\",\n   //    \"tag\": [\n   //      \"comfort\"\n   //    ]\n   //  },\n    {\n      \"display_priority\": null,\n      \"for_operator_only\": false,\n      \"level\": 999,\n      \"name_for_clients\": null,\n      \"required_features\": null,\n      \"uuid\": \"87100c49-6fb4-426f-918e-7c8a992f0594\",\n      \"name\": \"Дебаг\",\n      \"price_coefficient\": 2,\n      \"freight\": false,\n      \"product_delivery\": false,\n      \"comment\": \"дебаж меня полностью\",\n      \"max_bonus_payment_percent\": 30,\n      \"image\": \"https://storage.googleapis.com/faem-ios-images/econom.png\",\n      \"tag\": [\n        \"debug\"\n      ]\n    },\n    {\n      \"display_priority\": 10,\n      \"for_operator_only\": true,\n      \"level\": 100,\n      \"name_for_clients\": \"\",\n      \"required_features\": [\n        \"7e01d1bd-abbc-48e0-b294-ba5e03fcd7e6\"\n      ],\n      \"uuid\": \"b65d4d24-6df0-4630-a87e-e296447b04c5\",\n      \"name\": \"Стандарт\",\n      \"price_coefficient\": 1.3,\n      \"freight\": false,\n      \"product_delivery\": false,\n      \"comment\": \"золотая середина, для прагматичных\",\n      \"max_bonus_payment_percent\": 30,\n      \"image\": \"https://storage.googleapis.com/faem-ios-images/econom.png\",\n      \"tag\": [\n        \"standart\"\n      ]\n    },\n    {\n      \"display_priority\": 9,\n      \"for_operator_only\": false,\n      \"level\": 300,\n      \"name_for_clients\": null,\n      \"required_features\": null,\n      \"uuid\": \"44db4a2b-c33b-4323-9ee7-7b4864179192\",\n      \"name\": \"Комфорт\",\n      \"price_coefficient\": 1.5,\n      \"freight\": false,\n      \"product_delivery\": false,\n      \"comment\": \"для тех кто привык к комфортуmm.\",\n      \"max_bonus_payment_percent\": 30,\n      \"image\": \"https://storage.googleapis.com/faem-ios-images/comfort.png\",\n      \"tag\": [\n        \"comfort\"\n      ]\n    },\n    {\n      \"display_priority\": 8,\n      \"for_operator_only\": false,\n      \"level\": 0,\n      \"name_for_clients\": null,\n      \"required_features\": null,\n      \"uuid\": \"6b73e9e3-927b-453c-81c4-dfae818291f4\",\n      \"name\": \"Доставка\",\n      \"price_coefficient\": 0,\n      \"freight\": false,\n      \"product_delivery\": true,\n      \"comment\": \"Доставка легковых грузов\",\n      \"max_bonus_payment_percent\": 30,\n      \"image\": \"https://storage.googleapis.com/faem-ios-images/econom.png\",\n      \"tag\": [\n        \"delivery\"\n      ]\n    }\n  ],\n  \"features\": [\n    {\n      \"uuid\": \"a98bc68a-a922-4b8b-8151-b10f08c3862a\",\n      \"name\": \"asd\",\n      \"comment\": \"asd\",\n      \"price\": 12,\n      \"tag\": [\n        \"door_to_door\"\n      ],\n      \"services_uuid\": [\n        \"44db4a2b-c33b-4323-9ee7-7b4864179192\"\n      ]\n    },\n    {\n      \"uuid\": \"9f419503-3101-4a50-9b54-4fd9fc125916\",\n      \"name\": \"Детскоекресло\",\n      \"comment\": \"efve\",\n      \"price\": 2,\n      \"tag\": [\n        \"baby_chair\"\n      ],\n      \"services_uuid\": [\n        \"87100c49-6fb4-426f-918e-7c8a992f0594\",\n        \"b65d4d24-6df0-4630-a87e-e296447b04c5\",\n        \"44db4a2b-c33b-4323-9ee7-7b4864179192\",\n        \"6b73e9e3-927b-453c-81c4-dfae818291f4\"\n      ]\n    },\n    {\n      \"uuid\": \"8209935f-6251-4982-9b02-b2d642418b5e\",\n      \"name\": \"До двери\",\n      \"comment\": \"\",\n      \"price\": 10,\n      \"tag\": [\n        \"door_to_door\"\n      ],\n      \"services_uuid\": [\n        \"6b73e9e3-927b-453c-81c4-dfae818291f4\"\n      ]\n    },\n    {\n      \"uuid\": \"c9b27b7e-c66c-42eb-ac1e-697424162eeb\",\n      \"name\": \"Некурящий\",\n      \"comment\": \"comment for feature #966\",\n      \"price\": 20,\n      \"tag\": [\n        \"non_smoker\"\n      ],\n      \"services_uuid\": [\n        \"44db4a2b-c33b-4323-9ee7-7b4864179192\",\n        \"87100c49-6fb4-426f-918e-7c8a992f0594\",\n        \"b65d4d24-6df0-4630-a87e-e296447b04c5\"\n      ]\n    },\n    {\n      \"uuid\": \"fbdbc41c-65bc-4b56-abd4-2af5768132b1\",\n      \"name\": \"Пустой багажник\",\n      \"comment\": \"comment for feature #631\",\n      \"price\": 10,\n      \"tag\": [\n        \"empty_trunk\"\n      ],\n      \"services_uuid\": [\n        \"87100c49-6fb4-426f-918e-7c8a992f0594\",\n        \"b65d4d24-6df0-4630-a87e-e296447b04c5\",\n        \"44db4a2b-c33b-4323-9ee7-7b4864179192\"\n      ]\n    },\n    {\n      \"uuid\": \"7e01d1bd-abbc-48e0-b294-ba5e03fcd7e6\",\n      \"name\": \"Перевозка животных\",\n      \"comment\": \"\",\n      \"price\": 0,\n      \"tag\": [\n        \"transportation_of_animals\"\n      ],\n      \"services_uuid\": [\n        \"87100c49-6fb4-426f-918e-7c8a992f0594\",\n        \"b65d4d24-6df0-4630-a87e-e296447b04c5\",\n        \"44db4a2b-c33b-4323-9ee7-7b4864179192\"\n      ]\n    },\n    {\n      \"uuid\": \"32342cc3-d29c-4e1d-b4e9-fe74d968aba4\",\n      \"name\": \"До двери\",\n      \"comment\": \"\",\n      \"price\": 20,\n      \"tag\": null,\n      \"services_uuid\": null\n    },\n    {\n      \"uuid\": \"f030e1b9-b55c-4e1e-b34c-0f6efbd3985a\",\n      \"name\": \"ааа\",\n      \"comment\": \"фыв\",\n      \"price\": 112,\n      \"tag\": [\n        \"baby_chair\"\n      ],\n      \"services_uuid\": null\n    }\n  ],\n  \"owners\": [\n    {\n      \"default\": false,\n      \"uuid\": \"8880ae0c-409e-4c86-b908-5e4732974e89\",\n      \"service_uuid\": \"\",\n      \"name\": \"11-11-11\",\n      \"comment\": \"\"\n    },\n    {\n      \"default\": false,\n      \"uuid\": \"86a02d1e-6bde-4ab9-8b71-ea2d4cb75075\",\n      \"service_uuid\": \"b65d4d24-6df0-4630-a87e-e296447b04c5\",\n      \"name\": \"333756\",\n      \"comment\": \"\"\n    },\n    {\n      \"default\": true,\n      \"uuid\": \"653419a3-ac33-4d41-b616-c20dc6f427aa\",\n      \"service_uuid\": \"44db4a2b-c33b-4323-9ee7-7b4864179192\",\n      \"name\": \"33-33-33\",\n      \"comment\": \"\"\n    }\n  ],\n  \"states\": {\n    \"driver_states\": [\n      {\n        \"state_name\": \"available\",\n        \"state_title\": \"Прошел модерацию\"\n      },\n      {\n        \"state_name\": \"blocked\",\n        \"state_title\": \"Заблокирован\"\n      },\n      {\n        \"state_name\": \"on_moderation\",\n        \"state_title\": \"На модерации\"\n      },\n      {\n        \"state_name\": \"online\",\n        \"state_title\": \"Доступен для заказа\"\n      },\n      {\n        \"state_name\": \"working\",\n        \"state_title\": \"Выполняет заказ\"\n      },\n      {\n        \"state_name\": \"offline\",\n        \"state_title\": \"Не готов принимать заказы\"\n      },\n      {\n        \"state_name\": \"driver_created\",\n        \"state_title\": \"Создан\"\n      },\n      {\n        \"state_name\": \"moderation_after_change\",\n        \"state_title\": \"На модерации после изменения данных\"\n      }\n    ],\n    \"driver_states_editable\": [\n      {\n        \"state_name\": \"available\",\n        \"state_title\": \"Прошел модерацию\"\n      },\n      {\n        \"state_name\": \"blocked\",\n        \"state_title\": \"Заблокирован\"\n      }\n    ],\n    \"order_states\": [\n      {\n        \"state_name\": \"order_start\",\n        \"state_title\": \"Выехал к клиенту\"\n      },\n      {\n        \"state_name\": \"on_place\",\n        \"state_title\": \"Ожидает клиента\"\n      },\n      {\n        \"state_name\": \"order_payment\",\n        \"state_title\": \"Оплата заказа\"\n      },\n      {\n        \"state_name\": \"waiting\",\n        \"state_title\": \"Ожидает\"\n      },\n      {\n        \"state_name\": \"offer_accepted\",\n        \"state_title\": \"Принят водителем\"\n      },\n      {\n        \"state_name\": \"driver_not_found\",\n        \"state_title\": \"Авто не найдено\"\n      },\n      {\n        \"state_name\": \"offer_cancelled\",\n        \"state_title\": \"Отменен\"\n      },\n      {\n        \"state_name\": \"finished\",\n        \"state_title\": \"Завершен\"\n      },\n      {\n        \"state_name\": \"cooking\",\n        \"state_title\": \"Заказ готовится\"\n      },\n      {\n        \"state_name\": \"smart_distribution\",\n        \"state_title\": \"Распределение\"\n      },\n      {\n        \"state_name\": \"offer_offered\",\n        \"state_title\": \"Предлагается\"\n      },\n      {\n        \"state_name\": \"on_point\",\n        \"state_title\": \"Доехал до промежуточной точки\"\n      },\n      {\n        \"state_name\": \"order_created\",\n        \"state_title\": \"Заказ создан\"\n      },\n      {\n        \"state_name\": \"finding_driver\",\n        \"state_title\": \"Свобод.\"\n      },\n      {\n        \"state_name\": \"offer_rejected\",\n        \"state_title\": \"Отклонен водителем\"\n      },\n      {\n        \"state_name\": \"transferred_to_store\",\n        \"state_title\": \"Передан заведению\"\n      },\n      {\n        \"state_name\": \"waiting_for_confirmation\",\n        \"state_title\": \"Ожидает подтверждения\"\n      },\n      {\n        \"state_name\": \"on_the_way\",\n        \"state_title\": \"Выполнение заказа\"\n      }\n    ]\n  },\n  \"reasons_for_cancel\": [\n    {\n      \"reason_name\": \"can_not_reach\",\n      \"reason_title\": \"Невозможно дозвониться до клиента\"\n    },\n    {\n      \"reason_name\": \"expired_confirmation_time\",\n      \"reason_title\": \"У заведения нет возможности обработать заказ\"\n    },\n    {\n      \"reason_name\": \"guilt_of_driver\",\n      \"reason_title\": \"По вине водителя\"\n    },\n    {\n      \"reason_name\": \"no_driver\",\n      \"reason_title\": \"Нет водителей\"\n    },\n    {\n      \"reason_name\": \"system_mistake\",\n      \"reason_title\": \"Системная ошибка\"\n    },\n    {\n      \"reason_name\": \"client_canceled_order\",\n      \"reason_title\": \"Клиент отменил заказ\"\n    }\n  ],\n  \"order_sources\": [\n    {\n      \"name\": \"lime\",\n      \"title\": \"Лайм\"\n    },\n    {\n      \"name\": \"deliver_partners\",\n      \"title\": \"Партнерская админка\"\n    },\n    {\n      \"name\": \"android_client_app_1\",\n      \"title\": \"Приложение на Android 1\"\n    },\n    {\n      \"name\": \"ios_client_app_1\",\n      \"title\": \"Приложение на IOS 1\"\n    },\n    {\n      \"name\": \"crm\",\n      \"title\": \"Оператор\"\n    }\n  ],\n  \"driver_groups\": [\n    {\n      \"uuid\": \"1f2999e3-0e30-4d0e-9e6f-3cc972a82a32\",\n      \"name\": \"eeeê\"\n    },\n    {\n      \"uuid\": \"f2377ef9-08b5-4e55-9b0c-9436ee0c3f91\",\n      \"name\": \"123\"\n    },\n    {\n      \"uuid\": \"f3018229-88b9-4a21-b817-268ea046a83f\",\n      \"name\": \"5555\"\n    },\n    {\n      \"uuid\": \"48e3255e-8a43-437c-8e63-6fcdbfa6bb15\",\n      \"name\": \"defaul_driver_group\"\n    },\n    {\n      \"uuid\": \"bbb6a09c-674f-446d-912a-7b3f3edd5ca4\",\n      \"name\": \"test\"\n    },\n    {\n      \"uuid\": \"6f9cb656-9e1e-4cd0-a15e-1ea68d9b68df\",\n      \"name\": \"123\"\n    },\n    {\n      \"uuid\": \"5979c798-949d-47ad-863c-6842360be8a1\",\n      \"name\": \"regular group\"\n    },\n    {\n      \"uuid\": \"52edb196-9d8b-4029-a10b-3206b202080a\",\n      \"name\": \"aye\"\n    },\n    {\n      \"uuid\": \"43586f93-1494-4861-8dc5-30e52dc4faef\",\n      \"name\": \"update group\"\n    },\n    {\n      \"uuid\": \"bc16aed2-1386-4347-aa23-7f4643c59fb5\",\n      \"name\": \"test tarif\"\n    },\n    {\n      \"uuid\": \"064749b5-9590-4883-827c-cac8dc690d2c\",\n      \"name\": \"Арендные машины \"\n    }\n  ]\n}",
+					"settings":
+					{
+						"buffer_size": 10506,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "adding to cart:\n\tif same store -> add product and set store\n\telse ask for adding from new store\n\n",
+					"settings":
+					{
+						"buffer_size": 97,
+						"line_ending": "Unix",
+						"name": "adding to cart:"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"a",
+						"Arithmetic"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"jso",
+						"Set Syntax: JSON"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"vue",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"vu",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"seth",
+						"Set Syntax: HTML"
+					],
+					[
+						"setv",
+						"Set Syntax: Vue Component"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"move",
+						"File: Move"
+					],
+					[
+						"snippetmd",
+						"Snippet: Markdown Header 1"
+					],
+					[
+						"ht",
+						"Set Syntax: HTML"
+					],
+					[
+						"jsu",
+						"Set Syntax: JavaScript Ultimate"
+					],
+					[
+						"htm",
+						"Set Syntax: HTML"
+					],
+					[
+						"ren",
+						"ANF: Rename File"
+					],
+					[
+						"browser",
+						"File: Open In Browser - Production Server"
+					],
+					[
+						"brow",
+						"File: Open In Browser - Production Server"
+					],
+					[
+						"line",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"l",
+						"File: Locate"
+					],
+					[
+						"fuep",
+						"Snippet: function as a property of an object"
+					],
+					[
+						"prv",
+						"PackageResourceViewer: Extract Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"conso",
+						"Console Wrap: Remove logs"
+					],
+					[
+						"mustache",
+						"Snippet: Mustache Loop"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"mus",
+						"Set Syntax: HTML with mustaches"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"console",
+						"Console Wrap: Create logs"
+					],
+					[
+						"codetime",
+						"Code Time Dashboard"
+					],
+					[
+						"doc",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"repa",
+						"DocBlockr: Reparse comment block"
+					],
+					[
+						"docbl",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"do",
+						"DocBlockr: Decorate line comment"
+					],
+					[
+						"param",
+						"Snippet: createPattern(img,repeat)"
+					],
+					[
+						"i",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"enab",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"LiveReload: Enable/disable plugins",
+						"LiveReload: Enable/disable plug-ins"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"w",
+						"Word Wrap: Toggle"
+					],
+					[
+						"copy",
+						"File: Copy Name"
+					],
+					[
+						"path",
+						"File: Copy Path"
+					],
+					[
+						"rena",
+						"Rename File"
+					],
+					[
+						"the",
+						"UI: Select Theme"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 440.0,
+				"history":
+				[
+					"sublime.log_input(True)",
+					"sublime.log_commands(True)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/space/dev/work/faem-food",
+				"/home/space/dev/work/faem-food/config",
+				"/home/space/dev/work/faem-food/layouts",
+				"/home/space/dev/work/faem-food/pages",
+				"/home/space/dev/work/faem-food/pages/store",
+				"/home/space/dev/work/faem-food/pages/store/_uuid",
+				"/home/space/dev/work/faem-food/store"
+			],
+			"file_history":
+			[
+				"/home/space/dev/work/faem-food/pages/index.vue",
+				"/home/space/dev/work/faem-food/layouts/def.vue",
+				"/home/space/dev/work/faem-food/layouts/default.vue",
+				"/home/space/dev/work/faem-food/nuxt.config.js",
+				"/home/space/Documents/mac.txt",
+				"/media/space/3098-10EC/.File_SafeBox/_本目录下文件非常重要,请勿删除",
+				"/home/space/dev/work/faem-food/.nuxt/router.js",
+				"/home/space/dev/work/faem-food/.nuxt/index.js",
+				"/home/space/dev/work/faem-food/pages/store/_uuid/index.vue",
+				"/home/space/dev/work/faem-food/config/index.js",
+				"/home/space/dev/work/faem-food/store/shared.js",
+				"/home/space/dev/work/faem-food/config/dev.env.js",
+				"/home/space/dev/work/faem-food/config/prod.env.js",
+				"/home/space/dev/work/faem-food/store/index.js",
+				"/home/space/dev/work/faem-food/store/stores.js",
+				"/home/space/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+				"/home/space/dev/work/faem-food/TODO",
+				"/home/space/dev/work/faem-food/plugins/stickySidebar.js",
+				"/home/space/dev/work/faem-food/plugins/stickySidebar.client.js",
+				"/home/space/dev/work/faem-food/stickySidebar",
+				"/home/space/dev/work/faem-food/plugins/sticky-sidebar.js",
+				"/home/space/dev/work/faem-food/plugins/sicky-sidebar.js",
+				"/home/space/dev/work/faem-food/plugins/sticky-sidebar.client.js",
+				"/home/space/dev/work/faem-food/package.json",
+				"/home/space/dev/work/faem-food/pages/store/index.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/QuickMessages.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/NewQuickMessage.vue",
+				"/home/space/dev/work/admin-ui/src/store/quickMessages.js",
+				"/home/space/dev/work/admin-ui/src/components/orders/NewOrder.vue",
+				"/home/space/dev/work/admin-ui/src/store/clients.js",
+				"/home/space/dev/work/admin-ui/src/store/promotions.js",
+				"/home/space/dev/work/admin-ui/src/store/orders.js",
+				"/home/space/dev/work/admin-ui/src/store/driversNews.js",
+				"/home/space/dev/work/admin-ui/src/components/driversnews/DriversNews.vue",
+				"/home/space/dev/work/admin-ui/src/components/driversnews/DriversNewsItem.vue",
+				"/home/space/dev/work/admin-ui/NewQuickMessage.vue",
+				"/home/space/dev/work/admin-ui/src/components/quickmessages/NewQuickMassage.vue",
+				"/home/space/dev/work/admin-ui/src/App.vue",
+				"/home/space/dev/work/admin-ui/src/store/index.js",
+				"/home/space/dev/work/admin-ui/src/router/index.js",
+				"/home/space/dev/work/admin-ui/src/main.js",
+				"/home/space/dev/work/admin-ui/src/components/mailing/Mailing.vue",
+				"/home/space/dev/js/vue-lessons/6/index.js",
+				"/home/space/dev/js/vue-lessons/6/index.html",
+				"/home/space/dev/js/vue-lessons/5/index.html",
+				"/home/space/dev/js/vue-lessons/5/index.js",
+				"/home/space/dev/js/vue-lessons/4/index.html",
+				"/home/space/dev/js/vue-lessons/4/index.js",
+				"/home/space/dev/js/vue-lessons/3/index.html",
+				"/home/space/dev/js/vue-lessons/3/index.js",
+				"/home/space/dev/js/vue-lessons/1/index.html",
+				"/home/space/dev/js/vue-lessons/2/index.html",
+				"/home/space/dev/js/vue-lessons/2/index.js",
+				"/home/space/dev/js/vue-lessons/1/index.js",
+				"/home/space/Downloads/E.1750_fruit-loops_2019-06-20.zip",
+				"/home/space/dev/js/diplomas/elite d/index.html",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/character.json",
+				"/home/space/dev/js/diplomas/stas/diploma/webpack.config.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/i.css",
+				"/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+				"/home/space/dev/js/diplomas/stas/diploma/package.json",
+				"/home/space/dev/js/diplomas/stas/diploma/README.md",
+				"/home/space/dev/js/diplomas/rusik/tileset.png",
+				"/home/space/dev/js/diplomas/rusik/contra/assets/tilemap.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map1.json",
+				"/home/space/dev/js/diplomas/rusik/tileset.json",
+				"/home/space/dev/js/diplomas/rusik/contra/assets/coin.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/snow/snow.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/sand/sand.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/map.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/snow/snow.json",
+				"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/sand.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/desert.json",
+				"/home/space/dev/js/diplomas/stas/diploma/sms.html",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters_old.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/InputManager.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/Input.js",
+				"/home/space/dev/js/diplomas/stas/diploma/i.html",
+				"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client/data/img/sprite/bad-guys.json",
+				"/home/space/dev/js/diplomas/stas/diploma/islands.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/grassIsland.json",
+				"/home/space/dev/js/diplomas/stas/diploma/src/lib/pixijs-tool.js",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters.png",
+				"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/expl.json",
+				"/home/space/dev/js/diplomas/stas/Interactive-site/Json/assets_characters.json",
+				"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+				"/home/space/.local/share/Trash/files/i.html",
+				"/home/space/dev/js/diplomas/stas/diploma/dist",
+				"/home/space/Music/untitled",
+				"/tmp/.fr-FcJ6j1/README.txt",
+				"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+				"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+				"/home/space/dev/js/games/monopoly/modules/room.js",
+				"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+				"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+				"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+				"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+				"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+				"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+				"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+				"/home/space/Downloads/iframe.html",
+				"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+				"/home/space/Downloads/message.txt",
+				"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+				"/home/space/Downloads/message.html",
+				"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+				"/home/space/dev/js/games/monopoly/package.json",
+				"/home/space/dev/js/games/monopoly/modules/player.js",
+				"/home/space/dev/js/games/monopoly/client/index.html",
+				"/home/space/dev/js/games/monopoly/.gitignore",
+				"/home/space/dev/js/games/monopoly/client/js/game.js",
+				"/home/space/dev/js/games/monopoly/client/js/main.js",
+				"/home/space/dev/js/games/monopoly/index.html",
+				"/home/space/dev/js/games/monopoly/main.js",
+				"/home/space/dev/js/games/monopoly/example.html",
+				"/home/space/dev/js/games/monopoly/style.css",
+				"/home/space/.software/CodeTime.txt",
+				"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+				"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+				"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+				"/home/space/dev/js/games/neonBlast/index.html",
+				"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js"
+			],
+			"find":
+			{
+				"height": 54.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"span",
+					"cartIsEmpty",
+					"setStore",
+					" ",
+					"currentStore",
+					"  setStore (state, payload) {\n    state.currentStore = payload\n  },\n",
+					"no-ssr",
+					"console",
+					"cart",
+					"state.",
+					"addToCart",
+					"add2Cart",
+					"this",
+					"product.",
+					"product",
+					"default",
+					"\nmacbook pro",
+					"@",
+					"\">",
+					"nuxt",
+					"config/",
+					"config",
+					"\"",
+					"toppingsUuids",
+					"state.",
+					"owners",
+					",\n\n  owners: (state) => {\n    if (state.owners) {\n      return state.owners\n    }\n  }",
+					"products",
+					",",
+					",\t",
+					"\\\\",
+					"formLabelAlign",
+					"idx",
+					"this.dialogData",
+					"scrollTo",
+					"variant",
+					"Variant",
+					"variant",
+					"Variant",
+					"variant",
+					",",
+					"v.",
+					"variant",
+					"a.",
+					"dialogData",
+					"toppings",
+					"\" @",
+					"\">",
+					"fullP",
+					"name",
+					"p.category",
+					"groupped",
+					"store",
+					".get",
+					"}\n\n",
+					"\n.",
+					"\n",
+					",",
+					":"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"\t"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/space/dev/work/faem-food"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/space/dev/work/faem-food/pages/store/_uuid/index.vue",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16031,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14174,
+										14174
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"git_savvy.repo_path": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 8729.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/space/dev/work/faem-food/store/order.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2251,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1003,
+										1003
+									]
+								],
+								"settings":
+								{
+									"_anf_new": "",
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												1230,
+												1231
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"region.purplish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												1001,
+												1002
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"git_savvy.repo_path": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 571.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/space/dev/work/faem-food/nuxt.config.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2075,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1563,
+										1563
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												1563,
+												1564
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/single_quote.png",
+												"region.greenish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												1546,
+												1547
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"git_savvy.repo_path": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 725.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/space/dev/work/faem-food/store/stores.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1651,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										936,
+										936
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												947,
+												948
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"region.purplish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												782,
+												783
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"git_savvy.repo_path": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 182.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/space/dev/work/faem-food/store/shared.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 584,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										262,
+										262
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												296,
+												297
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/round_bracket.png",
+												"region.yellowish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												260,
+												261
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"git_savvy.repo_path": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 51.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2306,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"auto_name": "",
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"default_dir": "/home/space/dev/work/faem-food",
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10506,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										607,
+										607
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												894,
+												895
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"region.purplish"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												378,
+												379
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"default_dir": "/home/space/dev/work/faem-food/store",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 7,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 97,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										97,
+										97
+									]
+								],
+								"settings":
+								{
+									"auto_name": "adding to cart:",
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"default_dir": "/home/space/dev/work/faem-food/store",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 51.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.568087606788,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 144.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 0.0
+			},
+			"output.YAMLMacros":
+			{
+				"height": 144.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "1,0,0,0,0,20,41,1900,1060,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						".vue",
+						"src/components/mailing/Mailing.vue"
+					],
+					[
+						"w",
+						"webpack.config.js"
+					],
+					[
+						"in",
+						"client/index.html"
+					],
+					[
+						"i",
+						"client/index.html"
+					],
+					[
+						"",
+						"index.html"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 500.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 380.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"last_automatic_layout":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				]
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 241.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 78,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/stas.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/contra.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/r.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/neonBlast.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/monopoly.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/bombers.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/mbt.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/pcs2-17.sublime-workspace",
+			"/home/space/.config/sublime-text-3/Packages/User/Projects/cashminer.sublime-workspace"
+		]
+	}
+}

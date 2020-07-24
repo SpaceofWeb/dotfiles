@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		"hgn",
+		"hjs",
+		"mst",
+		"mustache"
+	]
+}

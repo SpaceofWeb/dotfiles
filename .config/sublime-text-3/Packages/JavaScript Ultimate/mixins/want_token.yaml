@@ -1,0 +1,20 @@
+%%name%%:
+  - match: '{{some_space}}'
+  - match: '{{line_terminator}}'
+    set:
+      - match: '{{non_token}}'
+      %%~overrideNewline%%
+      %%~override%%
+      - match: '%%match%%'
+        set: %%goto%%
+        %%~matchExtra%%
+      - match: '{{otherwise}}'
+        pop: true
+  %%~overrideFirstLine%%
+  %%~override%%
+  - match: '%%match%%'
+    set: %%goto%%
+    %%~matchExtra%%
+  - match: '%%exitMatch%%'
+    pop: true
+  - include: otherwise_invalid

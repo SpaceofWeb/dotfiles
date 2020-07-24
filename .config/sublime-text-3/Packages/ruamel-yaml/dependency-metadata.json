@@ -1,0 +1,1 @@
+{"platforms": ["*"], "url": "https://github.com/Thom1729/sublime-ruamel/issues", "sublime_text": ">=3000", "description": "Python ruamel.yaml module", "version": "1.2.0"}

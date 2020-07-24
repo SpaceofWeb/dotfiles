@@ -1,0 +1,366 @@
+%%name%%:
+  - match: '{{non_token}}'
+  %%~possibleExit%%
+  %%~override%%
+  - include: block_statement
+  - include: _variable_statement__%%name%%
+  - include: _function_declaration__%%name%%
+  - include: _class_declaration__%%name%%
+  - include: _if_statement__%%name%%
+  - include: _with_or_while_statement__%%name%%
+  - include: _do_statement__%%name%%
+  - include: _for_statement__%%name%%
+  - include: _switch_statement__%%name%%
+  - include: _try_statement__%%name%%
+  - include: _goto_statement__%%name%%
+  - include: _termination_statement__%%name%%
+  - include: _debugger_statement__%%name%%
+  - include: _labelled_statement__%%name%%
+  - match: ';'
+    pop: true
+  - match: '{{otherwise}}'
+    set: _expression_until_end_of_statement__%%name%%
+
+_expression_until_end_of_statement__%%name%%: {mixin: open_ended_expression, exitMatch: '%%statementExit%%'}
+_expression_until_variable_binding__%%name%%: {mixin: open_ended_expression, exitMatch: '%%statementExit%%', alternatively: {match: ',', set: _variable_statement_want_binding__%%name%%}, alternativelyLookahead: {match: '(?=,)', pop: true}}
+_end_of_statement__%%name%%:
+  - match: '{{statement_terminator}}'
+    pop: true
+  %%~possibleExit%%
+  - include: otherwise_invalid
+
+_variable_statement__%%name%%:
+  - match: '{{b_before}}(?:var|let|const){{b_after}}'
+    scope: storage.type.js
+    set: _variable_statement_want_binding__%%name%%
+
+_variable_statement_want_binding__%%name%%:
+  mixin: want_token
+  match: '(?=\{|\[|{{ident}})'
+  overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}(?!%%statementExit%%)[^=,{{line_terminator_chars}}])', pop: true}
+  exitMatch: '%%statementExit%%'
+  goto: '[_variable_initializer__%%name%%, variable_binding]'
+
+_variable_initializer__%%name%%:
+  - match: '(?<=[}\]])'
+    set:
+      - match: '{{line_terminator}}'
+        set: _variable_initializer_likely_candidates__%%name%%
+      - include: _variable_initializer_likely_candidates__%%name%%
+      - include: otherwise_invalid
+  - match: '{{otherwise}}'
+    set: _variable_statement_want_continue__%%name%%
+
+_variable_initializer_likely_candidates__%%name%%:
+  - match: '='
+    scope: keyword.operator.js
+    set: _expression_until_variable_binding__%%name%%
+  - match: ';'
+    scope: invalid.illegal.js
+    pop: true
+  - match: ','
+    scope: invalid.illegal.js
+    set: _variable_statement_want_binding__%%name%%
+
+_variable_statement_want_continue__%%name%%:
+  mixin: want_token
+  match: '(?=[;=,])'
+  exitMatch: '%%statementExit%%'
+  goto: '_variable_statement_continue__%%name%%'
+
+_variable_statement_continue__%%name%%:
+  - match: ';'
+    pop: true
+  - match: '='
+    scope: keyword.operator.js
+    set: _expression_until_variable_binding__%%name%%
+  - match: ','
+    set: _variable_statement_want_binding__%%name%%
+
+_function_declaration__%%name%%:
+  - match: '{{b_before}}(?:(async){{some_space}})?+(function)(?:(\*)|{{b_after}})'
+    captures: {1: storage.modifier.js, 2: storage.type.js, 3: keyword.operator.js}
+    set: _function_declaration_want_name__%%name%%
+
+_function_declaration_want_name__%%name%%:
+  mixin: want_token
+  match: '(?={{ident}})'
+  overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}(?!%%statementExit%%)[^({{line_terminator_chars}}])', pop: true}
+  exitMatch: '%%statementExit%%'
+  goto: '[_function_declaration_want_parenthesis__%%name%%, _declaration_name__%%name%%]'
+
+_declaration_name__%%name%%:
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    pop: true
+  - match: '{{ident}}'
+    scope: entity.name.function.js
+    pop: true
+
+_function_declaration_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '[_function_declaration_want_curly_bracket__%%name%%, parameter_binding_list]'
+
+_function_declaration_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '(?=\{)'
+  exitMatch: '%%statementExit%%'
+  goto: 'block_statement'
+
+_class_declaration__%%name%%:
+  - match: '{{b_before}}class{{b_after}}'
+    scope: storage.type.js
+    set: _class_declaration_want_name__%%name%%
+
+_class_declaration_want_name__%%name%%:
+  mixin: want_token
+  match: '(?={{ident}})'
+  overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}(?!%%statementExit%%)[^{e{{line_terminator_chars}}])', pop: true}
+  exitMatch: '%%statementExit%%'
+  goto: '[_class_declaration_want_curly_bracket_or_extends__%%name%%, _declaration_name__%%name%%]'
+
+_class_declaration_want_curly_bracket_or_extends__%%name%%:
+  mixin: want_token
+  match: '(?=\{|{{b_before}}extends{{b_after}})'
+  overrideFirstLine: {match: '{{b_before}}(?:extend|exten|exte|ext|ex|e){{to_token}}{{b_after}}'}
+  exitMatch: '%%statementExit%%'
+  goto: '_class_declaration_curly_bracket_or_extends__%%name%%'
+
+_class_declaration_curly_bracket_or_extends__%%name%%:
+  - match: '\{'
+    set: _class_block
+  - match: '{{b_before}}extends{{b_after}}'
+    scope: storage.modifier.js
+    set: _class_declaration_want_inheritance__%%name%%
+
+_class_declaration_want_inheritance__%%name%%:
+  mixin: want_token
+  match: '(?={{ident}})'
+  overrideNewline: {match: '(?={{statement_keyword_all}}|{{ident}}{{to_token}}(?!%%statementExit%%)[^{{{line_terminator_chars}}])', pop: true}
+  override: {match: '\{', scope: invalid.illegal.js, set: _class_block}
+  exitMatch: '%%statementExit%%'
+  goto: '[_class_declaration_want_curly_bracket__%%name%%, _declaration_name__%%name%%]'
+
+_class_declaration_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '\{'
+  exitMatch: '%%statementExit%%'
+  goto: '_class_block'
+
+_if_statement__%%name%%:
+  - match: '{{b_before}}if{{b_after}}'
+    scope: keyword.control.js
+    set: _if_statement_want_parenthesis__%%name%%
+
+_if_statement_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '[_if_statement_possible_exit__%%name%%, expression_until_parenthesis]'
+
+_if_statement_possible_exit__%%name%%:
+  - match: '{{non_token}}'
+  %%~possibleExit%%
+  - match: '{{otherwise}}'
+    set: [_optional_else_statement__%%name%%, %%self%%]
+
+_optional_else_statement__%%name%%:
+  - match: '{{non_token}}'
+  - match: '{{b_before}}else{{b_after}}'
+    scope: keyword.control.js
+    set: %%self%%
+  - match: '{{otherwise}}'
+    pop: true
+
+_with_or_while_statement__%%name%%:
+  - match: '{{b_before}}(?:while|with){{b_after}}'
+    scope: keyword.control.js
+    set: _with_or_while_statement_want_parenthesis__%%name%%
+
+_with_or_while_statement_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '[%%self%%, expression_until_parenthesis]'
+
+_do_statement__%%name%%:
+  - match: '{{b_before}}do{{b_after}}'
+    scope: keyword.control.js
+    set: _do_statement_possible_exit__%%name%%
+
+_do_statement_possible_exit__%%name%%:
+  - match: '{{non_token}}'
+  %%~possibleExit%%
+  - match: '{{otherwise}}'
+    set: [_do_while, %%self%%]
+
+_do_while:
+  - match: '{{b_before}}while{{b_after}}'
+    scope: keyword.control.js
+    set: _do_while_want_parenthesis
+
+_do_while_want_parenthesis:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: 'expression_until_parenthesis'
+
+_for_statement__%%name%%:
+  - match: '{{b_before}}for{{b_after}}'
+    scope: keyword.control.js
+    set: _for_statement_want_parenthesis__%%name%%
+
+_for_statement_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '_for_statement_first_section__%%name%%'
+
+_for_statement_first_section__%%name%%:
+  - match: '{{non_token}}'
+  - match: '\)'
+    set: %%self%%
+  - match: '{{b_before}}(?:var|let|const){{b_after}}'
+    scope: storage.type.js
+    set: [_for_statement_interpret_binding__%%name%%, variable_binding_for_for_statement]
+  - match: ';'
+    set: [%%self%%, expression_until_parenthesis, expression_until_for_statement_third_section]
+  - match: '{{otherwise}}'
+    set: [_for_statement_interpret_expression__%%name%%, _for_statement_first_expression]
+
+_for_statement_interpret_expression__%%name%%:
+  - match: '\)'
+    set: %%self%%
+  - match: ';'
+    set: [%%self%%, expression_until_parenthesis, expression_until_for_statement_third_section]
+  - match: '{{b_before}}(?:of|in){{b_after}}'
+    scope: keyword.operator.js
+    set: [%%self%%, expression_until_parenthesis]
+
+_for_statement_interpret_binding__%%name%%:
+  - match: '\)'
+    set: %%self%%
+  - match: '='
+    scope: keyword.operator.js
+    set: [_for_statement_variable_binding_continuation__%%name%%, expression_until_for_binding]
+  - match: ','
+    set: [_for_statement_variable_binding_continuation__%%name%%, variable_binding_for_for_statement]
+  - match: ';'
+    set: [%%self%%, expression_until_parenthesis, expression_until_for_statement_third_section]
+  - match: '{{b_before}}(?:of|in){{b_after}}'
+    scope: keyword.operator.js
+    set: [%%self%%, expression_until_parenthesis]
+  - include: otherwise_invalid
+
+_for_statement_variable_binding_continuation__%%name%%:
+  - match: '\)'
+    set: %%self%%
+  - match: '='
+    scope: keyword.operator.js
+    push: expression_until_for_binding
+  - match: ','
+    push: variable_binding_for_for_statement
+  - match: ';'
+    set: [%%self%%, expression_until_parenthesis, expression_until_for_statement_third_section]
+  - include: otherwise_invalid
+
+_switch_statement__%%name%%:
+  - match: '{{b_before}}switch{{b_after}}'
+    scope: keyword.control.js
+    set: _switch_statement_want_parenthesis__%%name%%
+
+_switch_statement_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '[_switch_statement_want_curly_bracket__%%name%%, expression_until_parenthesis]'
+
+_switch_statement_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '\{'
+  exitMatch: '%%statementExit%%'
+  goto: '_switch_statement_block'
+
+_try_statement__%%name%%:
+  - match: '{{b_before}}try{{b_after}}'
+    scope: keyword.control.js
+    set: _try_statement_want_curly_bracket__%%name%%
+
+_try_statement_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '(?=\{)'
+  exitMatch: '%%statementExit%%'
+  goto: '[_catch_or_finally_statement__%%name%%, block_statement]'
+
+_catch_or_finally_statement__%%name%%:
+  - include: _finally_statement__%%name%%
+  - match: '{{b_before}}catch{{b_after}}'
+    scope: keyword.control.js
+    set: _catch_statement_want_parenthesis__%%name%%
+
+_catch_statement_want_parenthesis__%%name%%:
+  mixin: want_token
+  match: '\('
+  exitMatch: '%%statementExit%%'
+  goto: '[_catch_statement_want_curly_bracket__%%name%%, parameter_binding_until_parenthesis]'
+
+_catch_statement_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '(?=\{)'
+  exitMatch: '%%statementExit%%'
+  goto: '[_optional_finally_statement__%%name%%, block_statement]'
+
+_optional_finally_statement__%%name%%:
+  - match: '{{non_token}}'
+  - include: _finally_statement__%%name%%
+  - match: '{{otherwise}}'
+    pop: true
+
+_finally_statement__%%name%%:
+  - match: '{{b_before}}finally{{b_after}}'
+    scope: keyword.control.js
+    set: _finally_statement_want_curly_bracket__%%name%%
+
+_finally_statement_want_curly_bracket__%%name%%:
+  mixin: want_token
+  match: '(?=\{)'
+  exitMatch: '%%statementExit%%'
+  goto: 'block_statement'
+
+_goto_statement__%%name%%:
+  - match: '{{b_before}}(?:break|continue){{b_after}}'
+    scope: keyword.control.js
+    set:
+      - match: '{{reserved_word}}'
+        scope: invalid.illegal.js
+        set: _end_of_statement__%%name%%
+      - match: '{{ident}}'
+        scope: entity.name.section.js
+        set: _end_of_statement__%%name%%
+      - include: _end_of_statement__%%name%%
+
+_termination_statement__%%name%%:
+  - match: '{{b_before}}(?:return|throw){{b_after}}'
+    scope: keyword.control.js
+    set:
+      - match: '{{to_token}}{{statement_terminator}}'
+        pop: true
+      - match: '{{otherwise}}'
+        set: _expression_until_end_of_statement__%%name%%
+
+_debugger_statement__%%name%%:
+  - match: '{{b_before}}debugger{{b_after}}'
+    scope: keyword.control.js
+    set: _end_of_statement__%%name%%
+
+_labelled_statement__%%name%%: # this doesn't extend through new lines
+  - match: '({{reserved_word}}){{to_token}}:'
+    captures:
+      1: invalid.illegal.js
+    set: %%self%%
+  - match: '({{ident}}){{to_token}}:'
+    captures:
+      1: entity.name.section.js
+    set: %%self%%

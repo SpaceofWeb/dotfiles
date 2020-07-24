@@ -1,0 +1,714 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/space/dev/js/cashminer/server.js",
+			"settings":
+			{
+				"buffer_size": 1129,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "let stdin = process.openStdin();\n\n\nlet a = null,\n\t\tb = null,\n\t\tc = null,\n\t\td = null;\n\n\nstdin.addListener('data', data => {\n\tif (a === null) {\n\t\ta = parseFloat(data);\n\t\treturn;\n\t} else if (b === null) {\n\t\tb = parseFloat(data);\n\t\treturn;\n\t} else if (c === null) {\n\t\tc = parseFloat(data);\n\t\treturn;\n\t} else if (d === null) {\n\t\td = parseFloat(data);\n\t\treturn;\n\n\n\t\tlet x = c - a,\n\t\t\t\ty = d - b;\n\t\tlet mag = Math.sqrt(x**2 + y**2);\n\n\t\tconsole.log(`Mag=${mag}`);\n\n\t\ta = b = c = d = null;\n\t}\n});\n\n\n\n",
+			"file": "/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n3.js",
+			"file_size": 491,
+			"file_write_time": 132132837153950051,
+			"settings":
+			{
+				"buffer_size": 491,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/js/cashminer"
+	],
+	"file_history":
+	[
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n1.js",
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n2.js",
+		"/home/space/dev/js/cashminer/server.js",
+		"/home/space/Downloads/phantomjs-2.1.1-linux-x86_64/README.md",
+		"/home/space/.cache/.fr-e8QLpr/readme.txt",
+		"/home/space/Downloads/macerator.ini",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/CustomRecipes.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/items.csv",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/objects.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/main.cfg",
+		"/home/space/Games/m/.tl/config/advanced_solar_panels_MTRecipes.cfg",
+		"/home/space/Games/m/.tl/config/armorstatushud.cfg",
+		"/home/space/Games/m/.tl/config/betterfps.json",
+		"/home/space/Games/m/.tl/config/bspkrscore.cfg",
+		"/home/space/Games/m/.tl/config/carpentersblocks.cfg",
+		"/home/space/Games/m/.tl/config/ChickenChunks.cfg",
+		"/home/space/Games/m/.tl/config/codechickenlib.cfg",
+		"/home/space/Games/m/.tl/config/compactstorage.cfg",
+		"/home/space/Games/m/.tl/config/cqrepoured.cfg",
+		"/home/space/Games/m/.tl/config/energyconverters.cfg",
+		"/home/space/Games/m/.tl/config/forge.cfg",
+		"/home/space/Games/m/.tl/config/forgeChunkLoading.cfg",
+		"/home/space/Games/m/.tl/config/gravisuite.cfg",
+		"/home/space/Games/m/.tl/config/growablecells.cfg",
+		"/home/space/Games/m/.tl/config/IC2.ini",
+		"/home/space/Games/m/.tl/config/igwmod.cfg",
+		"/home/space/Games/m/.tl/config/microblocks.cfg",
+		"/home/space/Games/m/.tl/config/MrTJPCore.cfg",
+		"/home/space/Games/m/.tl/config/multipart.cfg",
+		"/home/space/Games/m/.tl/config/placebo.cfg",
+		"/home/space/Games/m/.tl/config/splash.properties",
+		"/home/space/Games/m/.tl/config/statuseffecthud.cfg",
+		"/home/space/Games/m/.tl/config/treecapitator.cfg",
+		"/home/space/Games/m/.tl/config/undergroundbiomes.cfg",
+		"/home/space/Games/m/.tl/config/UniqueNames.txt",
+		"/home/space/Games/m/.tl/config/versionchecker.cfg",
+		"/home/space/Games/m/.tl/config/wawla.cfg",
+		"/home/space/Games/m/.tl/config/wtfic2addon.cfg",
+		"/home/space/Games/m/.tl/config/xaerominimap.txt",
+		"/home/space/Games/m/.tl/config/xaeropatreon.txt",
+		"/home/space/Games/m/.tl/config/xaeroworldmap.txt",
+		"/home/space/Games/m/.tl/config/advanced_solar_panels.cfg",
+		"/home/space/Games/m/.tl/config/waila/waila.cfg",
+		"/home/space/Games/m/.tl/config/uteamcore/client.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/blocks.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/client.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/entities.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/items.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/modules.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/railcraft.cfg",
+		"/home/space/Games/m/.tl/config/NEI/client.cfg",
+		"/home/space/Games/m/.tl/config/jei/bookmarks.ini",
+		"/home/space/Games/m/.tl/config/jei/itemBlacklist.cfg",
+		"/home/space/Games/m/.tl/config/jei/jei.cfg",
+		"/home/space/Games/m/.tl/config/jei/searchColors.cfg",
+		"/home/space/Games/m/.tl/config/jei/worldSettings.cfg",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaks.cfg",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaksRules.txt",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaksTree.txt",
+		"/home/space/Games/m/.tl/config/forgeendertech/forgeendertech.cfg",
+		"/home/space/Games/m/.tl/config/forestry/apiculture.cfg",
+		"/home/space/Games/m/.tl/config/forestry/arboriculture.cfg",
+		"/home/space/Games/m/.tl/config/forestry/backpacks.cfg",
+		"/home/space/Games/m/.tl/config/forestry/common.cfg",
+		"/home/space/Games/m/.tl/config/forestry/crates.cfg",
+		"/home/space/Games/m/.tl/config/forestry/farm.cfg",
+		"/home/space/Games/m/.tl/config/forestry/fluids.cfg",
+		"/home/space/Games/m/.tl/config/forestry/lepidopterology.cfg",
+		"/home/space/Games/m/.tl/config/forestry/modules.cfg",
+		"/home/space/Games/m/.tl/config/CQR/lootconfigs/treasure_chest.prop",
+		"/home/space/Games/m/.tl/config/CQR/lootconfigs/material_chest.prop",
+		"/home/space/Games/m/.tl/config/CQR/lootconfigs/tools_chest.prop",
+		"/home/space/Games/m/.tl/config/compacter/client.config",
+		"/home/space/Games/m/.tl/config/compacter/readme.txt",
+		"/home/space/Games/m/.tl/config/buildcraft/detailed.properties",
+		"/home/space/Games/m/.tl/config/aroma1997/tatw.cfg",
+		"/home/space/Games/m/.tl/config/aroma1997/betterchests.cfg",
+		"/home/space/Games/m/.tl/config/aroma1997/aroma1997sdimension_gen.json",
+		"/home/space/Games/m/.tl/config/aroma1997/aroma1997sdimension.cfg",
+		"/home/space/Games/m/.tl/config/aroma1997/aroma1997core.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/extracells.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/Facades.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/VersionChecker.cfg",
+		"/home/space/Games/m/.tl/config/AE2Stuff/readme.txt",
+		"/home/space/Games/m/.tl/config/adlods/Deposits/iridium.cfg",
+		"/home/space/Games/m/.tl/config/adlods/VanillaGen/iron.cfg",
+		"/home/space/Games/m/.tl/config/adlods/adlods.cfg"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mtsCaptchaImgNode",
+			"mtsCaptchaNode",
+			"mtsCaptcha"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/space/dev/js/cashminer/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										602,
+										603
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										591,
+										592
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										110,
+										111
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										105,
+										106
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										110,
+										111
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										105,
+										106
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cashminer.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

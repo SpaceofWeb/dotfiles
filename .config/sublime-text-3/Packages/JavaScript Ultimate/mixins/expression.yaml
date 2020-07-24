@@ -1,0 +1,353 @@
+%%name%%:
+  %%~beforeAnything%%
+  - match: '{{otherwise}}'
+    set: [_secondary__%%name%%, _primary__%%name%%]
+
+_primary_parts__%%name%%:
+  - include: _arrow_function_expression__%%name%%
+  - include: parenthesized_expression
+  - include: string_literal
+  - include: template_literal
+  - include: regular_expression_literal
+  - include: numeric_literal
+  - include: array_literal
+  - include: object_literal
+  - include: _function_expression__%%name%%
+  - include: _class_expression__%%name%%
+  - include: language_constant
+  - include: language_variable
+  - include: _new_keyword__%%name%%
+  - include: _prefix_operators__%%name%%
+  - include: _unary_operators__%%name%%
+
+_primary__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~override%%
+  %%~overridePrimary%%
+  - include: _primary_parts__%%name%%
+  - include: reserved_word_reference
+  - include: identifier_reference
+  - include: otherwise_invalid
+
+_primary_or_block_statement__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~override%%
+  %%~overridePrimaryOrBlockStatement%%
+  %%~overridePrimary%%
+  - match: '(?=\{)'
+    set: block_statement
+  - include: _primary_parts__%%name%%
+  - include: reserved_word_reference
+  - include: identifier_reference
+  - include: otherwise_invalid
+
+_new_keyword__%%name%%:
+  - match: '{{b_before}}new{{b_after}}'
+    scope: keyword.operator.js
+    set:
+      - match: '{{some_space}}'
+      - match: '(?=%%exitMatch%%)'
+        pop: true
+      - match: '\.'
+        scope: keyword.operator.js
+        set: _new_target__%%name%%
+      - include: _class_name_shallow__%%name%%
+
+_new_target__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideNewTarget%%
+  - match: '{{b_before}}target{{b_after}}'
+    scope: support.class.js
+    pop: true
+  - match: '{{b_before}}(?:t|ta|tar|targ|targe){{b_after}}'
+    pop: true
+  - match: '{{ident}}'
+    scope: invalid.illegal.js
+    pop: true
+  - include: otherwise_invalid
+
+_class_name_shallow__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  - match: '\('
+    set: [_class_name_deep__%%name%%, expression_until_parenthesis]
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    set: _class_name_deep__%%name%%
+  - match: '{{ident}}'
+    scope: support.class.js
+    set: _class_name_deep__%%name%%
+  - include: _primary__%%name%%
+
+_class_name_deep__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  - match: '\.'
+    scope: support.class.js
+    set: _class_name_deep_dot_reference__%%name%%
+  - match: '\['
+    push: expression_until_square_bracket
+  - match: '{{otherwise}}'
+    pop: true
+
+_class_name_deep_dot_reference__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideClassDotReference%%
+  - match: '{{ident}}'
+    scope: support.class.js
+    set: _class_name_deep__%%name%%
+  - include: otherwise_invalid
+
+# Known bug:
+# A dot_reference or square_bracket_reference chained from this can have a
+# postfix operator after it, which should be illegal.
+_prefix_operators__%%name%%:
+  - match: '(?<!-)--|(?<!\+)\+\+'
+    scope: keyword.operator.js
+    set:
+      - match: '{{some_space}}'
+      - match: '(?=%%exitMatch%%)'
+        pop: true
+      - match: '{{b_before}}(?:true|false|null|undefined|Infinity|NaN){{b_after}}'
+        scope: invalid.illegal.js
+        pop: true
+      - include: language_variable
+      - include: reserved_word_reference
+      - include: identifier_reference_simple
+      - include: parenthesized_expression
+      - include: otherwise_invalid
+
+_unary_operators__%%name%%:
+  - match: '{{b_before}}yield(?:{{to_token}}\*|{{b_after}})'
+    scope: keyword.operator.js
+    set:
+      - match: '{{some_space}}'
+      - match: '(?=%%exitMatch%%)'
+        pop: true
+      - match: '(?={{line_terminator}})'
+        pop: true
+      - include: _primary__%%name%%
+  - match: '!|(?<!\+)\+(?!\+)|(?<!-)-(?!-)|{{b_before}}(?:typeof|void|delete|await){{b_after}}'
+    scope: keyword.operator.js
+    set: _primary__%%name%%
+  - match: '~'
+    scope: keyword.operator.bitwise.js
+    set: _primary__%%name%%
+
+_function_expression__%%name%%:
+  - match: '{{b_before}}(?:(async){{some_space}})?+(function)(?:(\*)|{{b_after}})'
+    captures: {1: storage.modifier.js, 2: storage.type.js, 3: keyword.operator.js}
+    set: _function_expression_name__%%name%%
+
+_function_expression_name__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideFunctionName%%
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    set: _function_expression_parenthesis__%%name%%
+  - match: '{{ident}}'
+    scope: entity.name.function.js
+    set: _function_expression_parenthesis__%%name%%
+  - match: '(?=\()'
+    set: _function_expression_parenthesis__%%name%%
+  - include: otherwise_invalid
+
+_function_expression_parenthesis__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideFunctionParenthesis%%
+  - match: '\('
+    set: [_function_expression_curly_bracket__%%name%%, parameter_binding_list]
+  - include: otherwise_invalid
+
+_function_expression_curly_bracket__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideFunctionCurlyBracket%%
+  - match: '(?=\{)'
+    set: block_statement
+  - include: otherwise_invalid
+
+_class_expression__%%name%%:
+  - match: '{{b_before}}class{{b_after}}'
+    scope: storage.type.js
+    set: _class_expression_name__%%name%%
+
+_class_expression_name__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideClassName%%
+  - match: '{{b_before}}extends{{b_after}}'
+    scope: storage.modifier.js
+    set: _class_expression_inheritance__%%name%%
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    set: _class_expression_curly_bracket_or_extends__%%name%%
+  - match: '{{ident}}'
+    scope: entity.name.function.js
+    set: _class_expression_curly_bracket_or_extends__%%name%%
+  - match: '\{'
+    set: _class_block
+  - include: otherwise_invalid
+
+_class_expression_curly_bracket_or_extends__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideClassCurlyBracketOrExtends%%
+  - match: '{{b_before}}extends{{b_after}}'
+    scope: storage.modifier.js
+    set: _class_expression_inheritance__%%name%%
+  - match: '{{b_before}}(?:extend|exten|exte|ext|ex|e){{to_token}}{{b_after}}'
+  - match: '\{'
+    set: _class_block
+  - include: otherwise_invalid
+
+_class_expression_inheritance__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideClassInheritance%%
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    set: _class_expression_curly_bracket__%%name%%
+  - match: '{{ident}}'
+    scope: entity.name.function.js
+    set: _class_expression_curly_bracket__%%name%%
+  - match: '\{'
+    scope: invalid.illegal.js
+    set: _class_block
+  - include: otherwise_invalid
+
+_class_expression_curly_bracket__%%name%%:
+  - match: '{{some_space}}'
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  %%~overrideClassCurlyBracket%%
+  - match: '\{'
+    set: _class_block
+  - include: otherwise_invalid
+
+_arrow_function_expression__%%name%%:
+  - match: '{{arrow_function_with_parenthesis}}'
+    captures:
+      1: storage.modifier.js
+    set: [_primary_or_block_statement__%%name%%, _arrow_operator, parameter_binding_list]
+  - match: '{{arrow_function_with_reserved_word}}'
+    captures:
+      1: storage.modifier.js
+      2: invalid.illegal.js
+    set: [_primary_or_block_statement__%%name%%, _arrow_operator]
+  - match: '{{arrow_function_with_ident}}'
+    captures:
+      1: storage.modifier.js
+      # 2: variable.language.js # optional
+    set: [_primary_or_block_statement__%%name%%, _arrow_operator]
+
+
+
+
+
+
+
+
+
+
+_secondary_parts__%%name%%:
+  - include: _instanceof_keyword__%%name%%
+  - include: _binary_operators__%%name%%
+  - include: _dot_reference__%%name%%
+  - include: _square_bracket_reference__%%name%%
+  - include: _function_invocation__%%name%%
+  - include: _template_literal__%%name%%
+  - include: _conditional_expression__%%name%%
+
+_secondary__%%name%%:
+  %%~catchSecondary%%
+  - match: '{{some_space}}'
+  - match: '%%exitMatch%%'
+    pop: true
+    %%~exitExtra%%
+  %%~override%%
+  %%~overrideSecondary%%
+  - include: _secondary_parts__%%name%%
+  - include: otherwise_invalid
+
+_instanceof_keyword__%%name%%:
+  - match: '{{b_before}}instanceof{{b_after}}'
+    scope: keyword.operator.js
+    set: [_secondary__%%name%%, _class_name_shallow__%%name%%]
+
+_binary_operators__%%name%%:
+  - match: '>>>?+=?+|<<=?+|&=|\^=|\|='
+    scope: keyword.operator.bitwise.js
+    set: [_secondary__%%name%%, _primary__%%name%%]
+  - match: '\*\*|-=|\+=|===?+|!==?+|<=|>=|&&|\|\||\*=?+|/=|%='
+    scope: keyword.operator.js
+    set: [_secondary__%%name%%, _primary__%%name%%]
+  - match: '%|\*|/|-|\+|=|<|>|{{b_before}}in{{b_after}}'
+    scope: keyword.operator.js
+    set: [_secondary__%%name%%, _primary__%%name%%]
+  - match: '&|\^|~|\|'
+    scope: keyword.operator.bitwise.js
+    set: [_secondary__%%name%%, _primary__%%name%%]
+  - match: ','
+    set: [_secondary__%%name%%, _primary__%%name%%]
+
+_dot_reference__%%name%%:
+  - match: '\.'
+    set: _dot_reference_contents__%%name%%
+
+_dot_reference_contents__%%name%%:
+  - match: '{{some_space}}'
+  - match: '%%exitMatch%%'
+    pop: true
+    %%~exitExtra%%
+  %%~overrideDotReference%%
+  - match: '{{b_before}}constructor{{b_after}}'
+    scope: support.class.js
+    set: [_secondary__%%name%%, _optional_postfix_operator]
+  - match: '{{ident}}{{assignment_for_function}}'
+    scope: entity.name.function.js
+    set: [_secondary__%%name%%, _optional_postfix_operator]
+  - match: '{{b_before}}(?:prototype|length|size|message|buffer|byteLength|byteOffset|EPSILON|MAX_SAFE_INTEGER|MIN_SAFE_INTEGER|MAX_VALUE|MIN_VALUE|NEGATIVE_INFINITY|POSITIVE_INFINITY|NaN|E|LN10|LOG10E|LOG2E|PI|SQRT1_2|SQRT2|BYTES_PER_ELEMENT){{b_after}}'
+    scope: support.constant.js
+    set: [_secondary__%%name%%, _optional_postfix_operator]
+  - match: '{{b_before}}(?:create|ceil|cos|defineProperty|defineProperties|freeze|fromCharCode|fromCodePoint|chatAt|charCodeAt|codePointAt|concat|endsWith|includes|indexOf|lastIndexOf|localeCompare|match|normalize|repeat|replace|search|slice|splice|split|startsWith|trimStart|trimEnd|padStart|padEnd|repeat|substr|substring|toLocaleLowerCase|toLocaleUpperCase|toLowerCase|toUpperCase|trim|floor|getOwnPropertyDescriptor|getOwnPropertyDescriptors|getOwnPropertyNames|getOwnPropertySymbols|getPrototypeOf|is|isExtensible|isFrozen|isSealed|isArray|isView|keys|pow|parse|preventExtensions|seal|sin|sqrt|stringify|tan|acos|atan2|atan|asin|abs|exp|log|max|min|random|round|UTC|now|exec|test|toString|toSource|assign|hasOwnProperty|isPrototypeOf|propertyIsEnumerable|toLocaleString|valueOf|setPrototypeOf|values|entries|call|apply|bind|is|isInteger|isFinite|isNaN|isSafeInteger|parseFloat|parseInt|toExponential|toFixed|toPrecision|trunc|tanh|sinh|cosh|sign|log2|log10|log1p|imul|hypot|fround|expml|clz32|cbrt|atanh|asinh|acosh|getDate|getDay|getFullYear|getHours|getMilliseconds|getMinutes|getMonth|getSeconds|getTime|getTimezoneOffset|getUTCDate|getUTCDay|getUTCFullYear|getUTCHours|getUTCMilliseconds|getUTCMinutes|getUTCMonth|getUTCSeconds|setDate|setFullYear|setHours|setMilliseconds|setMinutes|setMonth|setSeconds|setTime|setUTCDate|setUTCFullYear|setUTCHours|setUTCMilliseconds|setUTCMinutes|setUTCMonth|setUTCSeconds|toDateString|toISOString|toJSON|toLocaleDateString|toLocaleTimeString|toTimeString|toUTCString|for|keyFor|from|copyWithin|every|fill|filter|find|findIndex|forEach|join|map|pop|push|shift|unshift|reduce|reduceRight|reverse|some|sort|set|subarray|clear|delete|get|has|add|construct|deleteProperty|getCanonicalLocales|next|return|throw|all|race|then|catch|finally|resolve|reject|getFloat32|setFloat32|getFloat64|setFloat64|getInt16|setInt16|getInt32|setInt32|getInt64|setInt64|getInt8|setInt8|getUint16|setUint16|getUint32|setUint32|getUint64|setUint64|getUint8|setUint8|assert|count|dir|dirxml|group|groupCollapsed|groupEnd|info|log|profile|profileEnd|table|time|timeEnd|trace|warn)(?={{to_token}}\()'
+    scope: support.function.js
+    set: [_secondary__%%name%%, _optional_postfix_operator]
+  #####{include} library_dot_reference_contents#####
+  - match: '{{ident}}'
+    set: [_secondary__%%name%%, _optional_postfix_operator]
+  - include: otherwise_invalid
+
+_square_bracket_reference__%%name%%:
+  - match: '\['
+    set: [_secondary__%%name%%, _optional_postfix_operator, expression_until_square_bracket]
+
+_function_invocation__%%name%%:
+  - match: '\('
+    set: [_secondary__%%name%%, expression_until_parenthesis_with_spread_anywhere]
+
+_template_literal__%%name%%:
+  - match: '(?=`)'
+    set: [_secondary__%%name%%, template_literal]
+
+_conditional_expression__%%name%%: # TODO: make this less aggressive
+  - match: '\?'
+    set: [_secondary__%%name%%, _primary__%%name%%, expression_until_colon]

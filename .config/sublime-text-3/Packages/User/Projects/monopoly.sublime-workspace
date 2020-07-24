@@ -1,0 +1,1563 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"spc",
+				"sortPlayersCount"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"renderS",
+				"_renderStartTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/space/dev/js/games/monopoly/server.js",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/modules/roomPool.js",
+			"settings":
+			{
+				"buffer_size": 2607,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/modules/room.js",
+			"settings":
+			{
+				"buffer_size": 909,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/modules/game.js",
+			"settings":
+			{
+				"buffer_size": 864,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/modules/playerPool.js",
+			"settings":
+			{
+				"buffer_size": 695,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/modules/player.js",
+			"settings":
+			{
+				"buffer_size": 138,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/client/js/main.js",
+			"settings":
+			{
+				"buffer_size": 2397,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/games/monopoly/client/index.html",
+			"settings":
+			{
+				"buffer_size": 5353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"jsu",
+				"Set Syntax: JavaScript Ultimate"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conso",
+				"Console Wrap: Remove logs"
+			],
+			[
+				"mustache",
+				"Snippet: Mustache Loop"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Console Wrap: Create logs"
+			],
+			[
+				"codetime",
+				"Code Time Dashboard"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"repa",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docbl",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"do",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"param",
+				"Snippet: createPattern(img,repeat)"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/js/games/monopoly",
+		"/home/space/dev/js/games/monopoly/client",
+		"/home/space/dev/js/games/monopoly/client/css",
+		"/home/space/dev/js/games/monopoly/client/js",
+		"/home/space/dev/js/games/monopoly/client/tpl",
+		"/home/space/dev/js/games/monopoly/modules"
+	],
+	"file_history":
+	[
+		"/home/space/Music/untitled",
+		"/tmp/.fr-FcJ6j1/README.txt",
+		"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+		"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+		"/home/space/dev/js/games/monopoly/modules/room.js",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+		"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+		"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+		"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+		"/home/space/Downloads/iframe.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+		"/home/space/Downloads/message.txt",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+		"/home/space/Downloads/message.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+		"/home/space/dev/js/games/monopoly/package.json",
+		"/home/space/dev/js/games/monopoly/modules/player.js",
+		"/home/space/dev/js/games/monopoly/client/index.html",
+		"/home/space/dev/js/games/monopoly/.gitignore",
+		"/home/space/dev/js/games/monopoly/client/js/game.js",
+		"/home/space/dev/js/games/monopoly/client/js/main.js",
+		"/home/space/dev/js/games/monopoly/index.html",
+		"/home/space/dev/js/games/monopoly/main.js",
+		"/home/space/dev/js/games/monopoly/example.html",
+		"/home/space/dev/js/games/monopoly/style.css",
+		"/home/space/.software/CodeTime.txt",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/space/dev/js/games/neonBlast/index.html",
+		"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js",
+		"/home/space/Games/Stellaris/docs/installer_readme.txt",
+		"/home/space/Games/Stellaris/gameinfo",
+		"/home/space/dev/js/games/neonBlast/server.js",
+		"/home/space/dev/js/pcs2-17/gravity/index.html",
+		"/home/space/dev/js/pcs2-17/gravity/main.js",
+		"/home/space/dev/js/pcs2-17/main.js",
+		"/home/space/dev/js/pcs2-17/index.html",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fhome%252Fspace%252FDocuments%252Fru-en_win8.1_u1_x86-x64_12in1_activated.iso/README.TXT",
+		"/media/space/0870B60C70B6008C/Users/Герман/Downloads/plaza-doom.in.the.dark/README.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Documents/My Games/They Are Billions/Configuration.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Desktop/New Text Document.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/AppData/Roaming/ModMyFactory/modpacks.json",
+		"/media/space/0870B60C70B6008C/Users/Герман/AppData/Roaming/ModMyFactory/settings.json",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/tmp/.fr-a5s4uQ/Package Control.sublime-settings",
+		"/tmp/.fr-AJdN8C/Preferences.sublime-settings",
+		"/tmp/.fr-XMuau9/ForOf.sublime-snippet",
+		"/tmp/.fr-CvCFE9/Default (Linux).sublime-keymap",
+		"/home/space/Downloads/They_Are_Billions-HOODLUM/They_Are_Billions_Update_v1.0.5-HOODLUM/hoodlum.nfo",
+		"/tmp/.fr-CLuOW9/Patchnotes.txt",
+		"/tmp/.fr-UE7Rcl/Patchnotes.txt",
+		"/home/space/Downloads/They_Are_Billions-HOODLUM/hoodlum.nfo",
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n1.js",
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n2.js",
+		"/home/space/dev/js/cashminer/server.js",
+		"/home/space/Downloads/phantomjs-2.1.1-linux-x86_64/README.md",
+		"/home/space/.cache/.fr-e8QLpr/readme.txt",
+		"/home/space/Downloads/macerator.ini",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/CustomRecipes.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/items.csv",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/objects.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/main.cfg",
+		"/home/space/Games/m/.tl/config/advanced_solar_panels_MTRecipes.cfg",
+		"/home/space/Games/m/.tl/config/armorstatushud.cfg",
+		"/home/space/Games/m/.tl/config/betterfps.json",
+		"/home/space/Games/m/.tl/config/bspkrscore.cfg",
+		"/home/space/Games/m/.tl/config/carpentersblocks.cfg",
+		"/home/space/Games/m/.tl/config/ChickenChunks.cfg",
+		"/home/space/Games/m/.tl/config/codechickenlib.cfg",
+		"/home/space/Games/m/.tl/config/compactstorage.cfg",
+		"/home/space/Games/m/.tl/config/cqrepoured.cfg",
+		"/home/space/Games/m/.tl/config/energyconverters.cfg",
+		"/home/space/Games/m/.tl/config/forge.cfg",
+		"/home/space/Games/m/.tl/config/forgeChunkLoading.cfg",
+		"/home/space/Games/m/.tl/config/gravisuite.cfg",
+		"/home/space/Games/m/.tl/config/growablecells.cfg",
+		"/home/space/Games/m/.tl/config/IC2.ini",
+		"/home/space/Games/m/.tl/config/igwmod.cfg",
+		"/home/space/Games/m/.tl/config/microblocks.cfg",
+		"/home/space/Games/m/.tl/config/MrTJPCore.cfg",
+		"/home/space/Games/m/.tl/config/multipart.cfg",
+		"/home/space/Games/m/.tl/config/placebo.cfg",
+		"/home/space/Games/m/.tl/config/splash.properties",
+		"/home/space/Games/m/.tl/config/statuseffecthud.cfg",
+		"/home/space/Games/m/.tl/config/treecapitator.cfg",
+		"/home/space/Games/m/.tl/config/undergroundbiomes.cfg",
+		"/home/space/Games/m/.tl/config/UniqueNames.txt",
+		"/home/space/Games/m/.tl/config/versionchecker.cfg",
+		"/home/space/Games/m/.tl/config/wawla.cfg",
+		"/home/space/Games/m/.tl/config/wtfic2addon.cfg",
+		"/home/space/Games/m/.tl/config/xaerominimap.txt",
+		"/home/space/Games/m/.tl/config/xaeropatreon.txt",
+		"/home/space/Games/m/.tl/config/xaeroworldmap.txt",
+		"/home/space/Games/m/.tl/config/advanced_solar_panels.cfg",
+		"/home/space/Games/m/.tl/config/waila/waila.cfg",
+		"/home/space/Games/m/.tl/config/uteamcore/client.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/blocks.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/client.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/entities.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/items.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/modules.cfg",
+		"/home/space/Games/m/.tl/config/railcraft/railcraft.cfg",
+		"/home/space/Games/m/.tl/config/NEI/client.cfg",
+		"/home/space/Games/m/.tl/config/jei/bookmarks.ini",
+		"/home/space/Games/m/.tl/config/jei/itemBlacklist.cfg",
+		"/home/space/Games/m/.tl/config/jei/jei.cfg",
+		"/home/space/Games/m/.tl/config/jei/searchColors.cfg",
+		"/home/space/Games/m/.tl/config/jei/worldSettings.cfg",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaks.cfg",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaksRules.txt",
+		"/home/space/Games/m/.tl/config/InvTweaks/InvTweaksTree.txt",
+		"/home/space/Games/m/.tl/config/forgeendertech/forgeendertech.cfg",
+		"/home/space/Games/m/.tl/config/forestry/apiculture.cfg",
+		"/home/space/Games/m/.tl/config/forestry/arboriculture.cfg",
+		"/home/space/Games/m/.tl/config/forestry/backpacks.cfg",
+		"/home/space/Games/m/.tl/config/forestry/common.cfg",
+		"/home/space/Games/m/.tl/config/forestry/crates.cfg"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Missing",
+			"Missin",
+			"this",
+			"playersCount",
+			"players",
+			"startMoney",
+			"=0",
+			"p",
+			"playersCount",
+			"0",
+			"getNode",
+			"roomsTpl",
+			".",
+			"players",
+			"sortPlayersCount",
+			"socket",
+			"WAITING_FOR_PLAYERS",
+			"startMoney",
+			"p",
+			"playersCount",
+			"el",
+			"document.querySelector",
+			"onlcick",
+			"<li",
+			"li",
+			"<link.+>",
+			"<script.+<\\/script>",
+			"<script>",
+			"\\<script\\>\\.+\\<\\/script\\>",
+			"<script>\\.+<\\/script>",
+			"<script>\\.+</script>",
+			"<script>\\.</script>",
+			"<script>./</script>",
+			"pushstream.js",
+			"script.{0,200}css",
+			"script.+\\.css",
+			"script.+\\.js",
+			"\\.\\/",
+			"\\.\\/.+.js",
+			"./Нужен",
+			"./Н",
+			"Нужен",
+			"=\"./Нужен",
+			"./Н",
+			".css",
+			"bakh",
+			"delete",
+			"bakh",
+			"bach",
+			"delete",
+			"<!",
+			"delete",
+			"redactor_box",
+			"rooms",
+			"data",
+			"players",
+			"_",
+			".players",
+			".spots",
+			" .",
+			".",
+			"roomTpl",
+			"container",
+			"Player",
+			"player",
+			"Player",
+			"players",
+			".set",
+			"set",
+			", 65",
+			"-",
+			"57",
+			"13",
+			"$",
+			"625",
+			"width"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"https://lolzteam.online/Нужен"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/space/dev/js/games/monopoly/server.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1357,
+								1357
+							]
+						],
+						"settings":
+						{
+							"SL.152.region_keys":
+							[
+							],
+							"SL.30.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1375,
+										1376
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1357,
+										1358
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 729.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/space/dev/js/games/monopoly/modules/roomPool.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1828,
+								1828
+							]
+						],
+						"settings":
+						{
+							"SL.335.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2569,
+										2570
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1826,
+										1827
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/space/dev/js/games/monopoly/modules/room.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"SL.336.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										881,
+										882
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										11,
+										12
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/space/dev/js/games/monopoly/modules/game.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"SL.187.region_keys":
+							[
+							],
+							"_anf_new": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										646,
+										647
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										639,
+										640
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/space/dev/js/games/monopoly/modules/playerPool.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/space/dev/js/games/monopoly/modules/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										106,
+										107
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										36,
+										37
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/space/dev/js/games/monopoly/client/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1858,
+								1858
+							]
+						],
+						"settings":
+						{
+							"SL.158.region_keys":
+							[
+							],
+							"SL.33.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2280,
+										2281
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1824,
+										1825
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 949.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/space/dev/js/games/monopoly/client/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4423,
+								4423
+							]
+						],
+						"settings":
+						{
+							"SL.84.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"git_savvy.repo_path": "/home/space/dev/js/games/monopoly",
+							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2956.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "monopoly.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"client/index.html"
+			],
+			[
+				"i",
+				"client/index.html"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,1 @@
+{"platforms": ["osx-x64", "windows", "linux"], "url": "https://github.com/packagecontrol/psutil/issues", "sublime_text": ">=3000", "description": "Python psutil module", "version": "5.6.7"}

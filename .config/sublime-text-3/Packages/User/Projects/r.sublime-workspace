@@ -1,0 +1,554 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"active"
+			],
+			[
+				"pla",
+				"play"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cur",
+				"curr"
+			],
+			[
+				"curre",
+				"currentIsland"
+			],
+			[
+				"sho",
+				"showIsland"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"des",
+				"desert.png\tw:1024 h:512"
+			],
+			[
+				"spc",
+				"sortPlayersCount"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"renderS",
+				"_renderStartTime"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"alignmen",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"a",
+				"Arithmetic"
+			],
+			[
+				"",
+				"Indexing Status"
+			],
+			[
+				"diff",
+				"git: diff current file"
+			],
+			[
+				"packageresource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"jsu",
+				"Set Syntax: JavaScript Ultimate"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"l",
+				"File: Locate"
+			],
+			[
+				"fuep",
+				"Snippet: function as a property of an object"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conso",
+				"Console Wrap: Remove logs"
+			],
+			[
+				"mustache",
+				"Snippet: Mustache Loop"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Console Wrap: Create logs"
+			],
+			[
+				"codetime",
+				"Code Time Dashboard"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"repa",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docbl",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"do",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"param",
+				"Snippet: createPattern(img,repeat)"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 440.0,
+		"history":
+		[
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/sites/r"
+	],
+	"file_history":
+	[
+		"/home/space/dev/js/diplomas/rusik/contra/package.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/ui.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/index.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/bullet.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/bullets.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/gameOver.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/gameOver.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/end.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/end.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/menu.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/menu.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level4.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level3.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level2.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level1.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/index.html",
+		"/home/space/dev/js/diplomas/rusik/contra/build/bundle.js",
+		"/home/space/dev/js/diplomas/rusik/contra/test.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level4.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level3.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level2.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level1.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/gameOver.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/menu.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/menu.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/gameOver.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/end.js",
+		"/home/space/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/space/dev/js/diplomas/rusik/contra/src/end.html",
+		"/home/space/Documents/Vivaldi Passwords.csv",
+		"/home/space/Documents/Google Passwords.csv",
+		"/home/space/dev/js/diplomas/rusik/contra/devServer.js",
+		"/tmp/CEFSourceBXhVpG.txt",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level 2/level-2.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/enemy.js",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/level-2.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/tileset.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/example.js",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/player.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/enemy.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/atlas.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/level-1.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/level test.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-1/player/gg.json",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript/Snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript/Snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript & NodeJS Snippets/function.sublime-snippet",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/tilemap.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/tm.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/tm.json",
+		"/home/space/dev/js/diplomas/rusik/test/tilemap.json",
+		"/home/space/dev/js/diplomas/rusik/test/coin.png.txt",
+		"/home/space/dev/js/diplomas/rusik/test/coin.png",
+		"/home/space/dev/js/diplomas/rusik/contra/src/test.js",
+		"/home/space/dev/js/diplomas/rusik/contra/server.js",
+		"/home/space/Downloads/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/snow/snow.json",
+		"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/sand.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/desert.json",
+		"/home/space/dev/js/diplomas/stas/diploma/sms.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters_old.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/character.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/InputManager.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/Input.js",
+		"/home/space/dev/js/diplomas/stas/diploma/i.html",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client/data/img/sprite/bad-guys.json",
+		"/home/space/dev/js/diplomas/stas/diploma/islands.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/grassIsland.json",
+		"/home/space/dev/js/diplomas/stas/diploma/webpack.config.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/lib/pixijs-tool.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/expl.json",
+		"/home/space/dev/js/diplomas/stas/Interactive-site/Json/assets_characters.json",
+		"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+		"/home/space/dev/js/diplomas/stas/diploma/package.json",
+		"/home/space/.local/share/Trash/files/i.html",
+		"/home/space/dev/js/diplomas/stas/diploma/dist",
+		"/home/space/Music/untitled",
+		"/tmp/.fr-FcJ6j1/README.txt",
+		"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+		"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+		"/home/space/dev/js/games/monopoly/modules/room.js",
+		"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+		"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+		"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+		"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+		"/home/space/Downloads/iframe.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+		"/home/space/Downloads/message.txt",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+		"/home/space/Downloads/message.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+		"/home/space/dev/js/games/monopoly/package.json",
+		"/home/space/dev/js/games/monopoly/modules/player.js",
+		"/home/space/dev/js/games/monopoly/client/index.html",
+		"/home/space/dev/js/games/monopoly/.gitignore",
+		"/home/space/dev/js/games/monopoly/client/js/game.js",
+		"/home/space/dev/js/games/monopoly/client/js/main.js",
+		"/home/space/dev/js/games/monopoly/index.html",
+		"/home/space/dev/js/games/monopoly/main.js",
+		"/home/space/dev/js/games/monopoly/example.html",
+		"/home/space/dev/js/games/monopoly/style.css",
+		"/home/space/.software/CodeTime.txt",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/space/dev/js/games/neonBlast/index.html",
+		"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js",
+		"/home/space/Games/Stellaris/docs/installer_readme.txt",
+		"/home/space/Games/Stellaris/gameinfo",
+		"/home/space/dev/js/games/neonBlast/server.js",
+		"/home/space/dev/js/pcs2-17/gravity/index.html",
+		"/home/space/dev/js/pcs2-17/gravity/main.js",
+		"/home/space/dev/js/pcs2-17/main.js",
+		"/home/space/dev/js/pcs2-17/index.html",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fhome%252Fspace%252FDocuments%252Fru-en_win8.1_u1_x86-x64_12in1_activated.iso/README.TXT",
+		"/media/space/0870B60C70B6008C/Users/Герман/Downloads/plaza-doom.in.the.dark/README.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Documents/My Games/They Are Billions/Configuration.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Desktop/New Text Document.txt"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "r.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"src/",
+				"contra/src/index.html"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"w",
+				"webpack.config.js"
+			],
+			[
+				"in",
+				"client/index.html"
+			],
+			[
+				"i",
+				"client/index.html"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

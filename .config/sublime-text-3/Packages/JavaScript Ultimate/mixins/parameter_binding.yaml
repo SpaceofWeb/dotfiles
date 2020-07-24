@@ -1,0 +1,27 @@
+%%name%%:
+  - match: '{{otherwise}}'
+    set: [_after__%%name%%, __%%name%%]
+
+__%%name%%:
+  - match: '{{some_space}}'
+  %%~overrideBefore%%
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  - include: %%destructuring%%
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    pop: true
+  %%~overrideIdent%%
+  - match: '{{ident}}'
+    %%~identExtra%%
+    pop: true
+  - include: otherwise_invalid
+
+_after__%%name%%:
+  %%~catchAfter%%
+  - match: '{{some_space}}'
+  %%~overrideAfter%%
+  - match: '%%exitMatch%%'
+    %%~exitExtra%%
+    pop: true
+  - include: otherwise_invalid

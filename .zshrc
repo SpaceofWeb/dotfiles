@@ -104,7 +104,7 @@ export LANG=en_US.UTF-8
 
 setopt +o nomatch
 
-export PATH=$HOME/Programs/bin:$PATH
+export PATH=$HOME/Programs/bin:$HOME/Games/bin:$PATH
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
@@ -117,5 +117,19 @@ alias ls='exa --group-directories-first --color=auto'
 alias c='bat --tabs 2 --style full'
 alias ca='bat --tabs 2 --style full --show-all'
 alias cl='bat --tabs 2 --style plain'
+
+alias dev='~/dev/'
+alias dl='~/Downloads/'
+alias doc='~/Documents/'
+alias pic='~/Pictures/'
+
+alias kssh='kitty +kitten ssh'
+
+alias bs='browser-sync'
+
+alias v='vim'
+alias rm="rm -i"
+
+alias sound='pavucontrol'
 
 

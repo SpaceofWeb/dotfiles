@@ -1,0 +1,1436 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ac",
+				"active"
+			],
+			[
+				"pla",
+				"play"
+			],
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cur",
+				"curr"
+			],
+			[
+				"curre",
+				"currentIsland"
+			],
+			[
+				"sho",
+				"showIsland"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"des",
+				"desert.png\tw:1024 h:512"
+			],
+			[
+				"spc",
+				"sortPlayersCount"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"renderS",
+				"_renderStartTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level1.js",
+			"settings":
+			{
+				"buffer_size": 11312,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nayu\n---\n\n  **ayu theme for Sublime Text**\n  https://github.com/dempfi/ayu/releases\n  \n  ---\n  \n  ayu from version 3.0.0 supports customization via A File Icon package\n  (https://github.com/ihodev/a-file-icon). Please install it for better expereince.\n  \n  ---\n  \n  # Version 5.1.0\n  \n  🎉 This release is all about contrast\n  \n  - Light theme UI and foreground contrast improvements\n  - Dark theme UI color contrast raised\n  \n  ---\n  \n  Breaking changes:\n  \n  - Removed UI font settings (`ui_font_size_small`, `ui_font_source_code_pro`, `ui_font_roboto_mono`)\n  \n  ---\n  \n  Version 5.0.3 contains a fix for the new block caret.\n\n\nGolang\n------\n\n  \n  - addons: a new experimental plugin has been added `staticcheck`\n  \n  The addong is disabled by default (no checks configured), see the settings to enable\n  it. It runs on `post_save`, if you encounter any issues with staticcheck please\n  report to https://github.com/yields/sublime-go/issues.\n  \n  - config: a new setting `vet.run_on_post_save` has been added.\n  \n  The default is `true` which causes vet to run on post_save, you can change\n  it to `false`.\n  \n  To run vet again, you can either use the command pallet `go: vet` or add your\n  own keybinding to run it.\n",
+			"settings":
+			{
+				"buffer_size": 1270,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/rusik/contra/src/index.js",
+			"settings":
+			{
+				"buffer_size": 1405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level2.js",
+			"settings":
+			{
+				"buffer_size": 11407,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level3.js",
+			"settings":
+			{
+				"buffer_size": 11843,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level4.js",
+			"settings":
+			{
+				"buffer_size": 7048,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"alignmen",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"a",
+				"Arithmetic"
+			],
+			[
+				"",
+				"Indexing Status"
+			],
+			[
+				"diff",
+				"git: diff current file"
+			],
+			[
+				"packageresource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"jsu",
+				"Set Syntax: JavaScript Ultimate"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"l",
+				"File: Locate"
+			],
+			[
+				"fuep",
+				"Snippet: function as a property of an object"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conso",
+				"Console Wrap: Remove logs"
+			],
+			[
+				"mustache",
+				"Snippet: Mustache Loop"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Console Wrap: Create logs"
+			],
+			[
+				"codetime",
+				"Code Time Dashboard"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"repa",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docbl",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"do",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"param",
+				"Snippet: createPattern(img,repeat)"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 440.0,
+		"history":
+		[
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/js/diplomas/rusik/contra",
+		"/home/space/dev/js/diplomas/rusik/contra/assets",
+		"/home/space/dev/js/diplomas/rusik/contra/src",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels"
+	],
+	"file_history":
+	[
+		"/home/space/dev/js/diplomas/rusik/contra/package.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/ui.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/index.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/bullet.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/bullets.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/gameOver.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/gameOver.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/end.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/end.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/menu.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/pages/menu.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level4.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level3.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level2.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/levels/level1.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/index.html",
+		"/home/space/dev/js/diplomas/rusik/contra/build/bundle.js",
+		"/home/space/dev/js/diplomas/rusik/contra/test.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level4.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level3.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level2.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/level1.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/gameOver.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/menu.js",
+		"/home/space/dev/js/diplomas/rusik/contra/src/menu.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/gameOver.html",
+		"/home/space/dev/js/diplomas/rusik/contra/src/end.js",
+		"/home/space/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/space/dev/js/diplomas/rusik/contra/src/end.html",
+		"/home/space/Documents/Vivaldi Passwords.csv",
+		"/home/space/Documents/Google Passwords.csv",
+		"/home/space/dev/js/diplomas/rusik/contra/devServer.js",
+		"/tmp/CEFSourceBXhVpG.txt",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level 2/level-2.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/enemy.js",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/level-2.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/tileset.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/example.js",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/player.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-2/enemy.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/atlas.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/level-1.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/map/level test.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/level-1/player/gg.json",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript/Snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript/Snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript & NodeJS Snippets/function.sublime-snippet",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/tilemap.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/tm.json",
+		"/home/space/dev/js/diplomas/rusik/contra/src/tm.json",
+		"/home/space/dev/js/diplomas/rusik/test/tilemap.json",
+		"/home/space/dev/js/diplomas/rusik/test/coin.png.txt",
+		"/home/space/dev/js/diplomas/rusik/test/coin.png",
+		"/home/space/dev/js/diplomas/rusik/contra/src/test.js",
+		"/home/space/dev/js/diplomas/rusik/contra/server.js",
+		"/home/space/Downloads/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/snow/snow.json",
+		"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/sand.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/desert.json",
+		"/home/space/dev/js/diplomas/stas/diploma/sms.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters_old.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/character.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/InputManager.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/Input.js",
+		"/home/space/dev/js/diplomas/stas/diploma/i.html",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client/data/img/sprite/bad-guys.json",
+		"/home/space/dev/js/diplomas/stas/diploma/islands.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/grassIsland.json",
+		"/home/space/dev/js/diplomas/stas/diploma/webpack.config.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/lib/pixijs-tool.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/expl.json",
+		"/home/space/dev/js/diplomas/stas/Interactive-site/Json/assets_characters.json",
+		"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+		"/home/space/dev/js/diplomas/stas/diploma/package.json",
+		"/home/space/.local/share/Trash/files/i.html",
+		"/home/space/dev/js/diplomas/stas/diploma/dist",
+		"/home/space/Music/untitled",
+		"/tmp/.fr-FcJ6j1/README.txt",
+		"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+		"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+		"/home/space/dev/js/games/monopoly/modules/room.js",
+		"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+		"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+		"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+		"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+		"/home/space/Downloads/iframe.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+		"/home/space/Downloads/message.txt",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+		"/home/space/Downloads/message.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+		"/home/space/dev/js/games/monopoly/package.json",
+		"/home/space/dev/js/games/monopoly/modules/player.js",
+		"/home/space/dev/js/games/monopoly/client/index.html",
+		"/home/space/dev/js/games/monopoly/.gitignore",
+		"/home/space/dev/js/games/monopoly/client/js/game.js",
+		"/home/space/dev/js/games/monopoly/client/js/main.js",
+		"/home/space/dev/js/games/monopoly/index.html",
+		"/home/space/dev/js/games/monopoly/main.js",
+		"/home/space/dev/js/games/monopoly/example.html",
+		"/home/space/dev/js/games/monopoly/style.css",
+		"/home/space/.software/CodeTime.txt",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/space/dev/js/games/neonBlast/index.html",
+		"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js",
+		"/home/space/Games/Stellaris/docs/installer_readme.txt",
+		"/home/space/Games/Stellaris/gameinfo",
+		"/home/space/dev/js/games/neonBlast/server.js",
+		"/home/space/dev/js/pcs2-17/gravity/index.html",
+		"/home/space/dev/js/pcs2-17/gravity/main.js",
+		"/home/space/dev/js/pcs2-17/main.js",
+		"/home/space/dev/js/pcs2-17/index.html",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fhome%252Fspace%252FDocuments%252Fru-en_win8.1_u1_x86-x64_12in1_activated.iso/README.TXT",
+		"/media/space/0870B60C70B6008C/Users/Герман/Downloads/plaza-doom.in.the.dark/README.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Documents/My Games/They Are Billions/Configuration.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Desktop/New Text Document.txt"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"updateText",
+			"true",
+			"{classType: Enemy}",
+			"#btnGroup",
+			"updateText",
+			"console.log('",
+			"console.log('game over');",
+			"end",
+			"End",
+			"end",
+			"End",
+			"100",
+			" && distX",
+			"100",
+			"SHOOT_DELAY",
+			"BULLET_VX",
+			"PLAYER_VY",
+			"PLAYER_VX",
+			"SHOOT_DELAY",
+			"BULLET_VX",
+			"PLAYER_VY",
+			"PLAYER_VX",
+			"SHOOT_DELAY",
+			"BULLET_VX",
+			"PLAYER_VY",
+			"PLAYER_VX",
+			"SHOOT_DELAY",
+			"BULLET_VX",
+			"PLAYER_VY",
+			"PLAYER_VX",
+			"=",
+			"this.updateText",
+			"\tconsole.log",
+			"Music",
+			"off",
+			"this.sound.play",
+			"bonus",
+			"me\": {\"x\":0,\"y\":192,",
+			"me\": {\"x\":0,\"y\":224,",
+			"me\": {\"x\":0",
+			"endLevel",
+			"activeScene",
+			"function",
+			"next",
+			"start",
+			"endLevel",
+			"End",
+			"menu",
+			"Level1",
+			"4",
+			"l3map",
+			"Level-3",
+			"level-3",
+			"l3tileset",
+			"spotify",
+			"spot",
+			"https://accounts.google.com/",
+			"www.netacad.com,",
+			"www.netacad",
+			"netacad.com/",
+			"myarena.ru",
+			"myarena",
+			"google",
+			"https://csserv.ru",
+			"http://sql.csserv",
+			"csserv",
+			"icloud",
+			"iforgot",
+			"apple.com",
+			"gosuslugi",
+			"tmtm",
+			"tm",
+			"habr",
+			"onclick",
+			"li[",
+			"li",
+			"event",
+			"100%",
+			"v",
+			"60",
+			"cover",
+			"center",
+			"contain",
+			"px",
+			"ui",
+			"y",
+			"lives",
+			"update",
+			"Lives(",
+			"Lives",
+			"update",
+			"{key: ",
+			"('",
+			"map'",
+			"map",
+			"1",
+			"-2",
+			"-1",
+			" 2",
+			"-2",
+			"dist",
+			"3",
+			"player.",
+			"enemy",
+			"rip-',",
+			" 0",
+			"bullet, ",
+			"this.player",
+			"-1",
+			" 0",
+			"0",
+			"setVelocity",
+			"3",
+			"player",
+			"player-",
+			"level1.js:176 ",
+			"VM63575 bundle.js:204950 ",
+			"level1",
+			"v.",
+			" - this.map",
+			" true",
+			"tileset",
+			"player",
+			"--",
+			"player",
+			"player-left-rip",
+			"player-left",
+			"left"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10848,
+								10848
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										10859,
+										10860
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										10841,
+										10842
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1270,
+								1270
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"default_dir": "/home/space/dev/js/diplomas/rusik/contra/src/levels",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/space/dev/js/diplomas/rusik/contra/src/index.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										951,
+										952
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										624,
+										625
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 199.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										410,
+										411
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										125,
+										126
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										533,
+										534
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										526,
+										527
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/space/dev/js/diplomas/rusik/contra/src/levels/level4.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7048,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										410,
+										411
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										125,
+										126
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 52.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "contra.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"src/",
+				"contra/src/index.html"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"w",
+				"webpack.config.js"
+			],
+			[
+				"in",
+				"client/index.html"
+			],
+			[
+				"i",
+				"client/index.html"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

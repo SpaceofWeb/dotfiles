@@ -1,0 +1,1106 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"cur",
+				"curr"
+			],
+			[
+				"curre",
+				"currentIsland"
+			],
+			[
+				"sho",
+				"showIsland"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"des",
+				"desert.png\tw:1024 h:512"
+			],
+			[
+				"spc",
+				"sortPlayersCount"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"re",
+				"re\trequire"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"renderS",
+				"_renderStartTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/space/dev/js/diplomas/stas/diploma/src/index.js",
+			"settings":
+			{
+				"buffer_size": 14595,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+			"settings":
+			{
+				"buffer_size": 8062,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/stas/diploma/src/Player.js",
+			"settings":
+			{
+				"buffer_size": 11201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/space/dev/js/diplomas/stas/diploma/src/assets/data/islands.json",
+			"settings":
+			{
+				"buffer_size": 1662,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"snippetmd",
+				"Snippet: Markdown Header 1"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"jsu",
+				"Set Syntax: JavaScript Ultimate"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"a",
+				"Arithmetic"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"browser",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"brow",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"l",
+				"File: Locate"
+			],
+			[
+				"fuep",
+				"Snippet: function as a property of an object"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"conso",
+				"Console Wrap: Remove logs"
+			],
+			[
+				"mustache",
+				"Snippet: Mustache Loop"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"console",
+				"Console Wrap: Create logs"
+			],
+			[
+				"codetime",
+				"Code Time Dashboard"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"repa",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docbl",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"do",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"param",
+				"Snippet: createPattern(img,repeat)"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"w",
+				"Word Wrap: Toggle"
+			],
+			[
+				"copy",
+				"File: Copy Name"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 440.0,
+		"history":
+		[
+			"sublime.log_input(True)",
+			"sublime.log_commands(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/space/dev/js/diplomas/stas/diploma",
+		"/home/space/dev/js/diplomas/stas/diploma/dist",
+		"/home/space/dev/js/diplomas/stas/diploma/src"
+	],
+	"file_history":
+	[
+		"/home/space/Downloads/E.1750_fruit-loops_2019-06-20.zip",
+		"/home/space/dev/js/diplomas/elite d/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/character.json",
+		"/home/space/dev/js/diplomas/stas/diploma/webpack.config.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/i.css",
+		"/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+		"/home/space/dev/js/diplomas/stas/diploma/package.json",
+		"/home/space/dev/js/diplomas/stas/diploma/README.md",
+		"/home/space/dev/js/diplomas/rusik/tileset.png",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/tilemap.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map1.json",
+		"/home/space/dev/js/diplomas/rusik/tileset.json",
+		"/home/space/dev/js/diplomas/rusik/contra/assets/coin.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/map.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/snow/snow.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data-old/sand/sand.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/map.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/snow/snow.json",
+		"/home/space/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/sand.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/sand/desert.json",
+		"/home/space/dev/js/diplomas/stas/diploma/sms.html",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters_old.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/InputManager.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/Input.js",
+		"/home/space/dev/js/diplomas/stas/diploma/i.html",
+		"/home/space/Downloads/Telegram Desktop/CONTRA_GAME_IN_JAVASCRIPT_WITH_SOURCE_CODE/Contra Game In JavaScript/contra-client/data/img/sprite/bad-guys.json",
+		"/home/space/dev/js/diplomas/stas/diploma/islands.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/grassIsland.json",
+		"/home/space/dev/js/diplomas/stas/diploma/src/lib/pixijs-tool.js",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/assets_characters.png",
+		"/home/space/dev/js/diplomas/stas/diploma/src/assets/data/expl.json",
+		"/home/space/dev/js/diplomas/stas/Interactive-site/Json/assets_characters.json",
+		"/home/space/.config/sublime-text-3/Packages/Default/Default.sublime-commands",
+		"/home/space/.local/share/Trash/files/i.html",
+		"/home/space/dev/js/diplomas/stas/diploma/dist",
+		"/home/space/Music/untitled",
+		"/tmp/.fr-FcJ6j1/README.txt",
+		"/home/space/dev/js/games/monopoly/node_modules/.bin/mime",
+		"/home/space/dev/js/games/monopoly/modules/roomPool.js",
+		"/home/space/dev/js/games/monopoly/modules/room.js",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function.sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/JavaScript Ultimate/snippets/function-(fun).sublime-snippet",
+		"/home/space/.config/sublime-text-3/Packages/PackageResourceViewer/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/React.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.last-run",
+		"/home/space/.config/sublime-text-3/Packages/User/javascript.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/HTMLMustache.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/User/ForOf.sublime-snippet",
+		"/home/space/dev/js/games/monopoly/modules/playerPool.js",
+		"/home/space/dev/js/games/monopoly/client/tpl/rooms.html",
+		"/home/space/Downloads/iframe.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE1.html",
+		"/home/space/Downloads/message.txt",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.html",
+		"/home/space/Downloads/message.html",
+		"/home/space/Downloads/LOLZTEAM.ONLINE.txt",
+		"/home/space/dev/js/games/monopoly/package.json",
+		"/home/space/dev/js/games/monopoly/modules/player.js",
+		"/home/space/dev/js/games/monopoly/client/index.html",
+		"/home/space/dev/js/games/monopoly/.gitignore",
+		"/home/space/dev/js/games/monopoly/client/js/game.js",
+		"/home/space/dev/js/games/monopoly/client/js/main.js",
+		"/home/space/dev/js/games/monopoly/index.html",
+		"/home/space/dev/js/games/monopoly/main.js",
+		"/home/space/dev/js/games/monopoly/example.html",
+		"/home/space/dev/js/games/monopoly/style.css",
+		"/home/space/.software/CodeTime.txt",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/Base File.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/DocBlockr/README.md",
+		"/home/space/.config/sublime-text-3/Packages/User/LiveReload.sublime-settings",
+		"/home/space/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/home/space/dev/js/games/neonBlast/index.html",
+		"/home/space/dev/js/games/neonBlast/js/class Smoothie {.js",
+		"/home/space/Games/Stellaris/docs/installer_readme.txt",
+		"/home/space/Games/Stellaris/gameinfo",
+		"/home/space/dev/js/games/neonBlast/server.js",
+		"/home/space/dev/js/pcs2-17/gravity/index.html",
+		"/home/space/dev/js/pcs2-17/gravity/main.js",
+		"/home/space/dev/js/pcs2-17/main.js",
+		"/home/space/dev/js/pcs2-17/index.html",
+		"/run/user/1000/gvfs/archive:host=file%253A%252F%252F%252Fhome%252Fspace%252FDocuments%252Fru-en_win8.1_u1_x86-x64_12in1_activated.iso/README.TXT",
+		"/media/space/0870B60C70B6008C/Users/Герман/Downloads/plaza-doom.in.the.dark/README.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Documents/My Games/They Are Billions/Configuration.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/Desktop/New Text Document.txt",
+		"/media/space/0870B60C70B6008C/Users/Герман/AppData/Roaming/ModMyFactory/modpacks.json",
+		"/media/space/0870B60C70B6008C/Users/Герман/AppData/Roaming/ModMyFactory/settings.json",
+		"/home/space/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/tmp/.fr-a5s4uQ/Package Control.sublime-settings",
+		"/tmp/.fr-AJdN8C/Preferences.sublime-settings",
+		"/tmp/.fr-XMuau9/ForOf.sublime-snippet",
+		"/tmp/.fr-CvCFE9/Default (Linux).sublime-keymap",
+		"/home/space/Downloads/They_Are_Billions-HOODLUM/They_Are_Billions_Update_v1.0.5-HOODLUM/hoodlum.nfo",
+		"/tmp/.fr-CLuOW9/Patchnotes.txt",
+		"/tmp/.fr-UE7Rcl/Patchnotes.txt",
+		"/home/space/Downloads/They_Are_Billions-HOODLUM/hoodlum.nfo",
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n1.js",
+		"/media/space/0f7f32f1-9cc0-4e66-a395-4feb13cb6ee9/space/dev/nosu/practice/operations/p1/n2.js",
+		"/home/space/dev/js/cashminer/server.js",
+		"/home/space/Downloads/phantomjs-2.1.1-linux-x86_64/README.md",
+		"/home/space/.cache/.fr-e8QLpr/readme.txt",
+		"/home/space/Downloads/macerator.ini",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/CustomRecipes.cfg",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/items.csv",
+		"/home/space/Games/m/.tl/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/objects.cfg",
+		"/home/space/Games/m/.tl/config/buildcraft/main.cfg",
+		"/home/space/Games/m/.tl/config/advanced_solar_panels_MTRecipes.cfg",
+		"/home/space/Games/m/.tl/config/armorstatushud.cfg",
+		"/home/space/Games/m/.tl/config/betterfps.json",
+		"/home/space/Games/m/.tl/config/bspkrscore.cfg",
+		"/home/space/Games/m/.tl/config/carpentersblocks.cfg",
+		"/home/space/Games/m/.tl/config/ChickenChunks.cfg",
+		"/home/space/Games/m/.tl/config/codechickenlib.cfg",
+		"/home/space/Games/m/.tl/config/compactstorage.cfg",
+		"/home/space/Games/m/.tl/config/cqrepoured.cfg",
+		"/home/space/Games/m/.tl/config/energyconverters.cfg",
+		"/home/space/Games/m/.tl/config/forge.cfg",
+		"/home/space/Games/m/.tl/config/forgeChunkLoading.cfg",
+		"/home/space/Games/m/.tl/config/gravisuite.cfg",
+		"/home/space/Games/m/.tl/config/growablecells.cfg",
+		"/home/space/Games/m/.tl/config/IC2.ini",
+		"/home/space/Games/m/.tl/config/igwmod.cfg",
+		"/home/space/Games/m/.tl/config/microblocks.cfg",
+		"/home/space/Games/m/.tl/config/MrTJPCore.cfg",
+		"/home/space/Games/m/.tl/config/multipart.cfg",
+		"/home/space/Games/m/.tl/config/placebo.cfg",
+		"/home/space/Games/m/.tl/config/splash.properties"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sand",
+			"isl",
+			"300px",
+			"popups",
+			"show",
+			"me);",
+			"e);",
+			");",
+			"1)",
+			"e)",
+			"move",
+			"openPopup",
+			"outlineFilter",
+			"filters",
+			"openPopup",
+			"open",
+			"popup.",
+			"popup",
+			"popup.",
+			"popup",
+			"onDown",
+			"sand.",
+			";",
+			"min",
+			"/ ",
+			"0",
+			"d.sandback",
+			".scale.set",
+			"scale =",
+			"d.bgScale",
+			"sandback",
+			"/ d.",
+			"width",
+			"d.",
+			".9",
+			"backgroundContainer",
+			"cold",
+			"resources",
+			"[\"h",
+			"',",
+			"2",
+			"     ",
+			"    ",
+			"(map['",
+			"['",
+			"snow",
+			"desert",
+			"1",
+			"-2",
+			"1",
+			"sand[",
+			".png"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/space/dev/js/diplomas/stas/diploma/src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14372,
+								14372
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14489,
+										14490
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										13752,
+										13753
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11948.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/space/dev/js/diplomas/stas/diploma/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML Mustache/Syntaxes/HTMLMustache.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 238.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/space/dev/js/diplomas/stas/diploma/src/Player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3725,
+								3725
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.22.region_keys":
+							[
+							],
+							"SL.98.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3724,
+										3725
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2986,
+										2987
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript Ultimate/javascript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/space/dev/js/diplomas/stas/diploma/src/assets/data/islands.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.20.region_keys":
+							[
+							],
+							"SL.23.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										768,
+										769
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										733,
+										734
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 79.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GitSavvy":
+	{
+		"height": 144.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stas.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"w",
+				"webpack.config.js"
+			],
+			[
+				"in",
+				"client/index.html"
+			],
+			[
+				"i",
+				"client/index.html"
+			],
+			[
+				"",
+				"index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

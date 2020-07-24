@@ -1,0 +1,25 @@
+%%name%%:
+  - match: '\.\.\.'
+    scope: keyword.operator.js
+    set: [_end__%%name%%, _identifier__%%name%%]
+
+_identifier__%%name%%:
+  - match: '(?=%%exitMatch%%)'
+    pop: true
+  - match: '{{reserved_word}}'
+    scope: invalid.illegal.js
+    pop: true
+  - include: %%destructuring%%
+  - match: '{{ident}}'
+    %%~identExtra%%
+    pop: true
+  - include: otherwise_invalid
+
+_end__%%name%%:
+  - match: '%%exitMatch%%'
+    %%~exitExtra%%
+    pop: true
+  - match: '='
+    scope: keyword.operator.js
+    set: %%initializer%%
+  - include: otherwise_invalid
